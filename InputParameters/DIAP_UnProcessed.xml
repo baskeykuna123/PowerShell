@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StreamInfo>
+	<StreamLocations>
+		<Stream Name="CLBD">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\${Environment}\MF\scheduler\IN" type="Share" />
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Input" type="Unix"/>
+		</Stream>
+		<Stream Name="CLB2">
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Output" type="Unix"  File="CustomerPortfolio-*.xml"/>
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTOUT\JobScheduler\Cleva" type="Share" File="ATG.CLV.CRP00040.T.E*.H*"/>
+		</Stream>
+		<Stream Name="CLA0">
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Output" type="Unix"  File="ExportInvoicePremium*.-*.xml"/>
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTOUT\JobScheduler\Cleva" type="Share" File="ATG.CLV. FKW00840.T.E*.H*"/>
+		</Stream>
+		<Stream Name="CLB5">
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Output" type="Unix"  File="ExportInvoices* -T.-*.xml"/>
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTOUT\JobScheduler\Cleva" type="Share" File="ATG.CLV. FKW00840.T.E*.H*"/>
+		</Stream>
+		<Stream Name="CLBQ">
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Documents/Upload" type="Unix"  File="settlement-export*"/>
+			<location Value="\\appl_data\BBE\User01\$ENV\Cleva\Contract\Documents\FileDelivery\FleetExport" type="Share" File="settlement-export*"/>
+		</Stream>
+		<Stream Name="CLBZ">
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Output" type="Unix"  File="BatchDocumentOutbound-*.xml"/>
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTIN\Document\Batch" type="Share" File="BatchDocumentOutbound-*.xml*"/>
+		</Stream>
+		<Stream Name="CLBK">
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Documents/Upload" type="Unix"  File="BatchDocumentOutbound-*.xml"/>
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTIN\Document\Batch\Preprocess\Cleva\Trigger" type="Share" File="BatchDocumentOutbound-T-*.xml"/>
+		</Stream>
+	<Stream Name="CLBG">
+		<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTOUT\JobScheduler\Cleva" type="Unix"  File="DocumentBatchTriggerFileToCleva_*.xml"/>
+		<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Input" type="Unix" File="DocumentBatchTriggerFileToCleva_*.xml"/>
+	</Stream>
+		<Stream Name="CLB8">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTOUT\JobScheduler\Cleva" type="Share" File="BatchImportIntermediatory*.xml"/>
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Input" type="Unix" File="BatchImportIntermediatory*.xml"/>
+		</Stream>
+		<Stream Name="CLB6">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTOUT\JobScheduler\Cleva" type="Share" File="BatchImportThirdparty1-*.xml"/>
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Input" type="Unix" File="BatchImportThirdparty1-*.xml"/>
+		</Stream>
+		<Stream Name="CLB9">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTOUT\JobScheduler\Cleva" type="Share" File="BatchPortfolioTransfer1-*.xml"/>
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Input" type="Unix" File="BatchPortfolioTransfer1-*.xml"/>
+		</Stream>
+		<Stream Name="CLB7">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTOUT\JobScheduler\Cleva" type="Share" File="BatchImportCustomerNotification*.xml"/>
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Input" type="Unix" File="BatchPortfolioTransfer1-*.xml"/>
+		</Stream>
+		<Stream Name="CLB4">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\MF\scheduler\IN" type="Shared" File="SCH00391.T.*"/>
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTOUT\JobScheduler\Cleva" type="Share" File="BatchImportClaimsHistoryNotification-*.xml "/>
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Input" type="Unix" File="BatchImportClaimsHistoryNotification-*.xml "/>
+		</Stream>
+		<Stream Name="CLB3">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\MF\scheduler\IN" type="Shared" File="FKW00830.T.*"/>
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTOUT\JobScheduler\Cleva" type="Share" File="ImportStatusInvoiceNotification -*.xml"/>
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Input" type="Unix" File="ImportStatusInvoiceNotification -*.xml"/>
+		</Stream>
+		<Stream Name="CLBP">
+			<location Value="\\balgroupit.com\appl_data\bbe\user01\$ENV\Cleva\Contract\Documents\FileDelivery\FluxExport" type="Share" File="*_fluxXml*.xml"/>
+			<location Value="/Mercator/work/users/${UnixEnvironment}/editique" type="Unix" File="*_fluxXml*.xml"/>
+		</Stream>
+		<Stream Name="CLB1">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTOUT\JobScheduler\Cleva" type="Share" File="BatchImportUserProfilesNotification*.xml "/>
+			<location Value="/Mercator/work/users/${UnixEnvironment}/editique" type="Unix" File="BatchImportUserProfilesNotification*.xml "/>
+		</Stream>
+		<Stream Name="CLBD">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\ESB\BTOUT\JobScheduler\Cleva" type="Share" File="ImportCarattestResponseNotification-*-*.xml"/>
+			<location Value="/Mercator/work/users/${UnixEnvironment}/Batch/Input" type="Unix" File="ImportCarattestResponseNotification-*-*.xml"/>
+		</Stream>
+			<Stream Name="CLB6">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\MF\scheduler\IN" type="Share" File="HAN03002.T.*"/>
+		</Stream>
+		</Stream>
+			<Stream Name="CLB7">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\MF\scheduler\IN" type="Share" File="CRP00041.T.*"/>
+		</Stream>
+		</Stream>
+			<Stream Name="DWAB">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\DWH\Out\DRIVOLUTION" type="Share" File="DRIVOLUTION_*"/>
+		</Stream>
+		</Stream>
+			<Stream Name="DWEM">
+			<location Value="\\balgroupit.com\appl_data\BBE\App01\$ENV\DWH\Out\EUROMEX_TELEFONIE" type="Share" File="EMX_*"/>
+		</Stream>
+	</StreamLocations>
+	<Environments>
+		Environment="ICORP,ACORP,PCORP"
+		UnixEnvironment="INT,ACC,PRD"
+	<Environments/>
+</StreamInfo>
+

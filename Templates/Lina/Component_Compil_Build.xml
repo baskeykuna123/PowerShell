@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<project name="Compil_LINA" default="build" basedir="..\.">
+
+  <!-- Definitions -->
+  <property environment="env" />
+  <property name="env.DLC"             value="${dlc}" />
+  <property name="env.tempdir"         value="${env.builddir}\temp" />
+  <property name="env.PCTprop"         value="${PCTprop}" />
+  <property name="env.extras115"       value="${extras115}" />
+  <property name="env.linaframework"   value="${linapath}" />
+  <property name="env.sclframework"    value="${sclpath}" />
+  <property name="env.pfFile"          value="${pfFile}" />
+  <property name="env.WorkDir"         value="${WorkFolder}" />
+  <property name="env.ComponentName"   value="${ComponentName}" />
+  <property name="env.BuildVersion"    value="${BuildVersion}" />
+  <property name="env.UnitTestDir"     value="${WorkFolder}\Tests\" />
+  
+  <property name="env.DbFolder"        value="${DbFolder}" />
+  <property name="env.DbName"          value="${DbName}" />
+  
+  <taskdef resource="PCT.properties"   classpath="${env.PCTprop}" />
+  <typedef resource="types.properties" classpath="${env.PCTprop}" /> 
+  <taskdef resource="env.extras115" />
+
+ 
+  
+
+  <!-- COMPILATION PROPATH -->
+  <path id="compilation.propath">
+		<pathelement location="${env.WorkDir}\backend" />
+		<pathelement location="${env.WorkDir}\interface" />
+		<pathelement location="${env.WorkDir}\common" />
+		<pathelement location="${env.linaframework}" />
+		<pathelement location="${env.sclframework}" />
+		<pathelement location="${env.WorkDir}\tests" />
+  </path>
+  
+  
+  <!-- UNIT TEST PROPATH (why build folder ? ) -->
+  <path id="UnitTest.propath">
+        <pathelement location="${env.WorkDir}\build" />
+		<pathelement location="${env.WorkDir}\backend" />
+		<pathelement location="${env.WorkDir}\interface" />
+		<pathelement location="${env.WorkDir}\common" />
+		<pathelement location="${env.linaframework}" />
+		<pathelement location="${env.sclframework}" />
+		<pathelement location="${env.WorkDir}\tests" />
+  </path>
+  
+  
+<echo message=" " />
+<echo message="#############################################################################################" />
+  
+   	
+  <target name="build" description="Component Compil"> 
+       
+  	
+    <!-- Showing input parameters values  -->
+	 <PCTVersion />  
+ 	 <ProgressVersion dlcHome="${env.DLC}" majorVersion="major" minorVersion="minor" patchLevel="patch" fullVersion="full" /> 
+
+     <echo message="OpenEdge Version : ${major}.${minor}.${patch}" />
+	 <echo message="DLC-folder         : ${env.DLC}" />
+	 <echo message="base-folder        : ${basedir}" />
+	 <echo message="Work-folder        : ${env.WorkDir}" /> 
+	 <echo message="env.pfFile         : ${env.pfFile}" /> 
+	 <echo message="env.linaframework  : ${env.linaframework}" />
+	 <echo message="env.sclframework   : ${env.sclframework}" />
+     <echo message="env.ComponentName  : ${env.ComponentName}" />
+	 <echo message="env.BuildVersion   : ${env.BuildVersion}" />
+	 <echo message=" " />
+	 <echo message=" " />
+	  
+	 <!--create the temp dir -->
+		<mkdir dir="${env.tempdir}" />
+		<delete dir="${env.tempdir}" includes="**/*.*" />
+		<!--create the compile dir -->
+		<mkdir dir="${env.WorkDir}\${env.ComponentName}_${env.BuildVersion}\Compiled\preprocess" />
+
+<echo message=" " />
+<echo message="#############################################################################################" /> 
+<echo message=" " />
+<echo message="START COMPILE" />		
+	<!-- COMPILE -->
+
+    <!-- Backend / Common --> 
+<echo message="COMPILE BACKEND / COMMON" />	
+	     <PCTCompileExt destDir="${env.WorkDir}\backend" 
+                        dlcHome="${env.DLC}" 
+                        paramFile="${env.pfFile}"
+                        preprocessDir="${env.WorkDir}\${env.ComponentName}_${env.BuildVersion}\Compiled\preprocess">
+			
+                <fileset dir="${env.WorkDir}\backend">
+				    <include name="**/*.cls" />
+				    <include name="**/*.p" />
+     			</fileset>
+
+			    <fileset dir="${env.WorkDir}\common">
+				    <include name="**/*.cls" />
+				    <include name="**/*.p" />
+			    </fileset>
+
+			    <propath refid="compilation.propath" />
+
+		</PCTCompileExt>
+
+
+	<!-- Interface -->
+<echo message="COMPILE INTERFACE" />	
+		<PCTCompileExt destDir="${env.WorkDir}\interface" 
+                       dlcHome="${env.DLC}" 
+                       paramFile="${env.pfFile}"
+                       preprocessDir="${env.WorkDir}\${env.ComponentName}_${env.BuildVersion}\Compiled\preprocess">
+
+    			<fileset dir="${env.WorkDir}\interface">
+			   	    <include name="**/*.cls" />
+				    <include name="**/*.p" />
+			    </fileset>
+
+			    <propath refid="compilation.propath" />
+
+		</PCTCompileExt>
+
+
+<echo message="END COMPILE" />
+<echo message=" " />
+<echo message="#############################################################################################" /> 
+<echo message=" " />
+<echo message="START UNIT TESTS" />
+
+	
+	<ABLUnit destDir="${env.WorkDir}\" 
+	         dlcHome="${env.DLC}" 
+			 paramFile="${env.pfFile}"
+			 writeLog="True" >
+			 
+			<propath refid="UnitTest.propath" />
+			
+            <fileset dir="${env.WorkDir}\Tests\Lina">
+				<include name="SalaryTestSuite.cls" />
+			</fileset>
+												
+			
+			<Profiler enabled="True" 
+			          coverage="True"
+			          outputFile="${env.WorkDir}\${env.ComponentName}_${env.BuildVersion}\TestResult\TestResults.txt"
+			/>
+
+			<Option name="-zn" />
+			
+
+	</ABLUnit>		
+
+    <move file="${env.WorkDir}\results.xml" todir="${env.WorkDir}\${env.ComponentName}_${env.BuildVersion}\TestResult" />
+	
+			 
+<echo message="END UNIT TESTS" />
+<echo message=" " />
+<echo message="#############################################################################################" />			 
+<echo message=" " />
+<echo message="START BUILD" />
+
+	
+	
+	<!-- creation library file -->
+	<PCTLibrary destfile="${env.WorkDir}\${env.ComponentName}_${env.BuildVersion}\ProLib\${env.ComponentName}Lib.pl" 
+	            DlcHome="${env.DLC}"
+		        noCompress="false"
+		        defaultExcludes="true">
+				
+	  <fileset dir="${env.WorkDir}\backend">   <include name="**/*.r" /> </fileset>
+      <fileset dir="${env.WorkDir}\common">    <include name="**/*.r" /> </fileset>
+      <fileset dir="${env.WorkDir}\interface"> <include name="**/*.r" /> </fileset>
+
+    </PCTLibrary> 
+
+	
+	<!-- creation library file Backend -->
+	<PCTLibrary destfile="${env.WorkDir}\${env.ComponentName}_${env.BuildVersion}\ProLib\${env.ComponentName}BackendLib.pl" 
+	            DlcHome="${env.DLC}"
+		        noCompress="false"
+		        defaultExcludes="true">
+				
+	  <fileset dir="${env.WorkDir}\backend">   <include name="**/*.r" /> </fileset>
+
+    </PCTLibrary> 
+
+	
+	<!-- creation library file Common -->
+	<PCTLibrary destfile="${env.WorkDir}\${env.ComponentName}_${env.BuildVersion}\ProLib\${env.ComponentName}CommonLib.pl" 
+	            DlcHome="${env.DLC}"
+		        noCompress="false"
+		        defaultExcludes="true">
+				
+      <fileset dir="${env.WorkDir}\common">    <include name="**/*.r" /> </fileset>
+
+    </PCTLibrary> 
+
+	
+	<!-- creation library file Interface -->
+	<PCTLibrary destfile="${env.WorkDir}\${env.ComponentName}_${env.BuildVersion}\ProLib\${env.ComponentName}InterfaceLib.pl" 
+	            DlcHome="${env.DLC}"
+		        noCompress="false"
+		        defaultExcludes="true">
+				
+      <fileset dir="${env.WorkDir}\interface"> <include name="**/*.r" /> </fileset>
+
+    </PCTLibrary> 
+	
+<echo message="END BUILD" />
+<echo message=" " />
+<echo message="#############################################################################################" /> 
+<echo message=" " />
+<echo message="START Db Documentation" />
+
+
+    <PCTSchemaDoc file="${env.WorkDir}\${env.ComponentName}_${env.BuildVersion}\Documentation\${env.DbName}.xml" 
+                  DlcHome="${env.DLC}" >
+	              <PCTConnection paramFile="${env.pfFile}" />
+								  
+	</PCTSchemaDoc>
+
+	
+<echo message="END Db Documentation" />
+<echo message=" " />
+<echo message="#############################################################################################" />			 
+
+
+  </target>
+      
+</project>
+
+

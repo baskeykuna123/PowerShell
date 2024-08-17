@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+		<URL Address="http://${BaBeBusinessService}:80/servicerepository.cshtml" Response="200"/>
+		<URL Address="http://${BaBeBusinessService}:9000" Response="200"/>
+		<URL Address="http://${BaBeBusinessService}:9000/scim/v2/serviceproviderconfig" Response="200"/>
+		<URL Address="http://${BaBeBusinessService}:9000/scim/v2/resourcetypes" Response="200"/>
+		<URL Address="http://${BaBeBusinessService}:9000/scim/v2/schemas" Response="200"/>
+		<URL Address="http://${BaBeBusinessService}:9000/scim/v2/users/nonexisting" Response="404"/>
+		<URL Address="http://${BaBeBusinessService_NLB}:80/servicerepository.cshtml" Response="200"/>
+		<URL Address="http://${BaBeBusinessService_NLB}:9000" Response="200"/>
+		<URL Address="http://${BaBeBusinessService_NLB}:9000/scim/v2/serviceproviderconfig" Response="200"/>
+		<URL Address="http://${BaBeBusinessService_NLB}:9000/scim/v2/resourcetypes" Response="200"/>
+		<URL Address="http://${BaBeBusinessService_NLB}:9000/scim/v2/schemas" Response="200"/>
+		<URL Address="http://${BaBeBusinessService_NLB}:9000/scim/v2/users/nonexisting" Response="404"/>
+		<URL Address="http://${BaBeManagementService}:6300/RestApi/Net/Ping/v1/Ping" Response="200"/>
+		<URL Address="http://${BaBeManagementService_NLB}:6300/RestApi/Net/Ping/v1/Ping" Response="200"/>
+	</URLs>
+	<Services>
+		<Service server="${BaBeBatchProcessing}" Name="BaloiseBackendBatch" Status="Running"/>
+	</Services>
+</Tests>	

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Roles>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="stopAppPool" Description="AL2AppPool64v2"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="stopAppPool" Description="ALAppPool64v2"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="stopAppPool" Description="Pool2"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="stopAppPool" Description="Mercator.Portal.Portlets"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="stopAppPool" Description="Mercator.Portal.WebService"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="stopAppPool" Description="PortalASP"/>
+
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopWebsite" Description="WCI"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopWebsite" Description="Default Web Site"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopWebsite" Description="MercatorPortalWebService"/>
+
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopService" Description="Mercator.Portal.Scheduler"/>
+	<!-- Portal services -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopService" Description="ptautomationserver"/>
+	<!-- displayname="BEA ALI Publisher" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopService" Description="publishservice"/>
+	<!-- displayname="Oracle WCI Remote Portlet Service"  not used -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopService" Description="rssreader"/>
+	<!-- displayname="Oracle WCI Document Repository Service" dependency="FileUpload" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopService" Description="Oracle WCI Document Repository Service"  Action="force"/>
+	<!-- displayname="Oracle WCI Search %COMPUTERNAME%01" servicename="%COMPUTERNAME%01" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopService" Description="svw-be-portd0101"/>
+	<!-- displayname="Oracle WCI Search Cluster Manager" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopService" Description="SearchClusterUI"/>
+    <!-- displayname="Oracle WCI Search Service" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopService" Description="SearchService"/>
+	<!-- displayname="Oracle WCI API Service" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopService" Description="wsserver"/>
+	<!-- displayname="Oracle WCI Logger" automatic -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopService" Description="Oracle WCI Logger"/>
+	<!-- displayname="Oracle WCI Configuration Manager (12345)" automatic -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="StopService" Description="ConfigurationManager12345"/>
+    <!-- WSUS -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-be-portd01.balgroupit.com" FunctionName="EnableWSUSReboot" Description=""/>
+</Roles>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Release Release="R26" source="\\balgroupit.com\appl_data\BBE\Transfer\B&amp;I\ReleasedDeliverables\">
+  <Application Name="MNET">
+  </Application>
+  <Application Name="MWebBroker">
+  </Application>
+  <Application Name="ESB">
+    <PatchRequest Number="313777" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Contract.NonLife.Internal.Cds.Publish.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="False" ver="" />
+    </PatchRequest>
+    <PatchRequest Number="314355" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Document.Correspondence.Publish.Email.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="false" ver="1.0" />
+    </PatchRequest>
+    <PatchRequest Number="314392" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Document.DocumentSet.Internal.Create.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="false" ver="1.0" />
+    </PatchRequest>
+    <PatchRequest Number="314394" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Party.Customer.List.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="false" ver="1.0" />
+    </PatchRequest>
+    <PatchRequest Number="315247" State="Closed">
+      <Assembly Name="Baloise.Esb.B2B.Service.Address.Search.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="False" ver="" />
+    </PatchRequest>
+    <PatchRequest Number="315254" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Party.Customer.B2B.Baloise.Rsr.Transfer.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="False" ver="" />
+    </PatchRequest>
+    <PatchRequest Number="316264" State="Closed">
+      <Assembly Name="Mercator.Esb.Framework.Routing.Transfer.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="false" ver="1.0" />
+    </PatchRequest>
+    <PatchRequest Number="316246" State="Closed">
+      <Assembly Name="Mercator.Esb.Services.Mft.Engine.dll" AddtoGAC="true" AddtoBiztalkResouces="false" ver="1.0" />
+    </PatchRequest>
+    <PatchRequest Number="316246" State="Closed">
+      <Assembly Name="Mercator.Esb.Services.Mft.Engine.dll" AddtoGAC="true" AddtoBiztalkResouces="false" ver="1.0" />
+    </PatchRequest>
+    <PatchRequest Number="315254" State="Closed">
+      <Assembly Name="Mercator.Esb.Async.Doc.DocSet.Internal.Deliver.Fax.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="false" ver="" />
+    </PatchRequest>
+    <PatchRequest Number="318276" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Document.Correspondence.Publish.Fax.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="false" ver="1.0" />
+    </PatchRequest>
+    <PatchRequest Number="318113" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Contract.NonLife.Vehicle.MultiRisk.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="" />
+    </PatchRequest>
+    <PatchRequest Number="320860" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Document.Correspondence.Publish.Fax.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="False" ver="" />
+    </PatchRequest>
+    <PatchRequest Number="329717" State="Icorp Planned">
+      <Assembly Name="Baloise.Esb.Service.Party.Customer.Rsr.Check.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="False" ver="" />
+    </PatchRequest>
+  </Application>
+  <Application Name="EAI">
+  </Application>
+  <Application Name="B2B">
+  </Application>
+</Release>

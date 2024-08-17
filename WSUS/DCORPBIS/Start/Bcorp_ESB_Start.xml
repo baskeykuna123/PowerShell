@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Roles>
+
+<!-- ESB servers  -->
+	<Role Application="ESB" Corp="D" ServerName="svw-be-bizd02.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="ESB" Corp="D" ServerName="svw-be-bizd02.balgroupit.com" FunctionName="StartService" Description="Mercator Managed File Transfer"/>
+	<Role Application="ESB" Corp="D" ServerName="svw-be-bizd02.balgroupit.com" FunctionName="StartService" Description="Mercator Esb Process Initializer"/>
+
+</Roles>

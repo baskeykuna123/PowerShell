@@ -1,0 +1,9 @@
+<Tests>
+	<URLs>
+		<URL Address="http://${MyBalWebInternalFront}/MyBaloiseInternal/Healthcheck" Response="200"/>
+		<URL Address="http://${MyBalWebInternalFront_NLB}/MyBaloiseInternal/Healthcheck" Response="200"/>
+	</URLs>
+	<Shares>
+
+	</Shares>
+</Tests>

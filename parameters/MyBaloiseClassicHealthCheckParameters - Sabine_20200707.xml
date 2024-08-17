@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+		<URL Address="http://${MyBalClassicFront}/MercatorNet.WSMain/LogOnService.asmx" Response="200"/>
+	</URLs>
+	<Services>
+	<Service server="${MyBalClassicBack}" Name="BaloiseDmsBatchService" Status="Running"/>
+	<Service server="${MyBalClassicBack}" Name="MercatorDMSBulkInsert" Status="Running"/>
+	<Service server="${MyBalClassicBack}" Name="MercatorDMSImportPortimaAttachments" Status="Running"/>
+	<Service server="${MyBalClassicBack}" Name="MercatorDMSMailImportService" Status="Running"/>
+	<Service server="${MyBalClassicBack}" Name="Mercator Document Delivery" Status="Running"/>
+	<Service server="${MyBalClassicBack}" Name="Mercator Document Generation" Status="Running"/>
+	<Service server="${MyBalClassicBack}" Name="MercatorDMSServiceAsync" Status="Running"/>
+	<Service server="${MyBalClassicBack}" Name="MercatorDMSServiceBatchAvero" Status="Running"/>
+	<Service server="${MyBalClassicBack}" Name="MercatorDMSService" Status="Running"/>
+	<Service server="${MyBalClassicBack}" Name="Mercator Organization Data" Status="Running"/>
+	<Service server="${MyBalClassicBack}" Name="Mercator.Integration.EAI.3.9.Listener" Status="Running"/>
+	<Service server="${MyBalClassicBack}" Name="MercatorNET SCV Batch Service" Status="Running"/>
+	<Service server="${MyBalClassicBack}" Name="Baloise SyncTaskToDMS" Status="Running"/>
+	</Services>
+</Tests>

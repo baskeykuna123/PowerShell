@@ -1,0 +1,20 @@
+{
+  "user": {
+    "first_name": "Kurt",
+    "user_type": "API",
+    "token": "09a68680-0b56-4afe-b94e-269c27ec3a2e"
+  },
+  "environment": {
+    "url": "https://baloise.sweagle.com",
+    "host": "webproxy.balgroupit.com",
+    "port": "3228",
+    "proxyName": "L002867",
+    "proxyKey": "***"
+  },
+  "settings": {
+    "friendlyOutput": true,
+    "ignoreSSL": false,
+    "secureStore": false
+  },
+  "gitConfig": {}
+}

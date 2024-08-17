@@ -1,0 +1,10 @@
+<Tests>
+	<URLs>
+		<URL Address="http://${WEBFRONT}/MyBaloiseInternal/Healthcheck" Response="200"/>
+		<URL Address="http://${NEWFRONTVM}:6200/Healthcheck" Response="200"/>
+		<URL Address="http://${ACORPWEBFRONT}/MyBaloiseInternal/Healthcheck" Response="200"/>
+	</URLs>
+	<Shares>
+
+	</Shares>
+</Tests>

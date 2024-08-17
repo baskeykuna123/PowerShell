@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cleanup>
+	<!-- FRONT , BACK  are Jenkins lables on which the Clean up activity will run
+		http://jenkins-be/labelsdashboard/
+	-->
+	<ServerType name="FRONT">
+		<Folder Path="E:\BackUp\" RetentionInDays="" RetentionIncount="5" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="E:\inetpub\logs\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="E:\Trace\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="E:\unknownfolder\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+	</ServerType>
+	<ServerType name="BACK">
+		<Folder Path="C:\BackUp\" RetentionInDays="" RetentionIncount="5" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="E:\Trace\Mercator.DMS.Framework.BusinessServices.ServiceAsync\" RetentionInDays="14" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="E:\inetpub\logs\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="E:\Trace\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />			
+	</ServerType >		
+	<ServerType name="ESB">
+		<File Path="E:\Trace\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\Nolio\Temp\" RetentionInDays="" RetentionIncount="5" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="E:\Backup\" RetentionInDays="" RetentionIncount="5" filter="" FolderExlusionList="" FileExlusionList=""  />	
+	</ServerType >
+	<ServerType name="PACKAGESHARE">
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\" RetentionInDays="200" RetentionIncount="" filter="R*" FolderExlusionList="Legacy" FileExlusionList="" />	
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\Backend\DEV_Backend\" RetentionInDays="" RetentionIncount="7" filter="" FolderExlusionList="" FileExlusionList="" />	
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\DEV_EsbUnitTests\" RetentionInDays="" RetentionIncount="7" filter="" FolderExlusionList="" FileExlusionList="" />	
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\CentralDataStore\DEV_CentralDataStore\" RetentionInDays="" RetentionIncount="7" filter="" FolderExlusionList="" FileExlusionList="" />	
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\NINA\DEV_NINA\" RetentionInDays="" RetentionIncount="7" filter="" FolderExlusionList="" FileExlusionList="" />	
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\MyBaloiseWeb\DEV_MyBaloiseWeb\" RetentionInDays="" RetentionIncount="7" filter="" FolderExlusionList="" FileExlusionList="" />	
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\Backend\Staging_Backend\" RetentionInDays="" RetentionIncount="14" filter="" FolderExlusionList="" FileExlusionList="" />	
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\CentralDataStore\Staging_CentralDataStore\" RetentionInDays="" RetentionIncount="14" filter="" FolderExlusionList="" FileExlusionList="" />	
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\NINA\Staging_NINA\" RetentionInDays="" RetentionIncount="14" filter="" FolderExlusionList="" FileExlusionList="" />	
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\MyBaloiseWeb\Staging_MyBaloiseWeb\" RetentionInDays="" RetentionIncount="14" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\TaskCreateEngine\R35_Dev_TaskCreateEngine\" RetentionInDays="" RetentionIncount="7" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\Fireco\R35_Dev_Fireco\" RetentionInDays="" RetentionIncount="7" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\BrokerPackage\R35_Dev_BrokerPackage\" RetentionInDays="" RetentionIncount="7" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\TaskCreateEngine\R35_Staging_TaskCreateEngine\" RetentionInDays="" RetentionIncount="14" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\Fireco\R35_Staging_Fireco\" RetentionInDays="" RetentionIncount="14" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="\\balgroupit.com\appl_data\BBE\Packages\BrokerPackage\R35_Staging_Brokerpackage\" RetentionInDays="" RetentionIncount="14" filter="" FolderExlusionList="" FileExlusionList="" />
+	</ServerType >
+	<ServerType name="BUILDSERVER">
+		<Folder Path="E:\P.ESB\" RetentionInDays="7" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />	
+		<Folder Path="E:\P.EAI\" RetentionInDays="7" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\DEV_Backend\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\DEV_BrokerLegacy\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\DEV_CentralDataStore\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\DEV_MyBaloiseWeb\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\DEV_NINA\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\DEVBIS_NINA\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\Staging_Backend\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\Staging_CentralDataStore\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\Staging_MyBaloiseWeb\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\Staging_NINA\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\R35_Dev_TaskCreateEngine\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\R35_Dev_Fireco\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\R35_Dev_BrokerPackage\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\R35_Staging_TaskCreateEngine\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\R35_Staging_Fireco\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+		<Folder Path="E:\LP\R35_Staging_Brokerpackage\" RetentionInDays="5" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList="" />
+	</ServerType >
+	<ServerType name="TFSSERVER">
+		<File Path="D:\inetpub\logs\LogFiles\W3SVC2" RetentionInDays="60" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+	</ServerType >
+	<ServerType name="BALGROUPITSHARE">
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\pcorp\MercatorWeb\MercatorWebBroker\Integration" RetentionInDays="90" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\pcorp\MercatorWeb\MercatorWebInternal\Integration" RetentionInDays="90" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\pcorp\MercatorWeb\MercatorWebPublic\Integration" RetentionInDays="90" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\pcorp\BaBE\Integration" RetentionInDays="90" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\pcorp\CDS\Integration" RetentionInDays="90" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\dcorp\MercatorWeb\MercatorWebInternal\Integration" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\icorp\MercatorWeb\MercatorWebInternal\Integration" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\acorp\MercatorWeb\MercatorWebInternal\Integration" RetentionInDays="90" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\dcorp\MercatorWeb\MercatorWebPublic\Integration" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\icorp\MercatorWeb\MercatorWebPublic\Integration" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\acorp\MercatorWeb\MercatorWebPublic\Integration" RetentionInDays="90" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\dcorp\BaBE\Integration" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\icorp\BaBE\Integration" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\acorp\BaBE\Integration" RetentionInDays="90" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\dcorp\CDS\Integration" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\Balgroupit.com\appl_data\BBE\User01\acorp\CDS\Integration" RetentionInDays="90" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\App01\dcorp\CCM\TaskCreateEngine\InboundDocuments\" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\App01\icorp\CCM\TaskCreateEngine\InboundDocuments\" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\App01\acorp\CCM\TaskCreateEngine\InboundDocuments\" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\App01\pcorp\CCM\TaskCreateEngine\InboundDocuments\" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList="" />
+		<File Path="\\balgroupit.com\appl_data\bbe\user01\DCORP\MercatorWeb\MercatorWebBroker\Integration\" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\user01\ICORP\MercatorWeb\MercatorWebBroker\Integration\" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\user01\ACORP\MercatorWeb\MercatorWebBroker\Integration\" RetentionInDays="90" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI01\FailedTestSteps\" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI01\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI02\FailedTestSteps\" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI02\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI03\FailedTestSteps\" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI03\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI04\FailedTestSteps\" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI04\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI005\FailedTestSteps\" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI005\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI006\FailedTestSteps\" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI006\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI007\FailedTestSteps\" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TSTFI007\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />	
+		<Folder Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TESTP001\FailedTestSteps\" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TESTP001\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />	
+		<Folder Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TESTP002\FailedTestSteps\" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_TESTP002\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+<Folder Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_Citrix\FailedTestSteps\" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\Transfer\TOSCA_WORKSPACES\Screenshot_Citrix\" Recurse="true" RetentionInDays="14" RetentionIncount="" filter="" FolderExlusionList="" FileExlusionList=""  />			
+	</ServerType >
+	
+	<ServerType name="DAILYSCHEDULES">
+		<File Path="\\balgroupit.com\appl_data\bbe\App01\dcorp\CCM\TaskCreateEngine\InboundDocuments\" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\App01\icorp\CCM\TaskCreateEngine\InboundDocuments\" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\App01\acorp\CCM\TaskCreateEngine\InboundDocuments\" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\balgroupit.com\appl_data\bbe\App01\pcorp\CCM\TaskCreateEngine\InboundDocuments\" RetentionInDays="30" Recurse="true" FolderExlusionList="" FileExlusionList="" />
+	</ServerType>
+	
+	<ServerType name="DCORPEsbFileCluster">
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTIN\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Address\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\B2B\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\BrokerPackage\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Claim\" RetentionInDays="10" Recurse="true" FolderExlusionList="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Claim\B2B\Datassur\Rdr\Bvs\Incoming\Synchronization\MF" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Claim\B2B\Datassur\Rdr\Bvs\Incoming\Synchronization\MF" RetentionInDays="240" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Contract\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Doc\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Document\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Dump\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\FinancialAccounting\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Framework\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Party\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Routing\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Security\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Support\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\TechnicalAccounting\" RetentionInDays="10" Recurse="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\Temp\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\BTOUT\TEST\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\Mft\Log\" RetentionInDays="10" Recurse="" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Dcorp\Mft\Jobs\History\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+	</ServerType >
+	<ServerType name="ICORPEsbFileCluster">
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTIN\" RetentionInDays="10" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Address\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\B2B\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\BrokerPackage\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Claim\" RetentionInDays="10" Recurse="true" FolderExlusionList="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Claim\B2B\Datassur\Rdr\Bvs\Incoming\Synchronization\MF" FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Claim\B2B\Datassur\Rdr\Bvs\Incoming\Synchronization\MF" RetentionInDays="240" Recurse="true" FolderExlusionList="" FileExlusionList="" />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Contract\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Doc\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Document\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Dump\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\FinancialAccounting\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Framework\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Party\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Routing\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Security\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Support\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\TechnicalAccounting\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\Temp\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\BTOUT\TEST\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\Mft\Log\" RetentionInDays="10" Recurse="" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bed3-work.balgroupit.com\Icorp\Mft\Jobs\History\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+	</ServerType >
+	<ServerType name="ACORPEsbFileCluster">
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTIN\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Address\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\B2B\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\BrokerPackage\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Claim\" RetentionInDays="10" Recurse="true" FolderExlusionList="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Claim\B2B\Datassur\Rdr\Bvs\Incoming\Synchronization\MF" FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Claim\B2B\Datassur\Rdr\Bvs\Incoming\Synchronization\MF" RetentionInDays="240" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Contract\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Doc\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Document\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Dump\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\FinancialAccounting\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Framework\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Party\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Routing\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Security\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Support\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\TechnicalAccounting\" RetentionInDays="10" Recurse="" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\Temp\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\BTOUT\TEST\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\Mft\Log\" RetentionInDays="10" Recurse="" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bea3-work.balgroupit.com\Acorp\Mft\Jobs\History\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+	</ServerType >
+	<ServerType name="PCORPEsbFileCluster">
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTIN\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Address\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\B2B\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\BrokerPackage\" RetentionInDays="90" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Claim\" RetentionInDays="10" Recurse="true" FolderExlusionList="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Claim\B2B\Datassur\Rdr\Bvs\Incoming\Synchronization\MF" FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Claim\B2B\Datassur\Rdr\Bvs\Incoming\Synchronization\MF" RetentionInDays="240" Recurse="true" FolderExlusionList="" FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Contract\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Doc\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Document\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Dump\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\FinancialAccounting\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Framework\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Party\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Routing\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Security\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Support\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\TechnicalAccounting\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\Temp\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\BTOUT\TEST\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\Mft\Log\" RetentionInDays="10" Recurse="" FolderExlusionList=""  FileExlusionList=""  />
+		<File Path="\\sql-bep3-work.balgroupit.com\Pcorp\Mft\Jobs\History\" RetentionInDays="10" Recurse="true" FolderExlusionList=""  FileExlusionList=""  />
+	</ServerType >
+	<ServerType name="TESTMASTER">
+		<Folder Path="\\svw-be-tstfi01\c$\Users\L004629" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi01\c$\Users\L004630" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi01\c$\Users\L004637" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi01\c$\Users\L004627" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi02\c$\Users\L004503" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi02\c$\Users\L004497" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi02\c$\Users\L004498" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi02\c$\Users\L004494" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi03\c$\Users\L004619" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi03\c$\Users\L004620" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi03\c$\Users\L004621" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi03\c$\Users\L004618" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi04\c$\Users\L004634" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi04\c$\Users\L004635" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi04\c$\Users\L004636" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi04\c$\Users\L004495" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi005\c$\Users\L004626" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi005\c$\Users\L004625" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi005\c$\Users\L004496" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi005\c$\Users\L004624" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi005\c$\Users\L004499" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi006\c$\Users\L004500" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi006\c$\Users\L004622" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi006\c$\Users\L004501" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi007\c$\Users\L004623" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi007\c$\Users\L004632" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+		<Folder Path="\\svw-be-tstfi007\c$\Users\L004633" RetentionInDays="1" RetentionIncount="" filter="BatchLogAnalysis*" FolderExlusionList="" FileExlusionList=""  />
+	</ServerType>
+</Cleanup>

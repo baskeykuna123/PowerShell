@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Release>
+  <environment Name="MCORP" GlobalReleaseVersion="21.0.0.0" MercatorBuildVersion="4.15">
+    <Application Name="MercatorESB" Version="1.21.20160411.1321" PreviousVersion="1.20.0.0" TFSBranch="dev/general" LastReleaseDate="2016-11-08_12:04" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+  </environment>
+  <environment Name="MCORP4" GlobalReleaseVersion="23.0.0.0" MercatorBuildVersion="4.19">
+    <Application Name="MercatorESB" Version="1.21.20160411.1321" PreviousVersion="1.20.0.0" TFSBranch="dev/general" LastReleaseDate="2017-03-28_13:15" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+  </environment>
+  <environment Name="MCORP2" GlobalReleaseVersion="21.0.0.0" MercatorBuildVersion="4.15">
+    <Application Name="MercatorESB" Version="1.21.20160411.1321" PreviousVersion="1.20.0.0" TFSBranch="dev/general" LastReleaseDate="2016-11-08_12:04" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+  </environment>
+  <environment Name="DCORP" GlobalReleaseVersion="32.0.20211124.184520" MercatorBuildVersion="4.30">
+    <Application Name="MyBaloiseClassic" Version="32.7.20200225.190029" PreviousVersion="32.7.20200224.190033" TFSBranch="dev/general" LastReleaseDate="2018-03-01_19:21" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="MercatorESB" Version="31.5.20210921.111544" PreviousVersion="31.5.20210921.104331" TFSBranch="dev/general" LastReleaseDate="2018-02-23_21:28" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="MercatorEAI" Version="1.15.20200603.123127" PreviousVersion="1.15.20200602.183124" TFSBranch="dev/general" LastReleaseDate="2018-02-23_15:43" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="TALK32" Version="27.0.1.0" PreviousVersion="" TFSBranch="RoundTable" LastReleaseDate="2017-02-06_19:28" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="ESBBOS" Version="1.0.20180111.233018" PreviousVersion="1.0.20180110.233028" TFSBranch="dev/general" LastReleaseDate="2016-05-31_19:45" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+  </environment>
+  <environment Name="DCORPBIS" GlobalReleaseVersion="28.0.0.0" MercatorBuildVersion="4.24">
+    <Application Name="MyBaloiseClassic" Version="3.25.0.0" PreviousVersion="3.22.20171027.184547" TFSBranch="dev/general" LastReleaseDate="2017-10-30_22:23" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="MercatorESB" Version="1.29.20190115.103958" PreviousVersion="1.29.20190115.103624" TFSBranch="dev/general" LastReleaseDate="2018-02-06_16:15" LastReleaseStatus="FAILURE" MercatorFrameworkVersion="3.10" />
+    <Application Name="MercatorEAI" Version="1.11.20190122.163727" PreviousVersion="1.11.20190122.163410" TFSBranch="dev/general" LastReleaseDate="2018-02-02_08:36" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="TALK32" Version="" PreviousVersion="" TFSBranch="RoundTable" LastReleaseDate="2017-02-06_19:28" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="ESBBOS" Version="1.0.20171030.233044" PreviousVersion="1.0.20171027.233048" TFSBranch="dev/general" LastReleaseDate="2016-05-31_19:45" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+  </environment>
+  <environment Name="ICORP" GlobalReleaseVersion="37.0.0.0" MercatorBuildVersion="4.30">
+    <Application Name="MyBaloiseClassic" Version="33.7.31.22" PreviousVersion="32.7.30.12" TFSBranch="Production/R33.0" LastReleaseDate="2015-09-07_19:28" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="MercatorESB" Version="32.4.31.0" PreviousVersion="32.4.30.0" TFSBranch="Production/R33.0" LastReleaseDate="2015-09-07_23:48" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="MercatorEAI" Version="1.17.31.0" PreviousVersion="1.17.30.0" TFSBranch="Production/R33.0" LastReleaseDate="2015-09-07_20:21" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="TALK" Version="37.0.0.0" PreviousVersion="36.1.1.0" LastReleaseDate="2015-10-14_16:17" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="ESBBOS" Version="24.0.0.0" PreviousVersion="1.0.7.0" TFSBranch="Production/R33.0" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+  </environment>
+  <environment Name="ACORP" GlobalReleaseVersion="36.0.32.0" MercatorBuildVersion="4.30">
+    <Application Name="MyBaloiseClassic" Version="32.7.26.0" PreviousVersion="32.7.25.0" TFSBranch="Staging" LastReleaseDate="2015-09-07_19:28" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="MercatorESB" Version="32.4.11.0" PreviousVersion="30.4.15.0" TFSBranch="Staging" LastReleaseDate="2015-09-07_23:48" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="MercatorEAI" Version="1.17.11.0" PreviousVersion="1.13.11.0" TFSBranch="Staging" LastReleaseDate="2015-09-07_20:21" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="TALK" Version="36.1.0.0" PreviousVersion="36.0.32.0" LastReleaseDate="2015-10-14_16:17" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="ESBBOS" Version="1.0.9.0" PreviousVersion="1.0.8.0" TFSBranch="Production/R31.0" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+  </environment>
+  <environment Name="PCORP" GlobalReleaseVersion="32.0.20.0" MercatorBuildVersion="4.28">
+    <Application Name="MyBaloiseClassic" Version="32.7.20.0" PreviousVersion="3.28.10.0" TFSBranch="Production/R33.0" LastReleaseDate="2015-09-07_19:28" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="MercatorESB" Version="32.4.11.0" PreviousVersion="1.30.5.0" TFSBranch="Production/R33.0" LastReleaseDate="2015-09-07_23:48" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="MercatorEAI" Version="1.13.11.0" PreviousVersion="1.13.5.0" TFSBranch="Production/R33.0" LastReleaseDate="2015-09-07_20:21" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="TALK" Version="32.0.11.0" PreviousVersion="31.1.0.4" LastReleaseDate="2015-10-14_16:17" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+    <Application Name="ESBBOS" Version="1.0.9.0" PreviousVersion="1.0.8.0" TFSBranch="Production/R33.0" LastReleaseStatus="SUCCESS" MercatorFrameworkVersion="3.10" />
+  </environment>
+</Release>

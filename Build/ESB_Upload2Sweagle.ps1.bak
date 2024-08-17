@@ -1,0 +1,42 @@
+﻿PARAM(
+	[string]$BuildVersion,
+	[string]$Environment="dcorp",
+    [string]$EsbOrEai="Esb"
+	)
+
+#Importing SQL modules for SQL commands to the Version database
+Import-Module sqlps -DisableNameChecking
+if(Get-Module -name LoadFunctions){
+	Remove-Module LoadFunctions
+}
+$ScriptDirectory=split-path (split-path $MyInvocation.MyCommand.Definition -Parent) -parent 
+Import-Module "$ScriptDirectory\LoadFunctions.psm1" -DisableNameChecking -Force -ErrorAction Stop	
+
+
+if (!$BuildVersion){
+    $BuildVersion="34.4.20201102.190044"
+    $Environment="dcorp"
+    $EsbOrEai="ESB"
+}
+
+clear
+
+if($EsbOrEai -ieq "Esb"){
+    $BuildOutputPath="e:\P.ESB"
+    $ApplicationName="MercatorESB"
+}
+else{
+    $BuildOutputPath="e:\P.EAI"
+    $ApplicationName="MercatorEAI"
+}
+
+$PackageSource=Join-Path $BuildOutputPath -ChildPath $BuildVersion
+$parameterFileResolved=Join-Path $PackageSource -ChildPath "ESBDeploymentParameters_Resolved.xml"
+$parameterFileResolvedJSon = Join-Path $PackageSource -ChildPath "ESBDeploymentParameters_Resolved.json"
+    
+ConvertDeploymentParameters4Sweagle -argFileIn $parameterFileResolved
+#$parameters= @{"nodePath"="MyBaloiseWeb"} ==> upload without automatic snapshot
+#$parameters= @{"nodePath"="MyBaloiseWeb"; "storeSnapshotResults"="true" } #==> upload with automatic snapshot
+$parameters= @{"nodePath"="Applications,$($EsbOrEai)"; "storeSnapshotResults"="true"; "tag"="$($BuildVersion)" } 
+$scriptPath = [String]::Format("{0}\Sweagle\SweagleLib.ps1",  $ScriptDirectory )
+& $scriptPath -operation "upload" -parameters $parameters -filePath $parameterFileResolvedJSon -Verbose

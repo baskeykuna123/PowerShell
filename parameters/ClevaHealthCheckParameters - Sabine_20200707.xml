@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+		<URL Address="http://${CLEVA}:8080/T9-Assurance/soap" Response="200"/>
+		<URL Address="http://${CLEVA_NLB}/T9-Assurance/soap" Response="200"/>
+	</URLs>
+	<ORACLE>
+	<Query DB="" Result="">
+	
+	</Query>
+	</ORACLE>
+	<SQL>
+	<Query DB="" Result="">
+	
+	</Query>
+	</SQL>
+</Tests>

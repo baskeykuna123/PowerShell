@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Environments>
+	<Environment Name="PARAM">
+		<CLEVA>
+			<SERVER Name="svx-be-jbpart001.balgroupit.com" Alias=""/>
+		</CLEVA>
+		<CLEVA_NLB>
+			<SERVER Name="nlb-be-diclevap.balgroupit.com" Alias=""/>
+		</CLEVA_NLB>
+	</Environment>
+	<Environment Name="DCORP">
+		<BaBeBusinessService>
+			<SERVER Name="SVW-BE-BABSD001.balgroupit.com" Alias=""/>
+		</BaBeBusinessService>
+		<BaBeBusinessService_NLB>
+			<SERVER Name="nlb-be-dibabe.balgroupit.com" Alias="babedev"/>
+		</BaBeBusinessService_NLB>		
+		<BaBeManagementService>
+			<SERVER Name="SVW-BE-BABSD001.balgroupit.com" Alias=""/>
+		</BaBeManagementService>
+		<BaBeManagementService_NLB>
+			<SERVER Name="nlb-be-dibabe.balgroupit.com" Alias="babedev"/>
+		</BaBeManagementService_NLB>
+		<BaBeBatchProcessing>
+			<SERVER Name="SVW-BE-BABBD001.balgroupit.com" Alias=""/>
+		</BaBeBatchProcessing>
+		<CDSFront>
+			<SERVER Name="SVW-BE-WEBFD001.balgroupit.com" Alias="DWEBFM01"/>
+		</CDSFront>
+		<CDSBack>
+			<SERVER Name="SVW-BE-WEBD03.balgroupit.com" Alias="DSERVFM01"/>
+		</CDSBack>
+		<CLEVA>
+			<SERVER Name="svx-be-jbcledt001.balgroupit.com" Alias=""/>
+		</CLEVA>
+		<CLEVA_NLB>
+			<SERVER Name="nlb-be-dicleva.balgroupit.com" Alias=""/>
+			<SERVER Name="nlb-be-edicleval.balgroupit.com" Alias=""/>
+		</CLEVA_NLB>
+		<ESB>
+			<SERVER Name="SVW-BE-BIZD001.balgroupit.com" Alias="dsgwbts01"/>
+		</ESB>
+		<MDM>
+			<SERVER Name="svx-be-jbmdmdt001.balgroupit.com" Alias=""/>
+		</MDM>
+		<MDM_NLB>
+			<SERVER Name="nlb-be-dimdm.balgroupit.com" Alias="mdmdev"/>
+		</MDM_NLB>
+		<MyBalClassicFront>
+			<SERVER Name="SVW-BE-WEBFD001.balgroupit.com" Alias="DWEBFM01"/>
+		</MyBalClassicFront>
+		<MyBalClassicBack>
+			<SERVER Name="SVW-BE-WEBD03.balgroupit.com" Alias="DSERVFM01"/>
+		</MyBalClassicBack>
+		<MyBalWebInternalFront>
+			<SERVER Name="SVW-BE-WEBFD001.balgroupit.com" Alias="DWEBFM01"/>
+		</MyBalWebInternalFront>
+		<MyBalWebBrokerFront>
+			<SERVER Name="SVW-BE-WEBFD001.balgroupit.com" Alias="DWEBFM01"/>
+		</MyBalWebBrokerFront>
+		<NINAAPI>
+			<SERVER Name="SVW-BE-NINAD001.balgroupit.com" Alias=""/>
+		</NINAAPI>
+		<NINAFront>
+			<SERVER Name="SVW-BE-WEBFD001.balgroupit.com" Alias="DWEBFM01"/>
+		</NINAFront>
+		<WEBFRONT>
+			<SERVER Name="SVW-BE-WEBFD001.balgroupit.com" Alias="DWEBFM01"/>
+		</WEBFRONT>
+		<WEBBACK>
+			<SERVER Name="SVW-BE-WEBD03.balgroupit.com" Alias="DSERVFM01"/>
+		</WEBBACK>
+		<WEBFRONTDB>
+			<SERVER Name="SQL-BE-MyBalD.balgroupit.com" Alias=""/>
+		</WEBFRONTDB>
+		<ESBDB>
+			<SERVER Name="sql-bed3-ag02l.balgroupit.com" Alias=""/>
+		</ESBDB>
+		<TALKBACK>
+			<SERVER Name="SVW-BE-TLKCD001.balgroupit.com" Alias=""/>
+		</TALKBACK>
+		<TALKFRONT>
+			<SERVER Name="SVW-BE-TLKCD002.balgroupit.com" Alias=""/>
+		</TALKFRONT>
+     </Environment>
+	<Environment Name="DCORPBIS">
+		<NINAAPI_DCORPBIS>
+			<SERVER Name="SVW-BE-NINAD001.balgroupit.com" Alias=""/>
+		</NINAAPI_DCORPBIS>
+		<NINAFront_DCORPBIS>
+			<SERVER Name="SVW-BE-WEBFD001.balgroupit.com" Alias="DWEBFM01"/>
+		</NINAFront_DCORPBIS>
+	</Environment>
+	<Environment Name="ICORP">
+		<BaBeBusinessService>
+			<SERVER Name="SVW-BE-BABSI001.balgroupit.com" Alias=""/>
+		</BaBeBusinessService>
+		<BaBeBusinessService_NLB>
+			<SERVER Name="nlb-be-iibabe.balgroupit.com" Alias="babeint"/>
+		</BaBeBusinessService_NLB>
+		<BaBeManagementService>
+			<SERVER Name="SVW-BE-BABSI001.balgroupit.com" Alias=""/>
+		</BaBeManagementService>
+		<BaBeManagementService_NLB>
+			<SERVER Name="nlb-be-iibabe.balgroupit.com" Alias="babeint"/>
+		</BaBeManagementService_NLB>	
+		<BaBeBatchProcessing>
+			<SERVER Name="SVW-BE-BABBI001.balgroupit.com" Alias=""/>
+		</BaBeBatchProcessing>
+		<CDSFront>
+			<SERVER Name="SVW-BE-WEBFI001.balgroupit.com" Alias=""/>
+		</CDSFront>
+		<CDSBack>
+			<SERVER Name="SVW-BE-WEBI02.balgroupit.com" Alias="ISERVFM01"/>
+		</CDSBack>	
+		<CLEVA>
+			<SERVER Name="svx-be-jbclei001.balgroupit.com" Alias=""/>
+			<SERVER Name="svx-be-jbclei002.balgroupit.com" Alias=""/>
+		</CLEVA>
+		<CLEVA_NLB>
+			<SERVER Name="nlb-be-iicleva.balgroupit.com" Alias=""/>
+			<SERVER Name="nlb-be-iicleval.balgroupit.com" Alias=""/>
+		</CLEVA_NLB>
+		<ESB>
+			<SERVER Name="SVW-BE-BIZI001.balgroupit.com" Alias="isgwbts01"/>
+			<SERVER Name="SVW-BE-BIZI002.balgroupit.com" Alias="isgwbts02"/>
+		</ESB>
+		<MDM>
+			<SERVER Name="svx-be-jbmdmi001.balgroupit.com" Alias=""/>
+		</MDM>
+		<MDM_NLB>
+			<SERVER Name="nlb-be-iimdm.balgroupit.com" Alias="mdmint"/>
+		</MDM_NLB>	
+		<MyBalClassicFront>
+			<SERVER Name="SVW-BE-WEBFI001.balgroupit.com" Alias=""/>
+		</MyBalClassicFront>
+		<MyBalClassicBack>
+			<SERVER Name="SVW-BE-WEBI02.balgroupit.com" Alias="ISERVFM01"/>
+		</MyBalClassicBack>	
+		<MyBalWebInternalFront>
+			<SERVER Name="SVW-BE-WEBFI001.balgroupit.com" Alias="iwebfm01"/>
+		</MyBalWebInternalFront>
+		<MyBalWebBrokerFront>
+			<SERVER Name="SVW-BE-WEBFI001.balgroupit.com" Alias="iwebfm01"/>
+		</MyBalWebBrokerFront>
+		<NINAAPI>
+			<SERVER Name="SVW-BE-NINAI001.balgroupit.com" Alias=""/>
+		</NINAAPI>
+		<NINAFront>
+			<SERVER Name="SVW-BE-WEBFI001.balgroupit.com" Alias=""/>
+		</NINAFront>		
+		<WEBFRONT>
+			<SERVER Name="SVW-BE-WEBFI001.balgroupit.com" Alias="iwebfm01"/>
+		</WEBFRONT>
+		<WEBFRONTDB>
+			<SERVER Name="SQL-BE-MyBalI.balgroupit.com" Alias=""/>
+		</WEBFRONTDB>	
+		<WEBBACK>
+			<SERVER Name="SVW-BE-WEBI02.balgroupit.com" Alias="ISERVFM01"/>
+		</WEBBACK>	
+		<ESBDB>
+			<SERVER Name="sql-bei3-ag02l.balgroupit.com" Alias=""/>
+		</ESBDB>		
+		<TALKBACK>
+			<SERVER Name="SVW-BE-TLKCI001.balgroupit.com" Alias=""/>	
+		</TALKBACK>
+		<TALKFRONT>
+			<SERVER Name="SVW-BE-TLKCI002.balgroupit.com" Alias=""/>
+		</TALKFRONT>
+	</Environment>
+	<Environment Name="ACORP">
+		<BaBeBusinessService>
+			<SERVER Name="SVW-BE-BABSA001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BABSA002.balgroupit.com" Alias=""/>
+		</BaBeBusinessService>
+		<BaBeBusinessService_NLB>
+			<SERVER Name="nlb-be-aibabe.balgroupit.com" Alias="babeacc"/>
+		</BaBeBusinessService_NLB>
+		<BaBeManagementService>
+			<SERVER Name="SVW-BE-BABSA001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BABSA002.balgroupit.com" Alias=""/>
+		</BaBeManagementService>
+		<BaBeManagementService_NLB>
+			<SERVER Name="nlb-be-aibabe.balgroupit.com" Alias="babeacc"/>
+		</BaBeManagementService_NLB>
+		<BaBeBatchProcessing>
+			<SERVER Name="SVW-BE-BABBA001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BABBA002.balgroupit.com" Alias=""/>
+		</BaBeBatchProcessing>
+		<CDSFront>
+			<SERVER Name="SVW-BE-WEBFA001.balgroupit.com" Alias="AWEBFM03"/>
+			<SERVER Name="SVW-BE-WEBFA002.balgroupit.com" Alias="AWEBFM04"/>
+		</CDSFront>
+		<CDSFront_NLB>
+			<SERVER Name="nlb-me-aweb01.balgroupit.com" Alias=""/>
+		</CDSFront_NLB>		
+		<CDSBack>
+			<SERVER Name="SVW-BE-WEBA02.balgroupit.com" Alias="ASERVFM01"/>
+			<SERVER Name="SVW-BE-WEBA03.balgroupit.com" Alias="ASERVFM02"/>
+		</CDSBack>
+		<CDSBack_NLB>
+			<SERVER Name="nlb-be-weba02.balgroupit.com" Alias=""/>
+		</CDSBack_NLB>
+		<CLEVA>
+			<SERVER Name="svx-be-jbclea001.balgroupit.com" Alias=""/>
+			<SERVER Name="svx-be-jbclea002.balgroupit.com" Alias=""/>
+			<SERVER Name="svx-be-jbclea003.balgroupit.com" Alias=""/>
+			<SERVER Name="svx-be-jbclea004.balgroupit.com" Alias=""/>
+		</CLEVA>
+		<CLEVA_NLB>
+			<SERVER Name="nlb-be-aicleva.balgroupit.com" Alias=""/>
+			<SERVER Name="nlb-be-aicleval.balgroupit.com" Alias=""/>
+		</CLEVA_NLB>
+		<ESB>
+			<SERVER Name="SVW-BE-BIZA001.balgroupit.com" Alias="ASGWBTS01"/>
+			<SERVER Name="SVW-BE-BIZA002.balgroupit.com" Alias="ASGWBTS02"/>
+		</ESB>
+		<MDM>
+			<SERVER Name="svx-be-jbmdma001.balgroupit.com" Alias=""/>
+			<SERVER Name="svx-be-jbmdma002.balgroupit.com" Alias=""/>
+		</MDM>
+		<MDM_NLB>
+			<SERVER Name="nlb-be-aimdm.balgroupit.com" Alias="mdmacc"/>
+		</MDM_NLB>
+		<MyBalClassicFront>
+			<SERVER Name="SVW-BE-WEBFA001.balgroupit.com" Alias="AWEBFM03"/>
+			<SERVER Name="SVW-BE-WEBFA002.balgroupit.com" Alias="AWEBFM04"/>
+		</MyBalClassicFront>
+		<MyBalClassicBack>
+			<SERVER Name="SVW-BE-WEBA02.balgroupit.com" Alias="ASERVFM01"/>
+			<SERVER Name="SVW-BE-WEBA03.balgroupit.com" Alias="ASERVFM02"/>
+		</MyBalClassicBack>
+		<MyBalClassicBack_NLB>
+			<SERVER Name="nlb-be-weba02.balgroupit.com" Alias=""/>
+		</MyBalClassicBack_NLB>
+		<MyBalWebInternalFront>
+			<SERVER Name="SVW-BE-WEBFA001.balgroupit.com" Alias="AWEBFM03"/>
+			<SERVER Name="SVW-BE-WEBFA002.balgroupit.com" Alias="AWEBFM04"/>
+		</MyBalWebInternalFront>
+		<MyBalWebInternalFront_NLB>
+			<SERVER Name="nlb-me-aweb01.balgroupit.com" Alias=""/>
+		</MyBalWebInternalFront_NLB>
+		<MyBalWebBrokerFront>	
+			<SERVER Name="SVW-BE-WEBFA001.balgroupit.com" Alias="AWEBFM03"/>
+			<SERVER Name="SVW-BE-WEBFA002.balgroupit.com" Alias="AWEBFM04"/>
+		</MyBalWebBrokerFront>
+		<MyBalWebBrokerFront_NLB>
+			<SERVER Name="nlb-be-aimbi.balgroupit.com" Alias=""/>
+		</MyBalWebBrokerFront_NLB>		
+		<NINAAPI>
+			<SERVER Name="SVW-BE-NINAA001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-NINAA002.balgroupit.com" Alias=""/>
+		</NINAAPI>
+		<NINAAPI_NLB>
+			<SERVER Name="nlb-be-aininapi.balgroupit.com" Alias="ninapiacc"/>
+		</NINAAPI_NLB>
+		<NINAFront>
+			<SERVER Name="SVW-BE-WEBFA001.balgroupit.com" Alias="AWEBFM03"/>
+			<SERVER Name="SVW-BE-WEBFA002.balgroupit.com" Alias="AWEBFM04"/>
+		</NINAFront>
+		<WEBFRONT>
+			<SERVER Name="SVW-BE-WEBFA001.balgroupit.com" Alias="AWEBFM03"/>
+			<SERVER Name="SVW-BE-WEBFA002.balgroupit.com" Alias="AWEBFM04"/>
+		</WEBFRONT>	
+		<WEBBACK>
+			<SERVER Name="SVW-BE-WEBA02.balgroupit.com" Alias="ASERVFM01"/>
+			<SERVER Name="SVW-BE-WEBA03.balgroupit.com" Alias="ASERVFM02"/>
+		</WEBBACK>
+		<WEBFRONTDB>
+			<SERVER Name="SQL-BE-MyBalA.balgroupit.com" Alias=""/>
+		</WEBFRONTDB>	
+		<WEBBACKDB>
+			<SERVER Name="SQL-BE-DmsA.balgroupit.com" Alias=""/>
+		</WEBBACKDB>
+		<ESBDB>
+			<SERVER Name="sql-bea3-ag02l.balgroupit.com" Alias=""/>
+		</ESBDB>		
+		<TALKBACK>
+			<SERVER Name="SVW-BE-TLKCA001.balgroupit.com" Alias=""/>
+		</TALKBACK>
+		<TALKFRONT>
+			<SERVER Name="SVW-BE-TLKCA002.balgroupit.com" Alias=""/>
+		</TALKFRONT>		
+	</Environment>
+	<Environment Name="PCORP">
+		<BaBeBusinessService>
+			<SERVER Name="SVW-BE-BABSP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BABSP002.balgroupit.com" Alias=""/>		
+		</BaBeBusinessService>
+		<BaBeBusinessService_NLB>
+			<SERVER Name="nlb-be-pibabe.balgroupit.com" Alias="babe"/>
+		</BaBeBusinessService_NLB>
+		<BaBeManagementService>
+			<SERVER Name="SVW-BE-BABSP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BABSP002.balgroupit.com" Alias=""/>		
+		</BaBeManagementService>
+		<BaBeManagementService_NLB>
+			<SERVER Name="nlb-be-pibabe.balgroupit.com" Alias="babe"/>		
+		</BaBeManagementService_NLB>
+		<BaBeBatchProcessing>
+			<SERVER Name="SVW-BE-BABBP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BABBP002.balgroupit.com" Alias=""/>
+		</BaBeBatchProcessing>
+		<CDSFront>
+			<SERVER Name="SHW-ME-PWEB06.balgroupit.com" Alias="PWEBFM01"/>
+			<SERVER Name="SHW-ME-PWEB56.balgroupit.com" Alias="PWEBFM02"/>
+		</CDSFront>
+		<CDSFront_NLB>
+			<SERVER Name="nlb-me-pweb01.balgroupit.com" Alias=""/>
+		</CDSFront_NLB>		
+		<CDSBack>
+			<SERVER Name="SVW-BE-WEBP02.balgroupit.com" Alias="PSERVFM01"/>
+			<SERVER Name="SVW-BE-WEBP03.balgroupit.com" Alias="PSERVFM02"/>
+		</CDSBack>
+		<CDSBack_NLB>
+			<SERVER Name="nlb-be-webp02.balgroupit.com" Alias=""/>
+		</CDSBack_NLB>
+		<CLEVA>
+			<SERVER Name="svx-be-jbclep001.balgroupit.com" Alias=""/>
+			<SERVER Name="svx-be-jbclep002.balgroupit.com" Alias=""/>
+			<SERVER Name="svx-be-jbclep003.balgroupit.com" Alias=""/>
+			<SERVER Name="svx-be-jbclep004.balgroupit.com" Alias=""/>
+			<SERVER Name="svx-be-jbclep005.balgroupit.com" Alias=""/>
+			<SERVER Name="svx-be-jbclep006.balgroupit.com" Alias=""/>
+		</CLEVA>
+		<CLEVA_NLB>
+			<SERVER Name="nlb-be-picleva.balgroupit.com" Alias=""/>
+			<SERVER Name="nlb-be-picleval.balgroupit.com" Alias=""/>
+		</CLEVA_NLB>
+		<ESB>
+			<SERVER Name="SvW-BE-BIZP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SvW-BE-BIZP002.balgroupit.com" Alias=""/>
+			<SERVER Name="SvW-BE-BIZP003.balgroupit.com" Alias=""/>
+			<SERVER Name="SvW-BE-BIZP004.balgroupit.com" Alias=""/>
+		</ESB>
+		<MDM>
+			<SERVER Name="svx-be-jbmdmp001.balgroupit.com" Alias=""/>
+			<SERVER Name="svx-be-jbmdmp002.balgroupit.com" Alias=""/>
+		</MDM>
+		<MDM_NLB>
+			<SERVER Name="nlb-be-pimdm.balgroupit.com" Alias="mdm"/>
+		</MDM_NLB>
+		<MyBalClassicFront>
+			<SERVER Name="SHW-ME-PWEB06.balgroupit.com" Alias="PWEBFM01"/>
+			<SERVER Name="SHW-ME-PWEB56.balgroupit.com" Alias="PWEBFM02"/>
+		</MyBalClassicFront>
+		<MyBalClassicBack>
+			<SERVER Name="SVW-BE-WEBP02.balgroupit.com" Alias="PSERVFM01"/>
+			<SERVER Name="SVW-BE-WEBP03.balgroupit.com" Alias="PSERVFM02"/>
+		</MyBalClassicBack>
+		<MyBalClassicBack_NLB>
+			<SERVER Name="nlb-be-webp02.balgroupit.com" Alias=""/>
+		</MyBalClassicBack_NLB>
+		<MyBalWebInternalFront>
+			<SERVER Name="SHW-ME-PWEB06.balgroupit.com" Alias="PWEBFM01"/>
+			<SERVER Name="SHW-ME-PWEB56.balgroupit.com" Alias="PWEBFM02"/>
+		</MyBalWebInternalFront>
+		<MyBalWebInternalFront_NLB>
+			<SERVER Name="nlb-be-pimbi.balgroupit.com" Alias="mybaloiseinternal-be"/>
+		</MyBalWebInternalFront_NLB>
+		<MyBalWebBrokerFront>
+			<SERVER Name="SHW-ME-PWEB06.balgroupit.com" Alias="PWEBFM01"/>
+			<SERVER Name="SHW-ME-PWEB56.balgroupit.com" Alias="PWEBFM02"/>
+		</MyBalWebBrokerFront>
+		<MyBalWebBrokerFront_NLB>
+			<SERVER Name="nlb-me-pweb01.balgroupit.com" Alias=""/>
+		</MyBalWebBrokerFront_NLB>		
+		<NINAAPI>
+			<SERVER Name="svw-be-ninap001.balgroupit.com" Alias=""/>
+			<SERVER Name="svw-be-ninap002.balgroupit.com" Alias=""/>
+		</NINAAPI>
+		<NINAAPI_NLB>
+			<SERVER Name="nlb-be-pininapi.balgroupit.com" Alias="ninapi"/>
+		</NINAAPI_NLB>
+		<NINAFront>
+			<SERVER Name="SHW-ME-PWEB06.balgroupit.com" Alias="PWEBFM01"/>
+			<SERVER Name="SHW-ME-PWEB56.balgroupit.com" Alias="PWEBFM02"/>
+		</NINAFront>	
+		<WEBFRONT>
+			<SERVER Name="SHW-ME-PWEB06.balgroupit.com" Alias="PWEBFM01"/>
+			<SERVER Name="SHW-ME-PWEB56.balgroupit.com" Alias="PWEBFM02"/>
+		</WEBFRONT>	
+		<WEBBACK>
+			<SERVER Name="SVW-BE-WEBP02.balgroupit.com" Alias="PSERVFM01"/>
+			<SERVER Name="SVW-BE-WEBP03.balgroupit.com" Alias="PSERVFM02"/>
+		</WEBBACK>
+		<WEBFRONTDB>
+			<SERVER Name="SQL-BE-MyBalP.balgroupit.com" Alias=""/>
+		</WEBFRONTDB>	
+		<WEBBACKDB>
+			<SERVER Name="SQL-BE-DmsP.balgroupit.com" Alias=""/>
+		</WEBBACKDB>
+		<ESBDB>
+			<SERVER Name="sql-bep3-ag02l.balgroupit.com" Alias=""/>
+		</ESBDB>
+		<TALKBACK>
+			<SERVER Name="SVW-BE-TLKCP001.balgroupit.com" Alias=""/>
+		</TALKBACK>
+		<TALKFRONT>
+			<SERVER Name="SVW-BE-TLKCI002.balgroupit.com" Alias=""/>
+		</TALKFRONT>
+	</Environment>
+	<Environment Name="buildserver">
+		<BUILDSERVER>
+			<SERVER Name="SVW-ME-PCLEVA01.balgroupit.com" Alias=""/>
+			<SERVER Name="SHW-ME-PDNET01.balgroupit.com" Alias=""/>
+			<SERVER Name="SHW-ME-PDTLK51.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BUILDP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BUILDP002.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-TESTP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-TESTP002.balgroupit.com" Alias=""/>
+		</BUILDSERVER>
+	</Environment>
+	<Environment Name="BIOperations">
+		<JENKINSHOST>
+			<SERVER Name="Jenkins-be.balgroupit.com" Alias=""/>
+		</JENKINSHOST>
+		<NEXUSHOST>
+			<SERVER Name="nexus-be.balgroupit.com" Alias=""/>
+		</NEXUSHOST>
+		<SONARQUBEHOST>
+			<SERVER Name="sonarqube-be.balgroupit.com" Alias=""/>
+		</SONARQUBEHOST>
+                <TFSHOST>
+			<SERVER Name="tfs-be.balgroupit.com" Alias=""/>
+		</TFSHOST>
+	</Environment>
+</Environments>

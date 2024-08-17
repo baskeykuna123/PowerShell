@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters>
+
+	<Application Name="ESB">
+		<Servers>
+			<Environment Name="DCORP">
+		SVW-BE-BIZD01.balgroupit.com
+			</Environment>
+			<Environment Name="ICORP">
+		SVW-BE-BIZI01.balgroupit.com
+		SVW-BE-BIZI02.balgroupit.com
+			</Environment>
+			<Environment Name="ACORP">
+		SVW-BE-BIZA01.balgroupit.com
+		SVW-BE-BIZA01.balgroupit.com
+		SVW-BE-BIZA51.balgroupit.com
+		SVW-BE-BIZA52.balgroupit.com
+			</Environment>
+			<Environment Name="PCORP">
+		SVW-BE-BIZP01.balgroupit.com
+		SVW-BE-BIZP01.balgroupit.com
+		SVW-BE-BIZP51.balgroupit.com
+		SVW-BE-BIZP52.balgroupit.com
+			</Environment>
+		</Servers>
+	</Application>
+	
+		<Application Name="Cleva">
+		<URL>
+		http://${Server}/T9-Assurance/soap 
+		http://${Server}/ClevaWebUpdate/
+		</URL>
+		<Servers>
+			<Environment Name="PLAB">
+		Par-cleva.balgroupit.com
+			</Environment>
+			<Environment Name="DCORP">
+		dev-cleva.balgroupit.com
+			</Environment>
+			<Environment Name="ICORP">
+		int-cleva.balgroupit.com
+			</Environment>
+			<Environment Name="ACORP">
+		acc-cleva.balgroupit.com
+			</Environment>
+			<Environment Name="PCORP">
+		SVW-BE-WEBP02.balgroupit.com
+		SVW-BE-WEBP03.balgroupit.com
+			</Environment>
+		</Servers>
+	</Application>
+		<Application Name="MyBaloiseClassic_Front">
+		<URL>
+		http://${Server}/MercatorNet.WSMain/LogOnService.asmx
+		</URL>
+		<Servers>
+			<Environment Name="DCORP">
+		SVW-BE-WEBFD001.balgroupit.com
+			</Environment>
+			<Environment Name="ICORP">
+		SVW-BE-WEBFI001.balgroupit.com
+			</Environment>
+			<Environment Name="ACORP">
+		SVW-BE-WEBFA001.balgroupit.com
+		SVW-BE-WEBFA002.balgroupit.com
+			</Environment>
+			<Environment Name="PCORP">
+		SVW-BE-WEBP06.balgroupit.com
+			</Environment>
+		</Servers>
+		
+	</Application>
+	<Application Name="MyBaloiseClassic_Back">
+		<Services>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		</Services>
+		<Servers>
+			<Environment Name="DCORP">
+		SVW-BE-WEBD03.balgroupit.com
+			</Environment>
+			<Environment Name="ICORP">
+		SVW-BE-WEBI02.balgroupit.com
+			</Environment>
+			<Environment Name="ACORP">
+		SVW-BE-WEBA02.balgroupit.com
+		SVW-BE-WEBA03.balgroupit.com
+			</Environment>
+			<Environment Name="PCORP">
+		SVW-BE-WEBP02.balgroupit.com
+		SVW-BE-WEBP03.balgroupit.com
+			</Environment>
+		</Servers>
+		
+	</Application>
+	
+</Parameters>

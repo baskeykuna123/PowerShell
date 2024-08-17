@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Roles>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+
+    <!-- displayname="BEA ALI Logger" automatic -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StartService" Description="Plumtree Logger"/>
+    <!-- displayname="BEA ALI API Service" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StartService" Description="wsserver"/>
+    <!-- displayname="BEA ALI Search %COMPUTERNAME%01" servicename="%COMPUTERNAME%01" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StartService" Description="svw-me-dport0101"/>
+    <!-- displayname="SearchClusterUI" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StartService" Description="SearchClusterUI"/>
+    <!-- displayname="BEA ALI Document Repository Service"  dependency="FileUpload" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StartService" Description="BEA ALI Document Repository Service"/>
+    <!-- displayname="BEA ALI Publisher" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StartService" Description="publishservice"/>
+    <!-- displayname="BEA ALI Studio" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StartService" Description="ptstudio"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StartService" Description="Mercator.Portal.Scheduler"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StartService" Description="ptautomationserver"/>
+    
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="startWebsite" Description="MercatorPortalWebService"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="startWebsite" Description="Default Web Site"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="startWebsite" Description="ALI"/>
+    
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="startAppPool" Description="ALAppPool1"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="startAppPool" Description="ImageServer"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="startAppPool" Description="CommunityNavigator"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="startAppPool" Description="Mercator.Portal.Portlets"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="startAppPool" Description="Mercator.Portal.Portlets.Intranet"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="startAppPool" Description="Mercator.Portal.Portlets.Producten"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="startAppPool" Description="Mercator.Portal.WebService"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="startAppPool" Description="PortalASP"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="startAppPool" Description="ALAppPool2"/>
+
+</Roles>

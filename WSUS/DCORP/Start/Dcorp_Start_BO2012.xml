@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Roles>
+	<Role Application="DMS" Corp="D" ServerName="svw-be-dmsd01.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="DMS" Corp="D" ServerName="svw-be-dmsd01.balgroupit.com" FunctionName="StartService" Description="Execute360 Route Engine"/>
+	<Role Application="DMS" Corp="D" ServerName="svw-be-dmsd01.balgroupit.com" FunctionName="StartService" Description="Execute360 Index Manager"/>
+	<Role Application="DMS" Corp="D" ServerName="svw-be-dmsd01.balgroupit.com" FunctionName="StartService" Description="Execute360 Transfer Manager"/>
+	<Role Application="DMS" Corp="D" ServerName="svw-be-dmsd01.balgroupit.com" FunctionName="StartService" Description="Execute360 Rendezvous Manager"/>
+	<Role Application="DMS" Corp="D" ServerName="svw-be-dmsd01.balgroupit.com" FunctionName="StartService" Description="Execute360 Location Manager"/>
+	<Role Application="DMS" Corp="D" ServerName="svw-be-dmsd01.balgroupit.com" FunctionName="StartService" Description="Execute360 Object Manager"/>
+	<Role Application="DMS" Corp="D" ServerName="svw-be-dmsd01.balgroupit.com" FunctionName="StartService" Description="Execute360 Security Manager"/>
+</Roles>

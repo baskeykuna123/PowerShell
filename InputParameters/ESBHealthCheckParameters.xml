@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<Services >
+	<Service server="${ESB}" Name="BTSSvc$B2B_Processing_Sync" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$B2B_Receiving_Sync" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$B2B_Sending_Sync" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkProcessing_Async" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkProcessing_Batch" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkProcessing_Batch_Doc" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkProcessing_Single_Temp" Status="Running" Exception="True"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkProcessing_Sync" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkProcessing_Telindus" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkReceiving_Async" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkReceiving_Single" Status="Running" Exception="True"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkReceiving_Sync" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkSending_Async" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkSending_Sync" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkSending_Sync_Cleva" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkSending_Sync_Legacy" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkSending_Sync_MF" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkSending_Sync_Sgw" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkSending_Sync_Talk" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkSending_Telindus" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BizTalkTracking" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BT32_Receiving_Async" Status="Running"/>
+	<Service server="${ESB}" Name="BTSSvc$BT32_Receiving_Single" Status="Running" Exception="True"/>
+	<Service server="${ESB}" Name="BTSSvc$BT32_Sending" Status="Running"/>
+	<Service server="${ESB}" Name="EsbProcessInitializerService" Status="Running"/>
+	<Service server="${ESB}" Name="ManagedFileTransfer" Status="Running"/>
+	</Services>
+</Tests>

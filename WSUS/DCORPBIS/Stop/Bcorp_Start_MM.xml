@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Roles>
+	<Role FunctionName="RenameFile" ServerName="local" PathFile="\\balgroupit.com\appl_data\bbe\App01\DCORPBIS\MercatorNet\MaintenanceModeFiles\Internal\NOT_IN_MaintenanceMode_Internal.xml" NewName="IN_MaintenanceMode_Internal.xml"/>
+</Roles>

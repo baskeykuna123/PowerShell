@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+    <URL Address="http://${FideaFireco}:80/Admin/HealthCheck" Response="200"/>
+    <URL Address="http://${WEBFRONT}:7001/Admin/HealthCheck" Response="200"/>
+    <URL Address="http://${ACORPWEBFRONT}:7001/Admin/HealthCheck" Response="200"/>
+    <URL Address="http://${NEWFRONTVM}:7001/Admin/HealthCheck" Response="200"/>
+	</URLs>
+</Tests>	

@@ -1,0 +1,371 @@
+woensdag 15 september 2021 21:03:48 - READING XML File :  \\balgroupit.com\appl_data\BBE\Transfer\Packages\Scripts\WSUS\Pcorp\Pcorp_Stop_All.xml
+woensdag 15 september 2021 21:03:48 - 
+woensdag 15 september 2021 21:03:51 - ================================svw-be-eaip01.balgroupit.com======================================
+woensdag 15 september 2021 21:03:53 - Commandline		: StopService "mercator.eai.docservice"
+woensdag 15 september 2021 21:03:53 - Commandline		: StopProcess "dllhost.exe"
+woensdag 15 september 2021 21:03:53 - Commandline		: StopProcess "winword.exe"
+woensdag 15 september 2021 21:03:54 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:03:54 - ================================svw-be-eaip01.balgroupit.com======================================
+woensdag 15 september 2021 21:03:56 - ================================svw-be-eaip04.balgroupit.com======================================
+woensdag 15 september 2021 21:03:57 - Commandline		: StopService "mercator.eai.docservice"
+woensdag 15 september 2021 21:03:58 - Commandline		: StopProcess "dllhost.exe"
+woensdag 15 september 2021 21:03:58 - Commandline		: StopProcess "winword.exe"
+woensdag 15 september 2021 21:03:58 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:03:58 - ================================svw-be-eaip04.balgroupit.com======================================
+woensdag 15 september 2021 21:04:00 - ================================svw-be-eaip05.balgroupit.com======================================
+woensdag 15 september 2021 21:04:02 - Commandline		: StopService "mercator.eai.docservice"
+woensdag 15 september 2021 21:04:03 - Commandline		: StopProcess "dllhost.exe"
+woensdag 15 september 2021 21:04:03 - Commandline		: StopProcess "winword.exe"
+woensdag 15 september 2021 21:04:03 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:04:03 - ================================svw-be-eaip05.balgroupit.com======================================
+woensdag 15 september 2021 21:04:03 - ================================svw-be-webp02.balgroupit.com======================================
+woensdag 15 september 2021 21:04:11 - Commandline		: StopWebsite "DmsDataRepository"
+woensdag 15 september 2021 21:04:11 - Commandline		: StopWebsite "MNet"
+woensdag 15 september 2021 21:04:11 - Commandline		: StopAppPool "DefaultAppPool"
+woensdag 15 september 2021 21:04:11 - Commandline		: StopAppPool "WSDMS"
+woensdag 15 september 2021 21:04:12 - Commandline		: StopAppPool "WSDmsDataRepository"
+woensdag 15 september 2021 21:04:12 - Commandline		: StopAppPool "BaloiseBackend"
+woensdag 15 september 2021 21:04:12 - Commandline		: StopAppPool "CDS"
+woensdag 15 september 2021 21:04:12 - Commandline		: StopAppPool "MercatorNet.BoServices"
+woensdag 15 september 2021 21:04:12 - Commandline		: StopAppPool "Mercator.Portima.Monitoring"
+woensdag 15 september 2021 21:04:13 - Commandline		: StopAppPool "Mercator.Portima"
+woensdag 15 september 2021 21:04:13 - Commandline		: StopAppPool "Mercator.Eai.Tools.Wsc"
+woensdag 15 september 2021 21:04:13 - Commandline		: StopAppPool "Mercator.EAI.Framework.WebServices"
+woensdag 15 september 2021 21:04:13 - Commandline		: StopService "World Wide Web Publishing Service"
+woensdag 15 september 2021 21:04:13 - Commandline		: StopService "Baloise BaloiseBackendBatch"
+woensdag 15 september 2021 21:04:14 - Commandline		: StopService "Baloise CentralDataStore"
+woensdag 15 september 2021 21:04:14 - Commandline		: StopService "Baloise SyncTaskToDMS"
+woensdag 15 september 2021 21:04:15 - Commandline		: StopService "Mercator DMS Bulk Insert"
+woensdag 15 september 2021 21:04:15 - Commandline		: StopService "Mercator DMS Import Portima Attachments"
+woensdag 15 september 2021 21:04:15 - Commandline		: StopService "Mercator DMS MailImport Service"
+woensdag 15 september 2021 21:04:15 - Commandline		: StopService "Mercator Xpim Document Store"
+woensdag 15 september 2021 21:04:16 - Commandline		: StopService "Mercator Document Store"
+woensdag 15 september 2021 21:04:16 - Commandline		: StopService "Mercator Document Store"
+woensdag 15 september 2021 21:04:16 - Commandline		: StopService "Mercator Document Management System Service"
+woensdag 15 september 2021 21:04:16 - Commandline		: StopService "Mercator Document Management System Async Service"
+woensdag 15 september 2021 21:04:16 - Commandline		: StopService "Mercator Document Management System Batch Avero Service"
+woensdag 15 september 2021 21:04:17 - Commandline		: StopService "Mercator DMS Pdf Conversion Call"
+woensdag 15 september 2021 21:04:17 - Commandline		: StopService "MercatorNET SCV Batch Service"
+woensdag 15 september 2021 21:04:17 - Commandline		: StopService "Mercator Organization Data"
+woensdag 15 september 2021 21:04:18 - Commandline		: StopService "Mercator Document Generation"
+woensdag 15 september 2021 21:04:18 - Commandline		: StopService "Mercator Document Delivery"
+woensdag 15 september 2021 21:04:19 - Commandline		: StopService "Steria's Dispatcher Service"
+woensdag 15 september 2021 21:04:19 - Commandline		: StopService "Mercator.Integration.EAI.3.9.Listener"
+woensdag 15 september 2021 21:04:19 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\cds"
+woensdag 15 september 2021 21:04:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.boservices"
+woensdag 15 september 2021 21:04:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercator.eai.framework.webservices"
+woensdag 15 september 2021 21:04:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercator.eai.tools.wsc"
+woensdag 15 september 2021 21:04:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\Mercator.Portima.Monitoring"
+woensdag 15 september 2021 21:04:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\Mercator.Portima"
+woensdag 15 september 2021 21:04:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\WSDMS"
+woensdag 15 september 2021 21:04:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\wsdmsdatarepository"
+woensdag 15 september 2021 21:04:20 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:04:20 - ================================svw-be-webp02.balgroupit.com======================================
+woensdag 15 september 2021 21:04:20 - ================================svw-be-webp03.balgroupit.com======================================
+woensdag 15 september 2021 21:04:28 - Commandline		: StopWebsite "DmsDataRepository"
+woensdag 15 september 2021 21:04:28 - Commandline		: StopWebsite "MNet"
+woensdag 15 september 2021 21:04:28 - Commandline		: StopAppPool "MNet"
+woensdag 15 september 2021 21:04:28 - Commandline		: StopAppPool "DefaultAppPool"
+woensdag 15 september 2021 21:04:29 - Commandline		: StopAppPool "WSDMS"
+woensdag 15 september 2021 21:04:29 - Commandline		: StopAppPool "WSDmsDataRepository"
+woensdag 15 september 2021 21:04:29 - Commandline		: StopAppPool "BaloiseBackend"
+woensdag 15 september 2021 21:04:29 - Commandline		: StopAppPool "CDS"
+woensdag 15 september 2021 21:04:30 - Commandline		: StopAppPool "MercatorNet.BoServices"
+woensdag 15 september 2021 21:04:30 - Commandline		: StopAppPool "Mercator.Portima.Monitoring"
+woensdag 15 september 2021 21:04:30 - Commandline		: StopAppPool "Mercator.Portima"
+woensdag 15 september 2021 21:04:30 - Commandline		: StopAppPool "Mercator.Eai.Tools.Wsc"
+woensdag 15 september 2021 21:04:31 - Commandline		: StopAppPool "Mercator.EAI.Framework.WebServices"
+woensdag 15 september 2021 21:04:31 - Commandline		: StopService "World Wide Web Publishing Service"
+woensdag 15 september 2021 21:04:31 - Commandline		: StopService "Baloise Backend"
+woensdag 15 september 2021 21:04:32 - Commandline		: StopService "Baloise Central Data Store"
+woensdag 15 september 2021 21:04:32 - Commandline		: StopService "Baloise SyncTaskToDMS"
+woensdag 15 september 2021 21:04:32 - Commandline		: StopService "Mercator DMS Bulk Insert"
+woensdag 15 september 2021 21:04:33 - Commandline		: StopService "Mercator DMS Import Portima Attachments"
+woensdag 15 september 2021 21:04:33 - Commandline		: StopService "Mercator DMS MailImport Service"
+woensdag 15 september 2021 21:04:34 - Commandline		: StopService "Mercator Xpim Document Store"
+woensdag 15 september 2021 21:04:34 - Commandline		: StopService "Mercator Document Store"
+woensdag 15 september 2021 21:04:34 - Commandline		: StopService "BaloiseDmsBatchService"
+woensdag 15 september 2021 21:04:35 - Commandline		: StopService "Mercator Document Management System Service"
+woensdag 15 september 2021 21:04:35 - Commandline		: StopService "Mercator Document Management System Async Service"
+woensdag 15 september 2021 21:04:36 - Commandline		: StopService "Mercator Document Management System Batch Avero Service"
+woensdag 15 september 2021 21:04:36 - Commandline		: StopService "Mercator DMS Pdf Conversion Call"
+woensdag 15 september 2021 21:04:37 - Commandline		: StopService "MercatorNET SCV Batch Service"
+woensdag 15 september 2021 21:04:37 - Commandline		: StopService "Mercator Organization Data"
+woensdag 15 september 2021 21:04:38 - Commandline		: StopService "Mercator Document Generation"
+woensdag 15 september 2021 21:04:38 - Commandline		: StopService "Mercator Document Delivery"
+woensdag 15 september 2021 21:04:38 - Commandline		: StopService "Steria's Dispatcher Service"
+woensdag 15 september 2021 21:04:39 - Commandline		: StopService "Mercator.Integration.EAI.3.9.Listener"
+woensdag 15 september 2021 21:04:39 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\cds"
+woensdag 15 september 2021 21:04:39 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.boservices"
+woensdag 15 september 2021 21:04:39 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercator.eai.framework.webservices"
+woensdag 15 september 2021 21:04:39 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercator.eai.tools.wsc"
+woensdag 15 september 2021 21:04:39 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\Mercator.Portima.Monitoring"
+woensdag 15 september 2021 21:04:39 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\Mercator.Portima"
+woensdag 15 september 2021 21:04:39 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\WSDMS"
+woensdag 15 september 2021 21:04:39 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\wsdmsdatarepository"
+woensdag 15 september 2021 21:04:39 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:04:39 - ================================svw-be-webp03.balgroupit.com======================================
+woensdag 15 september 2021 21:04:40 - ================================svw-be-signp001.balgroupit.com======================================
+woensdag 15 september 2021 21:04:41 - Commandline		: StopService "Portima BrokerSign"
+woensdag 15 september 2021 21:04:42 - ================================svw-be-signp001.balgroupit.com======================================
+woensdag 15 september 2021 21:04:42 - ================================shw-me-pweb06.balgroupit.com======================================
+woensdag 15 september 2021 21:04:42 -  shw-me-pweb06.balgroupit.com remote session could not be created.
+woensdag 15 september 2021 21:04:42 - ================================shw-me-pweb06.balgroupit.com======================================
+woensdag 15 september 2021 21:04:42 - ================================shw-me-pweb56.balgroupit.com======================================
+woensdag 15 september 2021 21:04:42 -  shw-me-pweb56.balgroupit.com remote session could not be created.
+woensdag 15 september 2021 21:04:42 - ================================shw-me-pweb56.balgroupit.com======================================
+woensdag 15 september 2021 21:04:44 - ================================svw-be-adlibp01.balgroupit.com======================================
+woensdag 15 september 2021 21:04:52 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:04:52 - ================================svw-be-adlibp01.balgroupit.com======================================
+woensdag 15 september 2021 21:04:53 - ================================svw-be-adlibp02.balgroupit.com======================================
+woensdag 15 september 2021 21:04:54 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:04:54 - ================================svw-be-adlibp02.balgroupit.com======================================
+woensdag 15 september 2021 21:04:55 - ================================svw-be-adlibp03.balgroupit.com======================================
+woensdag 15 september 2021 21:05:03 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:05:03 - ================================svw-be-adlibp03.balgroupit.com======================================
+woensdag 15 september 2021 21:05:06 - ================================svw-be-adlibp04.balgroupit.com======================================
+woensdag 15 september 2021 21:05:07 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:05:07 - ================================svw-be-adlibp04.balgroupit.com======================================
+woensdag 15 september 2021 21:05:08 - ================================svw-be-adlibp05.balgroupit.com======================================
+woensdag 15 september 2021 21:05:13 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:05:13 - ================================svw-be-adlibp05.balgroupit.com======================================
+woensdag 15 september 2021 21:05:15 - ================================svw-be-adlibp06.balgroupit.com======================================
+woensdag 15 september 2021 21:05:20 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:05:20 - ================================svw-be-adlibp06.balgroupit.com======================================
+woensdag 15 september 2021 21:05:21 - ================================svw-be-adlibp07.balgroupit.com======================================
+woensdag 15 september 2021 21:05:26 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:05:26 - ================================svw-be-adlibp07.balgroupit.com======================================
+woensdag 15 september 2021 21:05:27 - ================================svw-be-dmsp001.balgroupit.com======================================
+woensdag 15 september 2021 21:05:35 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:05:35 - ================================svw-be-dmsp001.balgroupit.com======================================
+woensdag 15 september 2021 21:05:35 - ================================svw-be-dmsp002.balgroupit.com======================================
+woensdag 15 september 2021 21:05:43 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:05:43 - ================================svw-be-dmsp002.balgroupit.com======================================
+woensdag 15 september 2021 21:05:44 - ================================svw-be-dmsp03.balgroupit.com======================================
+woensdag 15 september 2021 21:05:49 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:05:49 - Commandline		: StopService "Execute360 Archive Manager"
+woensdag 15 september 2021 21:06:01 - ================================svw-be-dmsp03.balgroupit.com======================================
+woensdag 15 september 2021 21:06:02 - ================================dms-bp01.balgroupit.com======================================
+woensdag 15 september 2021 21:06:03 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:06:03 - ================================dms-bp01.balgroupit.com======================================
+woensdag 15 september 2021 21:06:04 - ================================dms-bp01-file.balgroupit.com======================================
+woensdag 15 september 2021 21:06:05 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:06:05 - ================================dms-bp01-file.balgroupit.com======================================
+woensdag 15 september 2021 21:06:06 - ================================dms-bp01-g360.balgroupit.com======================================
+woensdag 15 september 2021 21:06:07 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:06:07 - ================================dms-bp01-g360.balgroupit.com======================================
+woensdag 15 september 2021 21:06:08 - ================================SVW-BE-WEBFP001.balgroupit.com======================================
+woensdag 15 september 2021 21:06:15 - Commandline		: StopAppPool "DefaultAppPool"
+woensdag 15 september 2021 21:06:15 - Commandline		: StopAppPool "ED"
+woensdag 15 september 2021 21:06:16 - Commandline		: StopAppPool "EmployeeBenefits"
+woensdag 15 september 2021 21:06:16 - Commandline		: StopAppPool "EtlLogViewer"
+woensdag 15 september 2021 21:06:16 - Commandline		: StopAppPool "LevenAansluitingsverklaring"
+woensdag 15 september 2021 21:06:16 - Commandline		: StopAppPool "LevenWijzigingsFormulier"
+woensdag 15 september 2021 21:06:17 - Commandline		: StopAppPool "MercatorNet.RMMain"
+woensdag 15 september 2021 21:06:17 - Commandline		: StopAppPool "MercatorNet.WSDeploy_3_0"
+woensdag 15 september 2021 21:06:17 - Commandline		: StopAppPool "MercatorNet.WSMain"
+woensdag 15 september 2021 21:06:17 - Commandline		: StopAppPool "MercatorNet.WSServices"
+woensdag 15 september 2021 21:06:17 - Commandline		: StopAppPool "MercatorNet.WSTariff"
+woensdag 15 september 2021 21:06:18 - Commandline		: StopAppPool "MercatorNetBroker.WSDeploy_3_0"
+woensdag 15 september 2021 21:06:18 - Commandline		: StopAppPool "MercatorNetBroker.WSMain"
+woensdag 15 september 2021 21:06:18 - Commandline		: StopAppPool "MercatorWebSite"
+woensdag 15 september 2021 21:06:18 - Commandline		: StopAppPool "MyBaloiseBroker"
+woensdag 15 september 2021 21:06:18 - Commandline		: StopAppPool "MyBaloiseInternal"
+woensdag 15 september 2021 21:06:19 - Commandline		: StopAppPool "MWebBvb"
+woensdag 15 september 2021 21:06:19 - Commandline		: StopAppPool "ScvWebService"
+woensdag 15 september 2021 21:06:19 - Commandline		: StopWebsite "OnlineDocuments"
+woensdag 15 september 2021 21:06:19 - Commandline		: StopWebsite "MNet"
+woensdag 15 september 2021 21:06:19 - Commandline		: StopWebsite "MWebBvb"
+woensdag 15 september 2021 21:06:20 - Commandline		: StopService "World Wide Web Publishing Service"
+woensdag 15 september 2021 21:06:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\levenaansluitingsverklaring"
+woensdag 15 september 2021 21:06:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\levenwijzigingsformulier"
+woensdag 15 september 2021 21:06:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\ed"
+woensdag 15 september 2021 21:06:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.rmmain"
+woensdag 15 september 2021 21:06:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wsdeploy_3_0"
+woensdag 15 september 2021 21:06:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wsmain"
+woensdag 15 september 2021 21:06:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wsservices"
+woensdag 15 september 2021 21:06:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wstariff"
+woensdag 15 september 2021 21:06:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornetbroker.wsdeploy_3_0"
+woensdag 15 september 2021 21:06:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornetbroker.wsmain"
+woensdag 15 september 2021 21:06:20 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornethelppages"
+woensdag 15 september 2021 21:06:21 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\scvwebservice"
+woensdag 15 september 2021 21:06:21 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:06:21 - ================================SVW-BE-WEBFP001.balgroupit.com======================================
+woensdag 15 september 2021 21:06:21 - ================================SVW-BE-WEBFP002.balgroupit.com======================================
+woensdag 15 september 2021 21:06:28 - Commandline		: StopAppPool "DefaultAppPool"
+woensdag 15 september 2021 21:06:29 - Commandline		: StopAppPool "ED"
+woensdag 15 september 2021 21:06:29 - Commandline		: StopAppPool "EmployeeBenefits"
+woensdag 15 september 2021 21:06:29 - Commandline		: StopAppPool "EtlLogViewer"
+woensdag 15 september 2021 21:06:29 - Commandline		: StopAppPool "LevenAansluitingsverklaring"
+woensdag 15 september 2021 21:06:29 - Commandline		: StopAppPool "LevenWijzigingsFormulier"
+woensdag 15 september 2021 21:06:29 - Commandline		: StopAppPool "MercatorNet.RMMain"
+woensdag 15 september 2021 21:06:30 - Commandline		: StopAppPool "MercatorNet.WSDeploy_3_0"
+woensdag 15 september 2021 21:06:30 - Commandline		: StopAppPool "MercatorNet.WSMain"
+woensdag 15 september 2021 21:06:30 - Commandline		: StopAppPool "MercatorNet.WSServices"
+woensdag 15 september 2021 21:06:30 - Commandline		: StopAppPool "MercatorNet.WSTariff"
+woensdag 15 september 2021 21:06:31 - Commandline		: StopAppPool "MercatorNetBroker.WSDeploy_3_0"
+woensdag 15 september 2021 21:06:31 - Commandline		: StopAppPool "MercatorNetBroker.WSMain"
+woensdag 15 september 2021 21:06:31 - Commandline		: StopAppPool "MercatorWebSite"
+woensdag 15 september 2021 21:06:31 - Commandline		: StopAppPool "MyBaloiseBroker"
+woensdag 15 september 2021 21:06:31 - Commandline		: StopAppPool "MyBaloiseInternal"
+woensdag 15 september 2021 21:06:31 - Commandline		: StopAppPool "MWebBvb"
+woensdag 15 september 2021 21:06:32 - Commandline		: StopAppPool "ScvWebService"
+woensdag 15 september 2021 21:06:32 - Commandline		: StopWebsite "OnlineDocuments"
+woensdag 15 september 2021 21:06:32 - Commandline		: StopWebsite "MNet"
+woensdag 15 september 2021 21:06:32 - Commandline		: StopWebsite "MWebBvb"
+woensdag 15 september 2021 21:06:32 - Commandline		: StopService "World Wide Web Publishing Service"
+woensdag 15 september 2021 21:06:32 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\levenaansluitingsverklaring"
+woensdag 15 september 2021 21:06:32 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\levenwijzigingsformulier"
+woensdag 15 september 2021 21:06:33 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\ed"
+woensdag 15 september 2021 21:06:33 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.rmmain"
+woensdag 15 september 2021 21:06:33 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wsdeploy_3_0"
+woensdag 15 september 2021 21:06:33 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wsmain"
+woensdag 15 september 2021 21:06:33 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wsservices"
+woensdag 15 september 2021 21:06:33 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wstariff"
+woensdag 15 september 2021 21:06:33 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornetbroker.wsdeploy_3_0"
+woensdag 15 september 2021 21:06:33 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornetbroker.wsmain"
+woensdag 15 september 2021 21:06:33 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornethelppages"
+woensdag 15 september 2021 21:06:33 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\scvwebservice"
+woensdag 15 september 2021 21:06:33 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:06:33 - ================================SVW-BE-WEBFP002.balgroupit.com======================================
+woensdag 15 september 2021 21:06:34 - ================================SVW-BE-WEBFP003.balgroupit.com======================================
+woensdag 15 september 2021 21:06:41 - Commandline		: StopAppPool "DefaultAppPool"
+woensdag 15 september 2021 21:06:41 - Commandline		: StopAppPool "ED"
+woensdag 15 september 2021 21:06:41 - Commandline		: StopAppPool "EmployeeBenefits"
+woensdag 15 september 2021 21:06:42 - Commandline		: StopAppPool "EtlLogViewer"
+woensdag 15 september 2021 21:06:42 - Commandline		: StopAppPool "LevenAansluitingsverklaring"
+woensdag 15 september 2021 21:06:42 - Commandline		: StopAppPool "LevenWijzigingsFormulier"
+woensdag 15 september 2021 21:06:42 - Commandline		: StopAppPool "MercatorNet.RMMain"
+woensdag 15 september 2021 21:06:42 - Commandline		: StopAppPool "MercatorNet.WSDeploy_3_0"
+woensdag 15 september 2021 21:06:43 - Commandline		: StopAppPool "MercatorNet.WSMain"
+woensdag 15 september 2021 21:06:43 - Commandline		: StopAppPool "MercatorNet.WSServices"
+woensdag 15 september 2021 21:06:43 - Commandline		: StopAppPool "MercatorNet.WSTariff"
+woensdag 15 september 2021 21:06:43 - Commandline		: StopAppPool "MercatorNetBroker.WSDeploy_3_0"
+woensdag 15 september 2021 21:06:43 - Commandline		: StopAppPool "MercatorNetBroker.WSMain"
+woensdag 15 september 2021 21:06:43 - Commandline		: StopAppPool "MercatorWebSite"
+woensdag 15 september 2021 21:06:44 - Commandline		: StopAppPool "MyBaloiseBroker"
+woensdag 15 september 2021 21:06:44 - Commandline		: StopAppPool "MyBaloiseInternal"
+woensdag 15 september 2021 21:06:44 - Commandline		: StopAppPool "MWebBvb"
+woensdag 15 september 2021 21:06:44 - Commandline		: StopAppPool "ScvWebService"
+woensdag 15 september 2021 21:06:45 - Commandline		: StopWebsite "OnlineDocuments"
+woensdag 15 september 2021 21:06:45 - Commandline		: StopWebsite "MNet"
+woensdag 15 september 2021 21:06:45 - Commandline		: StopWebsite "MWebBvb"
+woensdag 15 september 2021 21:06:45 - Commandline		: StopService "World Wide Web Publishing Service"
+woensdag 15 september 2021 21:06:45 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\levenaansluitingsverklaring"
+woensdag 15 september 2021 21:06:45 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\levenwijzigingsformulier"
+woensdag 15 september 2021 21:06:45 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\ed"
+woensdag 15 september 2021 21:06:45 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.rmmain"
+woensdag 15 september 2021 21:06:45 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wsdeploy_3_0"
+woensdag 15 september 2021 21:06:45 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wsmain"
+woensdag 15 september 2021 21:06:45 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wsservices"
+woensdag 15 september 2021 21:06:46 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wstariff"
+woensdag 15 september 2021 21:06:46 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornetbroker.wsdeploy_3_0"
+woensdag 15 september 2021 21:06:46 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornetbroker.wsmain"
+woensdag 15 september 2021 21:06:46 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornethelppages"
+woensdag 15 september 2021 21:06:46 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\scvwebservice"
+woensdag 15 september 2021 21:06:46 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:06:46 - ================================SVW-BE-WEBFP003.balgroupit.com======================================
+woensdag 15 september 2021 21:06:46 - ================================SVW-BE-WEBFP004.balgroupit.com======================================
+woensdag 15 september 2021 21:06:53 - Commandline		: StopAppPool "DefaultAppPool"
+woensdag 15 september 2021 21:06:54 - Commandline		: StopAppPool "ED"
+woensdag 15 september 2021 21:06:54 - Commandline		: StopAppPool "EmployeeBenefits"
+woensdag 15 september 2021 21:06:54 - Commandline		: StopAppPool "EtlLogViewer"
+woensdag 15 september 2021 21:06:54 - Commandline		: StopAppPool "LevenAansluitingsverklaring"
+woensdag 15 september 2021 21:06:55 - Commandline		: StopAppPool "LevenWijzigingsFormulier"
+woensdag 15 september 2021 21:06:55 - Commandline		: StopAppPool "MercatorNet.RMMain"
+woensdag 15 september 2021 21:06:55 - Commandline		: StopAppPool "MercatorNet.WSDeploy_3_0"
+woensdag 15 september 2021 21:06:55 - Commandline		: StopAppPool "MercatorNet.WSMain"
+woensdag 15 september 2021 21:06:56 - Commandline		: StopAppPool "MercatorNet.WSServices"
+woensdag 15 september 2021 21:06:56 - Commandline		: StopAppPool "MercatorNet.WSTariff"
+woensdag 15 september 2021 21:06:56 - Commandline		: StopAppPool "MercatorNetBroker.WSDeploy_3_0"
+woensdag 15 september 2021 21:06:56 - Commandline		: StopAppPool "MercatorNetBroker.WSMain"
+woensdag 15 september 2021 21:06:56 - Commandline		: StopAppPool "MercatorWebSite"
+woensdag 15 september 2021 21:06:56 - Commandline		: StopAppPool "MyBaloiseBroker"
+woensdag 15 september 2021 21:06:57 - Commandline		: StopAppPool "MyBaloiseInternal"
+woensdag 15 september 2021 21:06:57 - Commandline		: StopAppPool "MWebBvb"
+woensdag 15 september 2021 21:06:57 - Commandline		: StopAppPool "ScvWebService"
+woensdag 15 september 2021 21:06:57 - Commandline		: StopWebsite "OnlineDocuments"
+woensdag 15 september 2021 21:06:57 - Commandline		: StopWebsite "MNet"
+woensdag 15 september 2021 21:06:58 - Commandline		: StopWebsite "MWebBvb"
+woensdag 15 september 2021 21:06:58 - Commandline		: StopService "World Wide Web Publishing Service"
+woensdag 15 september 2021 21:06:58 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\levenaansluitingsverklaring"
+woensdag 15 september 2021 21:06:58 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\levenwijzigingsformulier"
+woensdag 15 september 2021 21:06:58 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\ed"
+woensdag 15 september 2021 21:06:58 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.rmmain"
+woensdag 15 september 2021 21:06:58 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wsdeploy_3_0"
+woensdag 15 september 2021 21:06:58 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wsmain"
+woensdag 15 september 2021 21:06:58 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wsservices"
+woensdag 15 september 2021 21:06:58 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.wstariff"
+woensdag 15 september 2021 21:06:58 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornetbroker.wsdeploy_3_0"
+woensdag 15 september 2021 21:06:58 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornetbroker.wsmain"
+woensdag 15 september 2021 21:06:59 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornethelppages"
+woensdag 15 september 2021 21:06:59 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\scvwebservice"
+woensdag 15 september 2021 21:06:59 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:06:59 - ================================SVW-BE-WEBFP004.balgroupit.com======================================
+woensdag 15 september 2021 21:06:59 - ================================svw-be-bizp001.balgroupit.com======================================
+woensdag 15 september 2021 21:07:07 - Commandline		: StopService "Mercator Managed File Transfer"
+woensdag 15 september 2021 21:07:07 - Commandline		: StopService "Mercator Esb Process Initializer"
+woensdag 15 september 2021 21:07:08 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:07:08 - ================================svw-be-bizp001.balgroupit.com======================================
+woensdag 15 september 2021 21:07:08 - ================================svw-be-bizp002.balgroupit.com======================================
+woensdag 15 september 2021 21:07:15 - Commandline		: StopService "Mercator Managed File Transfer"
+woensdag 15 september 2021 21:07:15 - Commandline		: StopService "Mercator Esb Process Initializer"
+woensdag 15 september 2021 21:07:16 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:07:16 - ================================svw-be-bizp002.balgroupit.com======================================
+woensdag 15 september 2021 21:07:17 - ================================svw-be-bizp003.balgroupit.com======================================
+woensdag 15 september 2021 21:07:24 - Commandline		: StopService "Mercator Managed File Transfer"
+woensdag 15 september 2021 21:07:25 - Commandline		: StopService "Mercator Esb Process Initializer"
+woensdag 15 september 2021 21:07:25 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:07:25 - ================================svw-be-bizp003.balgroupit.com======================================
+woensdag 15 september 2021 21:07:26 - ================================svw-be-bizp004.balgroupit.com======================================
+woensdag 15 september 2021 21:07:33 - Commandline		: StopService "Mercator Managed File Transfer"
+woensdag 15 september 2021 21:07:34 - Commandline		: StopService "Mercator Esb Process Initializer"
+woensdag 15 september 2021 21:07:34 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:07:34 - ================================svw-be-bizp004.balgroupit.com======================================
+woensdag 15 september 2021 21:07:37 - ================================svw-be-portp01.balgroupit.com======================================
+woensdag 15 september 2021 21:07:45 - Commandline		: stopAppPool "AL2AppPool64v2"
+woensdag 15 september 2021 21:07:45 - Commandline		: stopAppPool "ALAppPool64v2"
+woensdag 15 september 2021 21:07:46 - Commandline		: StopWebsite "WCI"
+woensdag 15 september 2021 21:07:46 - Commandline		: StopWebsite "Default Web Site"
+woensdag 15 september 2021 21:07:46 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:07:46 - ================================svw-be-portp01.balgroupit.com======================================
+woensdag 15 september 2021 21:07:48 - ================================svw-be-portp03.balgroupit.com======================================
+woensdag 15 september 2021 21:07:56 - Commandline		: stopAppPool "ALAppPool64v2"
+woensdag 15 september 2021 21:07:57 - Commandline		: stopAppPool "Pool2"
+woensdag 15 september 2021 21:07:57 - Commandline		: stopAppPool "Mercator.Portal.Portlets"
+woensdag 15 september 2021 21:07:57 - Commandline		: stopAppPool "Mercator.Portal.WebService"
+woensdag 15 september 2021 21:07:57 - Commandline		: stopAppPool "PortalASP"
+woensdag 15 september 2021 21:07:57 - Commandline		: StopWebsite "WCI"
+woensdag 15 september 2021 21:07:57 - Commandline		: StopWebsite "Default Web Site"
+woensdag 15 september 2021 21:07:57 - Commandline		: StopWebsite "MercatorPortalWebService"
+woensdag 15 september 2021 21:07:57 - Commandline		: StopService "Mercator.Portal.Scheduler"
+woensdag 15 september 2021 21:08:03 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:08:03 - ================================svw-be-portp03.balgroupit.com======================================
+woensdag 15 september 2021 21:08:04 - ================================svw-be-babsp001.balgroupit.com======================================
+woensdag 15 september 2021 21:08:11 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:08:11 - ================================svw-be-babsp001.balgroupit.com======================================
+woensdag 15 september 2021 21:08:11 - ================================svw-be-babsp002.balgroupit.com======================================
+woensdag 15 september 2021 21:08:19 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:08:19 - ================================svw-be-babsp002.balgroupit.com======================================
+woensdag 15 september 2021 21:08:19 - ================================svw-be-babbp001.balgroupit.com======================================
+woensdag 15 september 2021 21:08:20 - Commandline		: StopService "Baloise BaloiseBackendBatch"
+woensdag 15 september 2021 21:08:21 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:08:21 - ================================svw-be-babbp001.balgroupit.com======================================
+woensdag 15 september 2021 21:08:21 - ================================svw-be-babbp002.balgroupit.com======================================
+woensdag 15 september 2021 21:08:23 - Commandline		: StopService "Baloise BaloiseBackendBatch"
+woensdag 15 september 2021 21:08:24 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:08:24 - ================================svw-be-babbp002.balgroupit.com======================================
+woensdag 15 september 2021 21:08:24 - ================================svw-be-mftp001.balgroupit.com======================================
+woensdag 15 september 2021 21:08:29 - Commandline		: StopService "Mercator Managed File Transfer"
+woensdag 15 september 2021 21:08:30 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:08:30 - ================================svw-be-mftp001.balgroupit.com======================================
+woensdag 15 september 2021 21:08:30 - ================================svw-be-mftp002.balgroupit.com======================================
+woensdag 15 september 2021 21:08:31 - Commandline		: StopService "Mercator Managed File Transfer"
+woensdag 15 september 2021 21:08:32 - Commandline		: EnableWSUSReboot ""
+woensdag 15 september 2021 21:08:32 - ================================svw-be-mftp002.balgroupit.com======================================
+woensdag 15 september 2021 21:08:32 - ================================svw-be-testp001.balgroupit.com======================================
+woensdag 15 september 2021 21:08:32 -  svw-be-testp001.balgroupit.com remote session could not be created.
+woensdag 15 september 2021 21:08:32 - ================================svw-be-testp001.balgroupit.com======================================
+woensdag 15 september 2021 21:08:32 - ================================svw-be-testp002.balgroupit.com======================================
+woensdag 15 september 2021 21:08:32 -  svw-be-testp002.balgroupit.com remote session could not be created.
+woensdag 15 september 2021 21:08:32 - ================================svw-be-testp002.balgroupit.com======================================

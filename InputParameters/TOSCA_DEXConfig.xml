@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Environments>
+	<Environment Name="PARAM">
+		<CLEVA>
+			<!-- SERVER Name="Par-cleva.balgroupit.com" Alias=""/ -->
+			<SERVER Name="nlb-be-diclevap.balgroupit.com" Alias=""/>
+		</CLEVA>
+	</Environment>
+	<Environment Name="DCORP">
+		<WEBFRONT>
+			<SERVER Name="SVW-BE-WEBFD001.balgroupit.com" Alias="DWEBFM01"/>
+		</WEBFRONT>
+		<WEBFRONTDB>
+			<SERVER Name="SQL-BE-MyBalD.balgroupit.com" Alias=""/>
+		</WEBFRONTDB>
+		<NINAAPI>
+			<SERVER Name="SVW-BE-NINAD001.balgroupit.com" Alias=""/>
+		</NINAAPI>
+		<WEBBACK>
+			<SERVER Name="SVW-BE-WEBD03.balgroupit.com" Alias="DSERVFM01"/>
+		</WEBBACK>
+		<BABEBACK>
+			<SERVER Name="SVW-BE-BABBD001.balgroupit.com" Alias=""/>
+		</BABEBACK>
+		<BaBeBusinessServiceServer>
+			<SERVER Name="SVW-BE-BABSD001.balgroupit.com" Alias=""/>
+		</BaBeBusinessServiceServer>	
+		<BaBeManagementServiceServer>
+			<SERVER Name="SVW-BE-BABSD001.balgroupit.com" Alias=""/>
+		</BaBeManagementServiceServer>
+		<ESB>
+			<SERVER Name="SVW-BE-BIZD001.balgroupit.com" Alias="dsgwbts01"/>
+		</ESB>
+		<ESBDB>
+			<SERVER Name="sql-bed3-ag02l.balgroupit.com" Alias=""/>
+		</ESBDB>
+		<CLEVA>
+			<SERVER Name="nlb-be-dicleva.balgroupit.com" Alias=""/>
+		</CLEVA>
+		<TALKBACK>
+			<SERVER Name="SVW-BE-TLKCD001.balgroupit.com" Alias=""/>
+		</TALKBACK>
+		<TALKFRONT>
+			<SERVER Name="SVW-BE-TLKCD002.balgroupit.com" Alias=""/>
+		</TALKFRONT>
+		<MDM>
+			<SERVER Name="mdmdev" Alias=""/>
+		</MDM>
+    </Environment>
+	<Environment Name="DCORPBIS">
+		<WEBFRONTDCORPBIS>
+			<SERVER Name="SVW-BE-WEBFD001.balgroupit.com" Alias="DWEBFM01"/>
+		</WEBFRONTDCORPBIS>
+		<NINAAPIDCORPBIS>
+			<SERVER Name="SVW-BE-NINAD001.balgroupit.com" Alias=""/>
+		</NINAAPIDCORPBIS>
+	</Environment>
+	<Environment Name="ICORP">
+		<WEBFRONT>
+			<SERVER Name="SVW-BE-WEBFI001.balgroupit.com" Alias=""/>
+		</WEBFRONT>
+		<WEBFRONTDB>
+			<SERVER Name="SQL-BE-MyBalI.balgroupit.com" Alias=""/>
+		</WEBFRONTDB>		
+		<WEBBACK>
+			<SERVER Name="SVW-BE-WEBI02.balgroupit.com" Alias="ISERVFM01"/>
+		</WEBBACK>
+		<BABEBACK>
+			<SERVER Name="SVW-BE-BABBI001.balgroupit.com" Alias=""/>
+		</BABEBACK>
+		<BaBeBusinessServiceServer>
+			<SERVER Name="SVW-BE-BABSI001.balgroupit.com" Alias=""/>
+			<!-- SERVER Name="SVW-BE-WEBI02.balgroupit.com/babe" Alias="ISERVFM01"/ -->
+		</BaBeBusinessServiceServer>
+		<BaBeManagementServiceServer>
+			<SERVER Name="SVW-BE-BABSI001.balgroupit.com" Alias=""/>
+		</BaBeManagementServiceServer>		
+		<ESB>
+			<SERVER Name="SVW-BE-BIZI001.balgroupit.com" Alias="isgwbts01"/>
+			<SERVER Name="SVW-BE-BIZI002.balgroupit.com" Alias="isgwbts02"/>
+		</ESB>
+		<ESBDB>
+			<SERVER Name="sql-bei3-ag02l.balgroupit.com" Alias=""/>
+		</ESBDB>		
+		<NINAAPI>
+			<SERVER Name="SVW-BE-NINAI001.balgroupit.com" Alias=""/>
+		</NINAAPI>
+		<CLEVA>
+			<!--<SERVER Name="int-cleva.balgroupit.com" Alias=""/> -->
+			<SERVER Name="nlb-be-iicleva.balgroupit.com" Alias=""/>
+		</CLEVA>
+		<TALKBACK>
+			<SERVER Name="SVW-BE-TLKCI001.balgroupit.com" Alias=""/>	
+		</TALKBACK>
+		<TALKFRONT>
+			<SERVER Name="SVW-BE-TLKCI002.balgroupit.com" Alias=""/>
+		</TALKFRONT>
+		<MDM>
+			<SERVER Name="mdmint" Alias=""/>
+		</MDM>
+	</Environment>
+	<Environment Name="ACORP">
+		<ACORPWEBFRONT>
+			<SERVER Name="SVW-BE-WEBFA001.balgroupit.com" Alias="AWEBFM03"/>
+			<SERVER Name="SVW-BE-WEBFA002.balgroupit.com" Alias="AWEBFM04"/>
+		</ACORPWEBFRONT>
+		<WEBFRONTDB>
+			<SERVER Name="SQL-BE-MyBalA.balgroupit.com" Alias=""/>
+		</WEBFRONTDB>		
+		
+		<WEBBACK>
+			<SERVER Name="SVW-BE-WEBA02.balgroupit.com" Alias="ASERVFM01"/>
+			<SERVER Name="SVW-BE-WEBA03.balgroupit.com" Alias="ASERVFM02"/>
+		</WEBBACK>
+		<BABEBACK>
+			<SERVER Name="SVW-BE-BABBA001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BABBA002.balgroupit.com" Alias=""/>
+		</BABEBACK>
+		<BaBeBusinessServiceServer>
+			<!--SERVER Name="SVW-BE-WEBA02.balgroupit.com/babe" Alias="ASERVFM01"/-->
+			<!--SERVER Name="SVW-BE-WEBA03.balgroupit.com/babe" Alias="ASERVFM02"/-->		
+			<SERVER Name="SVW-BE-BABSA001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BABSA002.balgroupit.com" Alias=""/>
+		</BaBeBusinessServiceServer>
+		<BaBeManagementServiceServer>
+			<SERVER Name="SVW-BE-BABSA001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BABSA002.balgroupit.com" Alias=""/>
+		</BaBeManagementServiceServer>
+		<WEBBACKDB>
+			<SERVER Name="SQL-BE-DmsA.balgroupit.com" Alias=""/>
+		</WEBBACKDB>
+		<ESB>
+			<SERVER Name="SVW-BE-BIZA001.balgroupit.com" Alias="ASGWBTS01"/>
+			<SERVER Name="SVW-BE-BIZA002.balgroupit.com" Alias="ASGWBTS02"/>
+		</ESB>
+		<ESBDB>
+			<SERVER Name="sql-bea3-ag02l.balgroupit.com" Alias=""/>
+		</ESBDB>		
+		<NINAAPI>
+			<SERVER Name="SVW-BE-NINAA001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-NINAA002.balgroupit.com" Alias=""/>
+		</NINAAPI>
+		<CLEVA>
+			<!-- <SERVER Name="acc-cleva.balgroupit.com" Alias=""/> -->
+			<SERVER Name="nlb-be-aicleva.balgroupit.com" Alias=""/>
+		</CLEVA>
+		<TALKBACK>
+			<SERVER Name="SVW-BE-TLKCA001.balgroupit.com" Alias=""/>
+		</TALKBACK>
+		<TALKFRONT>
+			<SERVER Name="SVW-BE-TLKCA002.balgroupit.com" Alias=""/>
+		</TALKFRONT>
+		<MDM>
+			<SERVER Name="mdmacc" Alias=""/>
+		</MDM>		
+	</Environment>
+	<Environment Name="PCORP">
+		<WEBFRONT>
+			<SERVER Name="SHW-ME-PWEB06.balgroupit.com" Alias="PWEBFM01"/>
+			<SERVER Name="SHW-ME-PWEB56.balgroupit.com" Alias="PWEBFM02"/>
+		</WEBFRONT>
+		<NEWFRONTVM>
+			<SERVER Name="SVW-BE-WEBFP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-WEBFP002.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-WEBFP003.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-WEBFP004.balgroupit.com" Alias=""/>
+		</NEWFRONTVM>
+		<WEBFRONTDB>
+			<SERVER Name="SQL-BE-MyBalP.balgroupit.com" Alias=""/>
+		</WEBFRONTDB>		
+		<WEBBACK>
+			<SERVER Name="SVW-BE-WEBP02.balgroupit.com" Alias="PSERVFM01"/>
+			<SERVER Name="SVW-BE-WEBP03.balgroupit.com" Alias="PSERVFM02"/>
+		</WEBBACK>
+		<BABEBACK>
+			<SERVER Name="SVW-BE-BABBP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BABBP002.balgroupit.com" Alias=""/>
+		</BABEBACK>
+		<MDM>
+			<SERVER Name="mdm" Alias=""/>
+		</MDM>		
+		<BaBeBusinessServiceServer>
+			<SERVER Name="SVW-BE-BABSP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BABSP002.balgroupit.com" Alias=""/>
+			<!--SERVER Name="SVW-BE-WEBP02.balgroupit.com/babe" Alias="PSERVFM01"/-->
+			<!--SERVER Name="SVW-BE-WEBP03.balgroupit.com/babe" Alias="PSERVFM02"/-->			
+		</BaBeBusinessServiceServer>
+		<BaBeManagementServiceServer>
+			<SERVER Name="SVW-BE-BABSP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BABSP002.balgroupit.com" Alias=""/>		
+		</BaBeManagementServiceServer>
+		<WEBBACKDB>
+			<SERVER Name="SQL-BE-DmsP.balgroupit.com" Alias=""/>
+		</WEBBACKDB>
+		<ESB>
+			<SERVER Name="SvW-BE-BIZP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SvW-BE-BIZP002.balgroupit.com" Alias=""/>
+			<SERVER Name="SvW-BE-BIZP003.balgroupit.com" Alias=""/>
+			<SERVER Name="SvW-BE-BIZP004.balgroupit.com" Alias=""/>
+		</ESB>
+		<ESBDB>
+			<SERVER Name="sql-bep3-ag02l.balgroupit.com" Alias=""/>
+		</ESBDB>
+		<NINAAPI>
+			<SERVER Name="NINAAPI.balgroupit.com" Alias=""/>
+		</NINAAPI>
+		<CLEVA>
+			<SERVER Name="nlb-be-picleva.balgroupit.com" Alias=""/>			
+		</CLEVA>
+		<TALKBACK>
+			<SERVER Name="SVW-BE-TLKCP001.balgroupit.com" Alias=""/>
+		</TALKBACK>
+		<TALKFRONT>
+			<SERVER Name="SVW-BE-TLKCI002.balgroupit.com" Alias=""/>
+		</TALKFRONT>
+	</Environment>
+	<Environment Name="buildserver">
+		<BUILDSERVER>
+			<SERVER Name="SVW-ME-PCLEVA01.balgroupit.com" Alias=""/>
+			<SERVER Name="SHW-ME-PDNET01.balgroupit.com" Alias=""/>
+			<SERVER Name="SHW-ME-PDTLK51.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BUILDP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-BUILDP002.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-TESTP001.balgroupit.com" Alias=""/>
+			<SERVER Name="SVW-BE-TESTP002.balgroupit.com" Alias=""/>
+		</BUILDSERVER>
+	</Environment>
+	<Environment Name="BIOperations">
+		<JENKINSHOST>
+			<SERVER Name="Jenkins-be.balgroupit.com" Alias=""/>
+		</JENKINSHOST>
+		<NEXUSHOST>
+			<SERVER Name="nexus-be.balgroupit.com" Alias=""/>
+		</NEXUSHOST>
+		<SONARQUBEHOST>
+			<SERVER Name="sonarqube-be.balgroupit.com" Alias=""/>
+		</SONARQUBEHOST>
+                <TFSHOST>
+			<SERVER Name="tfs-be.balgroupit.com" Alias=""/>
+		</TFSHOST>
+	</Environment>
+</Environments>

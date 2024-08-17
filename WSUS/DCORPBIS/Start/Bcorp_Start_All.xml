@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Roles>
+<!-- Front WebFarm server  -->
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartService" Description="World Wide Web Publishing Service"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartWebsite" Description="OnlineDocuments"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartWebsite" Description="MNet"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartWebsite" Description="MWebBvb"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="DefaultAppPool"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="ED"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="EmployeeBenefits"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="EtlLogViewer"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="LevenAansluitingsverklaring"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="LevenWijzigingsFormulier"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="MercatorNet.RMMain"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="MercatorNet.WSDeploy_3_0"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="MercatorNet.WSMain"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="MercatorNet.WSServices"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="MercatorNet.WSTariff"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="MercatorNetBroker.WSDeploy_3_0"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="MercatorNetBroker.WSMain"/>		
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="MercatorWebSite"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="MyBaloiseBroker"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="MWebBvb"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="StartAppPool" Description="ScvWebService"/>
+<!-- BO Services server  -->
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="World Wide Web Publishing Service"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartAppPool" Description="DefaultAppPool"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartAppPool" Description="DTSLogWebViewer"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartAppPool" Description="Mercator.EAI.Tools.Wsc"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartAppPool" Description="MercatorNet.BoServices"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartAppPool" Description="WSDMS"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartAppPool" Description="WSDmsDataRepository"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartWebsite" Description="DmsDataRepository"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartWebsite" Description="MNet"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Baloise Central Data Store"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Mercator DMS Bulk Insert"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Mercator DMS Import Portima Attachments"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Mercator DMS MailImport Service"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Mercator OC Document Store"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Mercator Xpim Document Store"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Mercator Document Store"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Mercator Document Management System Service"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Mercator DMS Pdf Conversion Call"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="MercatorNET SCV Batch Service"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Mercator Organization Data"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Mercator Document Generation"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Mercator Document Delivery"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="StartService" Description="Steria's Dispatcher Service"/>
+<!-- EAI Docservice server  -->
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai04.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai04.balgroupit.com" FunctionName="StartService" Description="mercator.eai.3.9.docservice"/>
+<!-- EAI server  -->
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartService" Description="World Wide Web Publishing Service"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartWebsite" Description="Default Web Site"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartAppPool" Description="Mercator.EAI.Framework.WebServices"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartAppPool" Description="Mercator.Esb.BizTalk.Services"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartAppPool" Description="DefaultAppPool"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartAppPool" Description="Mercator.Portima"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartAppPool" Description="Mercator.Portima.Monitoring"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartService" Description="BizTalk Service BizTalk Group : BizTalkServerApplication"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartService" Description="BizTalk Service BizTalk Group : BizTalkServerApplicationProcessing"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartService" Description="BizTalk Service BizTalk Group : BizTalkServerApplicationReceiving"/>	
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartService" Description="BizTalk Service BizTalk Group : BizTalkServerApplicationSending"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartService" Description="BizTalk Service BizTalk Group : BizTalkServerApplicationTracking"/>	
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartService" Description="mercator.eai.3.9.listener"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartService" Description="mercator.eai.3.9.docservice"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartService" Description="mercator.eai.3.9.scheduler"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartService" Description="Mercator.ESB.Portima.FTPScheduledService"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartService" Description="Mercator.ESB.Portima.SQLTriggerService"/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="StartService" Description="Mercator.ESB.BizTalk.3.9.RecoveryService"/>
+	
+</Roles>

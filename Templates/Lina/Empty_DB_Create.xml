@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- https://github.com/Riverside-Software/pct/wiki 
+     https://documentation.progress.com/output/ua/OpenEdge_latest/index.html#page/pasoe-admin%2Frest-api-reference-for-oemanager.war.html%23
+-->
+
+
+<project name="DB_LINA" default="build" basedir="..\.">
+
+  <!-- Definitions -->
+  <property environment="env" />
+  <property name="env.DLC"             value="${dlc}" />
+  <property name="env.tempdir"         value="${env.builddir}\temp" />
+  <property name="StructFile"          value="${StFile}" />
+  <property name="SchemaFile"          value="${DfFile}" />
+  <property name="DbFolder"            value="${DbFolder}" />
+  <property name="DbName"              value="${DbName}" />
+  <property name="env.PCTprop"         value="${PCTprop}" />
+  <property name="env.extras115"       value="${extras115}" />
+  <property name="env.BuildVersion"    value="${BuildVersion}" />
+
+  <taskdef resource="PCT.properties" classpath="${env.PCTprop}" />
+  <typedef resource="types.properties" classpath="${env.PCTprop}" /> 
+  <taskdef resource="env.extras115" />
+
+  
+  
+  
+  
+  
+  
+<echo message="PCT : ${env.PCTprop}" />  
+<echo message="115 : ${env.extras115}" />
+<echo message=" " />
+<echo message="#############################################################################################" />
+
+   
+  
+   	
+  <target name="build" description="Test proberen"> 
+       
+  	
+     <!-- some info first  -->
+	 <PCTVersion />  
+ 	 <ProgressVersion dlcHome="${env.DLC}" majorVersion="major" minorVersion="minor" patchLevel="patch" fullVersion="full" /> 
+
+     <echo message="OpenEdge Version : ${major}.${minor}.${patch}" />
+	 <echo message="Inputparameter   : ${env.DLC}" />
+	 <echo message="base-folder      : ${basedir}" />
+	 <echo message="Temp-folder      : ${env.tempdir}" />
+	 <echo message="DbFolder         : ${DbFolder}" />      
+     <echo message="StructFile       : ${StFile}" />
+     <echo message="SchemaFile       : ${DfFile}" /> 
+	 <echo message="env.BuildVersion : ${env.BuildVersion}" />
+	 <echo message=" " />
+	 <echo message=" " />
+	 
+	  
+	 <mkdir dir="${env.tempdir}"/> 
+
+<echo message="#############################################################################################" />
+<echo message=" " />
+<echo message=" " />
+	
+	<PCTCreateBase  dbName="${DbName}" 
+                    destDir="${DbFolder}"  
+                    dlcHome="${env.DLC}" 
+                    schemaFile="${SchemaFile}" 
+                    structFile="${StructFile}" >
+	</PCTCreateBase>  
+
+  </target> 
+
+</project>

@@ -1,0 +1,26 @@
+-d dmy
+-numsep 46
+-numdec 44
+-lng "2"
+#
+-h 1
+-s 10000
+-TB 31
+-TM 32
+-Bt 10000
+-mmax 65534
+-tmpbsize 4
+-D 250
+-b
+#
+-db rtb	-H svw-be-tlkcd001.balgroupit.com -S 16118	-U Jenkins	-P Jenkins
+#-db rtb	-H svw-be-tlkcd001.balgroupit.com -S 20666	-U Jenkins	-P Jenkins
+#
+-T E:\BuildScripts\RTB_Deploy
+#
+-clientlog E:\BuildScripts\RTB_Deploy\proglog-Front.txt
+#
+-param "RelDir=RelFolder,RelNum=RelVersion"
+#
+-p E:\BuildScripts\RTB_Deploy\Make_Release_Deploy-Front.p
+ 

@@ -1,0 +1,25 @@
+-d dmy
+-numsep 46
+-numdec 44
+-lng "2"
+#
+-h 1
+-s 10000
+-TB 31
+-TM 32
+-Bt 10000
+-mmax 65534
+-tmpbsize 4
+-D 250
+-b
+#
+-db stddb	-H DbServer -S 15000	-U Jenkins	-P Jenkins
+#
+-T E:\Deploy\Version_Title\Tmp
+#
+-clientlog E:\Deploy\Version_Title\Tmp\proglog.txt
+#
+-param "RelNum=RelVersion,Corp=xCorp"
+#
+-p E:\Deploy\Version_Title\Version_Title.p
+ 

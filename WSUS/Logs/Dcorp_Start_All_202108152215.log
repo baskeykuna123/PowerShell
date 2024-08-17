@@ -1,0 +1,104 @@
+zondag 15 augustus 2021 22:15:40 - READING XML File :  \\balgroupit.com\appl_data\BBE\Transfer\Packages\Scripts\WSUS\Dcorp\Dcorp_Start_All.xml
+zondag 15 augustus 2021 22:15:40 - 
+zondag 15 augustus 2021 22:15:42 - ================================svw-be-dmsd01.balgroupit.com======================================
+zondag 15 augustus 2021 22:15:43 - Commandline		: DisableWSUSReboot ""
+zondag 15 augustus 2021 22:15:43 - Commandline		: StartService "Execute360 Route Engine"
+zondag 15 augustus 2021 22:15:43 - Commandline		: StartService "Execute360 Index Manager"
+zondag 15 augustus 2021 22:15:43 - Commandline		: StartService "Execute360 Transfer Manager"
+zondag 15 augustus 2021 22:15:43 - Commandline		: StartService "Execute360 Rendezvous Manager"
+zondag 15 augustus 2021 22:15:43 - Commandline		: StartService "Execute360 Location Manager"
+zondag 15 augustus 2021 22:15:43 - Commandline		: StartService "Execute360 Object Manager"
+zondag 15 augustus 2021 22:15:43 - Commandline		: StartService "Execute360 Security Manager"
+zondag 15 augustus 2021 22:15:43 - ================================svw-be-dmsd01.balgroupit.com======================================
+zondag 15 augustus 2021 22:15:45 - ================================svw-be-dmsd02.balgroupit.com======================================
+zondag 15 augustus 2021 22:15:46 - Commandline		: DisableWSUSReboot ""
+zondag 15 augustus 2021 22:15:46 - ================================svw-be-dmsd02.balgroupit.com======================================
+zondag 15 augustus 2021 22:15:46 - ================================svw-be-bizd001.balgroupit.com======================================
+zondag 15 augustus 2021 22:15:52 - Commandline		: DisableWSUSReboot ""
+zondag 15 augustus 2021 22:15:52 - Commandline		: StartService "Mercator Managed File Transfer"
+zondag 15 augustus 2021 22:15:57 - Commandline		: StartService "Mercator Esb Process Initializer"
+zondag 15 augustus 2021 22:15:57 - ================================svw-be-bizd001.balgroupit.com======================================
+zondag 15 augustus 2021 22:16:11 - ================================svw-be-bizd002.balgroupit.com======================================
+zondag 15 augustus 2021 22:16:41 - Commandline		: DisableWSUSReboot ""
+zondag 15 augustus 2021 22:16:45 - ================================svw-be-bizd002.balgroupit.com======================================
+zondag 15 augustus 2021 22:16:45 - ================================svw-be-webfd001.balgroupit.com======================================
+zondag 15 augustus 2021 22:16:46 - Commandline		: DisableWSUSReboot ""
+zondag 15 augustus 2021 22:16:46 - Commandline		: StartService "World Wide Web Publishing Service"
+zondag 15 augustus 2021 22:16:46 - Commandline		: StartWebsite "OnlineDocuments"
+zondag 15 augustus 2021 22:16:46 - Commandline		: StartWebsite "MNet"
+zondag 15 augustus 2021 22:16:46 - Commandline		: StartWebsite "MWebBvb"
+zondag 15 augustus 2021 22:16:46 - Commandline		: StartAppPool "DefaultAppPool"
+zondag 15 augustus 2021 22:16:47 - Commandline		: StartAppPool "ED"
+zondag 15 augustus 2021 22:16:47 - Commandline		: StartAppPool "EmployeeBenefits"
+zondag 15 augustus 2021 22:16:47 - Commandline		: StartAppPool "EtlLogViewer"
+zondag 15 augustus 2021 22:16:47 - Commandline		: StartAppPool "LevenAansluitingsverklaring"
+zondag 15 augustus 2021 22:16:47 - Commandline		: StartAppPool "LevenWijzigingsFormulier"
+zondag 15 augustus 2021 22:16:47 - Commandline		: StartAppPool "MercatorNet.RMMain"
+zondag 15 augustus 2021 22:16:47 - Commandline		: StartAppPool "MercatorNet.WSDeploy_3_0"
+zondag 15 augustus 2021 22:16:47 - Commandline		: StartAppPool "MercatorNet.WSMain"
+zondag 15 augustus 2021 22:16:47 - Commandline		: StartAppPool "MercatorNet.WSServices"
+zondag 15 augustus 2021 22:16:47 - Commandline		: StartAppPool "MercatorNet.WSTariff"
+zondag 15 augustus 2021 22:16:47 - Commandline		: StartAppPool "MercatorNetBroker.WSDeploy_3_0"
+zondag 15 augustus 2021 22:16:48 - Commandline		: StartAppPool "MercatorNetBroker.WSMain"
+zondag 15 augustus 2021 22:16:48 - Commandline		: StartAppPool "MercatorWebSite"
+zondag 15 augustus 2021 22:16:48 - Commandline		: StartAppPool "MyBaloiseBroker"
+zondag 15 augustus 2021 22:16:48 - Commandline		: StartAppPool "MyBaloiseInternal"
+zondag 15 augustus 2021 22:16:48 - Commandline		: StartAppPool "MWebBvb"
+zondag 15 augustus 2021 22:16:48 - Commandline		: StartAppPool "ScvWebService"
+zondag 15 augustus 2021 22:16:48 - Commandline		: StartComPlus "Mercator.Framework.ActiveDirectory"
+zondag 15 augustus 2021 22:16:49 - Commandline		: StartComPlus "Mercator.Framework.Document.Management.Global360"
+zondag 15 augustus 2021 22:16:49 - ================================svw-be-webfd001.balgroupit.com======================================
+zondag 15 augustus 2021 22:16:52 - ================================svw-be-webd03.balgroupit.com======================================
+zondag 15 augustus 2021 22:16:53 - Commandline		: DisableWSUSReboot ""
+zondag 15 augustus 2021 22:16:53 - Commandline		: StartService "World Wide Web Publishing Service"
+zondag 15 augustus 2021 22:16:53 - Commandline		: StartAppPool "DefaultAppPool"
+zondag 15 augustus 2021 22:16:54 - Commandline		: StartAppPool "MNet"
+zondag 15 augustus 2021 22:16:54 - Commandline		: StartAppPool "BaloiseBackend"
+zondag 15 augustus 2021 22:16:54 - Commandline		: StartAppPool "CDS"
+zondag 15 augustus 2021 22:16:54 - Commandline		: StartAppPool "Mercator.EAI.Framework.WebServices"
+zondag 15 augustus 2021 22:16:54 - Commandline		: StartAppPool "Mercator.Eai.Tools.Wsc"
+zondag 15 augustus 2021 22:16:54 - Commandline		: StartAppPool "Mercator.Portima"
+zondag 15 augustus 2021 22:16:54 - Commandline		: StartAppPool "Mercator.Portima.Monitoring"
+zondag 15 augustus 2021 22:16:54 - Commandline		: StartAppPool "MercatorNet.BoServices"
+zondag 15 augustus 2021 22:16:54 - Commandline		: StartAppPool "WSDms"
+zondag 15 augustus 2021 22:16:54 - Commandline		: StartAppPool "WSDmsDataRepository"
+zondag 15 augustus 2021 22:16:54 - Commandline		: StartWebsite "DmsDataRepository"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartWebsite "MNet"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Steria's Dispatcher Service"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Baloise SyncTaskToDMS"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Mercator Document Delivery"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Mercator Document Generation"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Mercator Organization Data"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Mercator DMS Pdf Conversion Call"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Mercator Document Management System Service"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Mercator Document Management System Async Service"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Mercator Document Store"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Mercator Xpim Document Store"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Mercator DMS Import Portima Attachments"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Mercator DMS MailImport Service"
+zondag 15 augustus 2021 22:16:55 - Commandline		: StartService "Mercator DMS Bulk Insert"
+zondag 15 augustus 2021 22:16:56 - Commandline		: StartService "Baloise Central Data Store"
+zondag 15 augustus 2021 22:16:56 - Commandline		: StartService "Baloise Backend"
+zondag 15 augustus 2021 22:16:56 - Commandline		: StartService "MercatorNET SCV Batch Service"
+zondag 15 augustus 2021 22:16:56 - Commandline		: StartService "BaloiseDmsBatchService"
+zondag 15 augustus 2021 22:16:56 - Commandline		: StartService "Mercator.Integration.EAI.3.9.Listener"
+zondag 15 augustus 2021 22:16:56 - ================================svw-be-webd03.balgroupit.com======================================
+zondag 15 augustus 2021 22:16:58 - ================================svw-be-eaid01.balgroupit.com======================================
+zondag 15 augustus 2021 22:16:58 - Commandline		: DisableWSUSReboot ""
+zondag 15 augustus 2021 22:16:58 - Commandline		: StartService "mercator.eai.docservice"
+zondag 15 augustus 2021 22:16:59 - Commandline		: StartProcess "dllhost.exe"
+zondag 15 augustus 2021 22:16:59 - Commandline		: StartProcess "winword.exe"
+zondag 15 augustus 2021 22:16:59 - ================================svw-be-eaid01.balgroupit.com======================================
+zondag 15 augustus 2021 22:17:00 - ================================svw-be-babsd001.balgroupit.com======================================
+zondag 15 augustus 2021 22:17:00 - Commandline		: DisableWSUSReboot ""
+zondag 15 augustus 2021 22:17:00 - ================================svw-be-babsd001.balgroupit.com======================================
+zondag 15 augustus 2021 22:17:01 - ================================svw-be-babbd001.balgroupit.com======================================
+zondag 15 augustus 2021 22:17:01 - Commandline		: DisableWSUSReboot ""
+zondag 15 augustus 2021 22:17:01 - Commandline		: StartService "Baloise BaloiseBackendBatch"
+zondag 15 augustus 2021 22:17:05 - ================================svw-be-babbd001.balgroupit.com======================================
+zondag 15 augustus 2021 22:17:05 - ================================svw-be-testp001.balgroupit.com======================================
+zondag 15 augustus 2021 22:17:05 -  svw-be-testp001.balgroupit.com remote session could not be created.
+zondag 15 augustus 2021 22:17:05 - ================================svw-be-testp001.balgroupit.com======================================
+zondag 15 augustus 2021 22:17:05 - ================================svw-be-testp002.balgroupit.com======================================
+zondag 15 augustus 2021 22:17:05 -  svw-be-testp002.balgroupit.com remote session could not be created.
+zondag 15 augustus 2021 22:17:05 - ================================svw-be-testp002.balgroupit.com======================================

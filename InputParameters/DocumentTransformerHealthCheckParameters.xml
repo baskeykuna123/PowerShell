@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+		<URL Address="http://${DocumentTransformer}/document-transformer/v1/convertRequests" Response="200"/>
+		<URL Address="http://${DocumentTransformer}/document-transformer/ping" Response="200"/>
+	</URLs>
+</Tests>

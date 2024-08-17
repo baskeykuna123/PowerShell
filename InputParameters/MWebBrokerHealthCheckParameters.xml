@@ -1,0 +1,13 @@
+<Tests>
+	<URLs>
+		<URL Address="http://${WEBFRONT}/MyBaloisebroker/Healthcheck" Response="200"/>
+		<URL Address="http://${ACORPWEBFRONT}:6201/MyBaloisebroker/Healthcheck" Response="200"/>
+		<URL Address="http://${WEBFRONT}/MyBaloiseBroker" Response="200"/>
+		<URL Address="http://${ACORPWEBFRONT}:6201/MyBaloisebroker" Response="200"/>
+		<URL Address="http://${NEWFRONTVM}:6201/MyBaloisebroker/Healthcheck" Response="200"/>
+		<URL Address="http://${NEWFRONTVM}:6201/MyBaloiseBroker" Response="200"/>
+	</URLs>
+	<Shares>
+
+	</Shares>
+</Tests>

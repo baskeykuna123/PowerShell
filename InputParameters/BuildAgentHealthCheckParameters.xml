@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<BuildAgent>
+		<BuildAgent Name="SVW-BE-TFSP001.balgroupit.com" Status="Running"/>
+		<BuildAgent Name="SVW-BE-TFSP002.balgroupit.com" Status="Running"/>
+		<BuildAgent Name="SVW-BE-BLDP001.balgroupit.com" Status=""/>
+		<BuildAgent Name="SVW-BE-BLDP002.balgroupit.com" Status=""/>
+		<BuildAgent Name="SVW-ME-PCLEVA01.balgroupit.com" Status=""/>
+		<BuildAgent Name="SHW-ME-PCLEVA01.balgroupit.com" Status=""/>
+	</BuildAgent>
+</Tests>

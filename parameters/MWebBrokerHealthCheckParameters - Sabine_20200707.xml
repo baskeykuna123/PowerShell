@@ -1,0 +1,11 @@
+<Tests>
+	<URLs>
+		<URL Address="http://${MyBalWebBrokerFront}/MyBaloisebroker/Healthcheck" Response="200"/>
+		<URL Address="http://${MyBalWebBrokerFront}/MyBaloiseBroker" Response="200"/>
+		<URL Address="http://${MyBalWebBrokerFront_NLB}/MyBaloisebroker/Healthcheck" Response="200"/>
+		<URL Address="http://${MyBalWebBrokerFront_NLB}/MyBaloiseBroker" Response="200"/>
+	</URLs>
+	<Shares>
+
+	</Shares>
+</Tests>

@@ -1,0 +1,1 @@
+Rename-Item -path \\balgroupit.com\appl_data\bbe\App01\DCORPBIS\MercatorNet\MaintenanceModeFiles\Internal\NOT_IN_MaintenanceMode_Internal.xml -newname IN_MaintenanceMode_Internal.xml

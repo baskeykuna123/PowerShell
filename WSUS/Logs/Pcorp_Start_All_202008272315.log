@@ -1,0 +1,338 @@
+donderdag 27 augustus 2020 23:15:37 - READING XML File :  \\balgroupit.com\appl_data\BBE\Transfer\Packages\Scripts\WSUS\Pcorp\Pcorp_Start_All.xml
+donderdag 27 augustus 2020 23:15:37 - 
+donderdag 27 augustus 2020 23:15:38 - ================================svw-be-signp001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:15:39 - Commandline		: RestartService "Portima BrokerSign"
+donderdag 27 augustus 2020 23:15:41 - ================================svw-be-signp001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:15:41 - ================================shw-me-pweb06.balgroupit.com======================================
+donderdag 27 augustus 2020 23:15:45 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:15:45 - Commandline		: StartService "World Wide Web Publishing Service"
+donderdag 27 augustus 2020 23:15:46 - Commandline		: StartWebsite "OnlineDocuments"
+donderdag 27 augustus 2020 23:15:46 - Commandline		: StartWebsite "MNet"
+donderdag 27 augustus 2020 23:15:46 - Commandline		: StartWebsite "MWebBvb"
+donderdag 27 augustus 2020 23:15:46 - Commandline		: StartAppPool "DefaultAppPool"
+donderdag 27 augustus 2020 23:15:46 - Commandline		: StartAppPool "ED"
+donderdag 27 augustus 2020 23:15:46 - Commandline		: StartAppPool "EmployeeBenefits"
+donderdag 27 augustus 2020 23:15:46 - Commandline		: StartAppPool "EtlLogViewer"
+donderdag 27 augustus 2020 23:15:46 - Commandline		: StartAppPool "LevenAansluitingsverklaring"
+donderdag 27 augustus 2020 23:15:46 - Commandline		: StartAppPool "LevenWijzigingsFormulier"
+donderdag 27 augustus 2020 23:15:46 - Commandline		: StartAppPool "MercatorNet.RMMain"
+donderdag 27 augustus 2020 23:15:46 - Commandline		: StartAppPool "MercatorNet.WSDeploy_3_0"
+donderdag 27 augustus 2020 23:15:46 - Commandline		: StartAppPool "MercatorNet.WSMain"
+donderdag 27 augustus 2020 23:15:47 - Commandline		: StartAppPool "MercatorNet.WSServices"
+donderdag 27 augustus 2020 23:15:47 - Commandline		: StartAppPool "MercatorNet.WSTariff"
+donderdag 27 augustus 2020 23:15:47 - Commandline		: StartAppPool "MercatorNetBroker.WSDeploy_3_0"
+donderdag 27 augustus 2020 23:15:47 - Commandline		: StartAppPool "MercatorNetBroker.WSMain"
+donderdag 27 augustus 2020 23:15:47 - Commandline		: StartAppPool "MercatorWebSite"
+donderdag 27 augustus 2020 23:15:47 - Commandline		: StartAppPool "MyBaloiseBroker"
+donderdag 27 augustus 2020 23:15:47 - Commandline		: StartAppPool "MWebBvb"
+donderdag 27 augustus 2020 23:15:47 - Commandline		: StartAppPool "ScvWebService"
+donderdag 27 augustus 2020 23:15:48 - ================================shw-me-pweb06.balgroupit.com======================================
+donderdag 27 augustus 2020 23:15:48 - ================================shw-me-pweb56.balgroupit.com======================================
+donderdag 27 augustus 2020 23:15:49 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:15:49 - Commandline		: StartService "World Wide Web Publishing Service"
+donderdag 27 augustus 2020 23:15:49 - Commandline		: StartWebsite "OnlineDocuments"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartWebsite "MNet"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartWebsite "MWebBvb"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartAppPool "DefaultAppPool"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartAppPool "ED"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartAppPool "EmployeeBenefits"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartAppPool "EtlLogViewer"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartAppPool "LevenAansluitingsverklaring"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartAppPool "LevenWijzigingsFormulier"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartAppPool "MercatorNet.RMMain"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartAppPool "MercatorNet.WSDeploy_3_0"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartAppPool "MercatorNet.WSMain"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartAppPool "MercatorNet.WSServices"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartAppPool "MercatorNet.WSTariff"
+donderdag 27 augustus 2020 23:15:50 - Commandline		: StartAppPool "MercatorNetBroker.WSDeploy_3_0"
+donderdag 27 augustus 2020 23:15:51 - Commandline		: StartAppPool "MercatorNetBroker.WSMain"
+donderdag 27 augustus 2020 23:15:51 - Commandline		: StartAppPool "MercatorWebSite"
+donderdag 27 augustus 2020 23:15:51 - Commandline		: StartAppPool "MyBaloiseBroker"
+donderdag 27 augustus 2020 23:15:51 - Commandline		: StartAppPool "MWebBvb"
+donderdag 27 augustus 2020 23:15:51 - Commandline		: StartAppPool "ScvWebService"
+donderdag 27 augustus 2020 23:15:51 - ================================shw-me-pweb56.balgroupit.com======================================
+donderdag 27 augustus 2020 23:15:51 - ================================svw-be-webp02.balgroupit.com======================================
+donderdag 27 augustus 2020 23:15:52 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:15:52 - Commandline		: StartService "World Wide Web Publishing Service"
+donderdag 27 augustus 2020 23:15:52 - Commandline		: StartAppPool "DefaultAppPool"
+donderdag 27 augustus 2020 23:15:52 - Commandline		: StartAppPool "MNet"
+donderdag 27 augustus 2020 23:15:52 - Commandline		: StartAppPool "BaloiseBackend"
+donderdag 27 augustus 2020 23:15:52 - Commandline		: StartAppPool "CDS"
+donderdag 27 augustus 2020 23:15:52 - Commandline		: StartAppPool "Mercator.EAI.Framework.WebServices"
+donderdag 27 augustus 2020 23:15:52 - Commandline		: StartAppPool "Mercator.Eai.Tools.Wsc"
+donderdag 27 augustus 2020 23:15:52 - Commandline		: StartAppPool "Mercator.Portima"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartAppPool "Mercator.Portima.Monitoring"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartAppPool "MercatorNet.BoServices"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartAppPool "WSDms"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartAppPool "WSDmsDataRepository"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartWebsite "DmsDataRepository"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartWebsite "MNet"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartService "Steria's Dispatcher Service"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartService "Mercator Document Delivery"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartService "Mercator Document Generation"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartService "Mercator Organization Data"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartService "Mercator DMS Pdf Conversion Call"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartService "Mercator Document Management System Service"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartService "Mercator Document Management System Async Service"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartService "Mercator Document Management System Batch Avero Service"
+donderdag 27 augustus 2020 23:15:53 - Commandline		: StartService "BaloiseDmsBatchService"
+donderdag 27 augustus 2020 23:15:54 - Commandline		: StartService "Mercator Document Store"
+donderdag 27 augustus 2020 23:15:54 - Commandline		: StartService "Mercator Xpim Document Store"
+donderdag 27 augustus 2020 23:15:54 - Commandline		: StartService "Mercator DMS MailImport Service"
+donderdag 27 augustus 2020 23:15:54 - Commandline		: StartService "Mercator DMS Import Portima Attachments"
+donderdag 27 augustus 2020 23:15:54 - Commandline		: StartService "Mercator DMS Bulk Insert"
+donderdag 27 augustus 2020 23:15:54 - Commandline		: StartService "Baloise CentralDataStore"
+donderdag 27 augustus 2020 23:15:54 - Commandline		: StartService "Baloise SyncTaskToDMS"
+donderdag 27 augustus 2020 23:15:55 - Commandline		: StartService "Baloise BaloiseBackendBatch"
+donderdag 27 augustus 2020 23:15:55 - Commandline		: StartService "MercatorNET SCV Batch Service"
+donderdag 27 augustus 2020 23:15:55 - Commandline		: StartService "Mercator.Integration.EAI.3.9.Listener"
+donderdag 27 augustus 2020 23:15:55 - ================================svw-be-webp02.balgroupit.com======================================
+donderdag 27 augustus 2020 23:15:56 - ================================svw-be-webp03.balgroupit.com======================================
+donderdag 27 augustus 2020 23:15:56 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:15:56 - Commandline		: StartService "World Wide Web Publishing Service"
+donderdag 27 augustus 2020 23:15:56 - Commandline		: StartAppPool "DefaultAppPool"
+donderdag 27 augustus 2020 23:15:57 - Commandline		: StartAppPool "MNet"
+donderdag 27 augustus 2020 23:15:57 - Commandline		: StartAppPool "BaloiseBackend"
+donderdag 27 augustus 2020 23:15:57 - Commandline		: StartAppPool "CDS"
+donderdag 27 augustus 2020 23:15:57 - Commandline		: StartAppPool "Mercator.EAI.Framework.WebServices"
+donderdag 27 augustus 2020 23:15:57 - Commandline		: StartAppPool "Mercator.Eai.Tools.Wsc"
+donderdag 27 augustus 2020 23:15:57 - Commandline		: StartAppPool "Mercator.Portima"
+donderdag 27 augustus 2020 23:15:57 - Commandline		: StartAppPool "Mercator.Portima.Monitoring"
+donderdag 27 augustus 2020 23:15:57 - Commandline		: StartAppPool "MercatorNet.BoServices"
+donderdag 27 augustus 2020 23:15:57 - Commandline		: StartAppPool "WSDms"
+donderdag 27 augustus 2020 23:15:57 - Commandline		: StartAppPool "WSDmsDataRepository"
+donderdag 27 augustus 2020 23:15:57 - Commandline		: StartWebsite "DmsDataRepository"
+donderdag 27 augustus 2020 23:15:57 - Commandline		: StartWebsite "MNet"
+donderdag 27 augustus 2020 23:15:58 - Commandline		: StartService "Steria's Dispatcher Service"
+donderdag 27 augustus 2020 23:15:58 - Commandline		: StartService "Mercator Document Delivery"
+donderdag 27 augustus 2020 23:15:58 - Commandline		: StartService "Mercator Document Generation"
+donderdag 27 augustus 2020 23:15:58 - Commandline		: StartService "Mercator Organization Data"
+donderdag 27 augustus 2020 23:15:58 - Commandline		: StartService "Mercator DMS Pdf Conversion Call"
+donderdag 27 augustus 2020 23:16:00 - Commandline		: StartService "Mercator Document Management System Service"
+donderdag 27 augustus 2020 23:16:00 - Commandline		: StartService "Mercator Document Management System Async Service"
+donderdag 27 augustus 2020 23:16:02 - Commandline		: StartService "Mercator Document Management System Batch Avero Service"
+donderdag 27 augustus 2020 23:16:02 - Commandline		: StartService "BaloiseDmsBatchService"
+donderdag 27 augustus 2020 23:16:02 - Commandline		: StartService "Mercator Document Store"
+donderdag 27 augustus 2020 23:16:02 - Commandline		: StartService "Mercator Xpim Document Store"
+donderdag 27 augustus 2020 23:16:02 - Commandline		: StartService "Mercator DMS MailImport Service"
+donderdag 27 augustus 2020 23:16:03 - Commandline		: StartService "Mercator DMS Import Portima Attachments"
+donderdag 27 augustus 2020 23:16:03 - Commandline		: StartService "Mercator DMS Bulk Insert"
+donderdag 27 augustus 2020 23:16:04 - Commandline		: StartService "Baloise Central Data Store"
+donderdag 27 augustus 2020 23:16:04 - Commandline		: StartService "Baloise SyncTaskToDMS"
+donderdag 27 augustus 2020 23:16:04 - Commandline		: StartService "Baloise Backend"
+donderdag 27 augustus 2020 23:16:04 - Commandline		: StartService "MercatorNET SCV Batch Service"
+donderdag 27 augustus 2020 23:16:04 - Commandline		: StartService "Mercator.Integration.EAI.3.9.Listener"
+donderdag 27 augustus 2020 23:16:04 - ================================svw-be-webp03.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:06 - ================================svw-be-eaip01.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:07 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:07 - Commandline		: StartService "mercator.eai.docservice"
+donderdag 27 augustus 2020 23:16:07 - ================================svw-be-eaip01.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:08 - ================================svw-be-eaip04.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:09 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:09 - Commandline		: StartService "mercator.eai.docservice"
+donderdag 27 augustus 2020 23:16:09 - ================================svw-be-eaip04.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:10 - ================================svw-be-eaip05.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:11 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:11 - Commandline		: StartService "mercator.eai.docservice"
+donderdag 27 augustus 2020 23:16:11 - ================================svw-be-eaip05.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:12 - ================================svw-be-adlibp01.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:12 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:13 - ================================svw-be-adlibp01.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:14 - ================================svw-be-adlibp02.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:15 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:15 - ================================svw-be-adlibp02.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:16 - ================================svw-be-adlibp03.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:16 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:16 - ================================svw-be-adlibp03.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:18 - ================================svw-be-adlibp04.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:18 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:18 - ================================svw-be-adlibp04.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:20 - ================================svw-be-adlibp05.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:20 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:20 - ================================svw-be-adlibp05.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:21 - ================================svw-be-adlibp06.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:22 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:22 - ================================svw-be-adlibp06.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:23 - ================================svw-be-adlibp07.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:24 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:24 - ================================svw-be-adlibp07.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:25 - ================================svw-be-dmsp001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:25 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:25 - ================================svw-be-dmsp001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:26 - ================================svw-be-dmsp002.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:26 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:26 - ================================svw-be-dmsp002.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:28 - ================================svw-be-dmsp03.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:28 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:28 - Commandline		: StartService "Execute360 Archive Manager"
+donderdag 27 augustus 2020 23:16:34 - ================================svw-be-dmsp03.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:35 - ================================dms-bp01.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:35 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:35 - ================================dms-bp01.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:36 - ================================dms-bp01-file.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:36 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:36 - ================================dms-bp01-file.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:37 - ================================dms-bp01-g360.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:37 - Commandline		: DisableWsusReboot ""
+donderdag 27 augustus 2020 23:16:37 - ================================dms-bp01-g360.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:38 - ================================SVW-BE-WEBFP001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:38 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:38 - Commandline		: StartService "World Wide Web Publishing Service"
+donderdag 27 augustus 2020 23:16:38 - Commandline		: StartWebsite "OnlineDocuments"
+donderdag 27 augustus 2020 23:16:38 - Commandline		: StartWebsite "MNet"
+donderdag 27 augustus 2020 23:16:38 - Commandline		: StartWebsite "MWebBvb"
+donderdag 27 augustus 2020 23:16:38 - Commandline		: StartAppPool "DefaultAppPool"
+donderdag 27 augustus 2020 23:16:38 - Commandline		: StartAppPool "ED"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "EmployeeBenefits"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "EtlLogViewer"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "LevenAansluitingsverklaring"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "LevenWijzigingsFormulier"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "MercatorNet.RMMain"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "MercatorNet.WSDeploy_3_0"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "MercatorNet.WSMain"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "MercatorNet.WSServices"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "MercatorNet.WSTariff"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "MercatorNetBroker.WSDeploy_3_0"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "MercatorNetBroker.WSMain"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "MercatorWebSite"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "MyBaloiseBroker"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "MyBaloiseInternal"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "MWebBvb"
+donderdag 27 augustus 2020 23:16:39 - Commandline		: StartAppPool "ScvWebService"
+donderdag 27 augustus 2020 23:16:40 - ================================SVW-BE-WEBFP001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:40 - ================================SVW-BE-WEBFP002.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:40 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:41 - Commandline		: StartService "World Wide Web Publishing Service"
+donderdag 27 augustus 2020 23:16:41 - Commandline		: StartWebsite "OnlineDocuments"
+donderdag 27 augustus 2020 23:16:41 - Commandline		: StartWebsite "MNet"
+donderdag 27 augustus 2020 23:16:41 - Commandline		: StartWebsite "MWebBvb"
+donderdag 27 augustus 2020 23:16:41 - Commandline		: StartAppPool "DefaultAppPool"
+donderdag 27 augustus 2020 23:16:41 - Commandline		: StartAppPool "ED"
+donderdag 27 augustus 2020 23:16:41 - Commandline		: StartAppPool "EmployeeBenefits"
+donderdag 27 augustus 2020 23:16:41 - Commandline		: StartAppPool "EtlLogViewer"
+donderdag 27 augustus 2020 23:16:41 - Commandline		: StartAppPool "LevenAansluitingsverklaring"
+donderdag 27 augustus 2020 23:16:41 - Commandline		: StartAppPool "LevenWijzigingsFormulier"
+donderdag 27 augustus 2020 23:16:41 - Commandline		: StartAppPool "MercatorNet.RMMain"
+donderdag 27 augustus 2020 23:16:42 - Commandline		: StartAppPool "MercatorNet.WSDeploy_3_0"
+donderdag 27 augustus 2020 23:16:42 - Commandline		: StartAppPool "MercatorNet.WSMain"
+donderdag 27 augustus 2020 23:16:42 - Commandline		: StartAppPool "MercatorNet.WSServices"
+donderdag 27 augustus 2020 23:16:42 - Commandline		: StartAppPool "MercatorNet.WSTariff"
+donderdag 27 augustus 2020 23:16:42 - Commandline		: StartAppPool "MercatorNetBroker.WSDeploy_3_0"
+donderdag 27 augustus 2020 23:16:42 - Commandline		: StartAppPool "MercatorNetBroker.WSMain"
+donderdag 27 augustus 2020 23:16:42 - Commandline		: StartAppPool "MercatorWebSite"
+donderdag 27 augustus 2020 23:16:42 - Commandline		: StartAppPool "MyBaloiseBroker"
+donderdag 27 augustus 2020 23:16:42 - Commandline		: StartAppPool "MyBaloiseInternal"
+donderdag 27 augustus 2020 23:16:42 - Commandline		: StartAppPool "MWebBvb"
+donderdag 27 augustus 2020 23:16:42 - Commandline		: StartAppPool "ScvWebService"
+donderdag 27 augustus 2020 23:16:42 - ================================SVW-BE-WEBFP002.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:43 - ================================SVW-BE-WEBFP003.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:43 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:43 - Commandline		: StartService "World Wide Web Publishing Service"
+donderdag 27 augustus 2020 23:16:43 - Commandline		: StartWebsite "OnlineDocuments"
+donderdag 27 augustus 2020 23:16:43 - Commandline		: StartWebsite "MNet"
+donderdag 27 augustus 2020 23:16:43 - Commandline		: StartWebsite "MWebBvb"
+donderdag 27 augustus 2020 23:16:43 - Commandline		: StartAppPool "DefaultAppPool"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "ED"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "EmployeeBenefits"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "EtlLogViewer"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "LevenAansluitingsverklaring"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "LevenWijzigingsFormulier"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "MercatorNet.RMMain"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "MercatorNet.WSDeploy_3_0"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "MercatorNet.WSMain"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "MercatorNet.WSServices"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "MercatorNet.WSTariff"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "MercatorNetBroker.WSDeploy_3_0"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "MercatorNetBroker.WSMain"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "MercatorWebSite"
+donderdag 27 augustus 2020 23:16:44 - Commandline		: StartAppPool "MyBaloiseBroker"
+donderdag 27 augustus 2020 23:16:45 - Commandline		: StartAppPool "MyBaloiseInternal"
+donderdag 27 augustus 2020 23:16:45 - Commandline		: StartAppPool "MWebBvb"
+donderdag 27 augustus 2020 23:16:45 - Commandline		: StartAppPool "ScvWebService"
+donderdag 27 augustus 2020 23:16:45 - ================================SVW-BE-WEBFP003.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:45 - ================================SVW-BE-WEBFP004.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:46 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:46 - Commandline		: StartService "World Wide Web Publishing Service"
+donderdag 27 augustus 2020 23:16:46 - Commandline		: StartWebsite "OnlineDocuments"
+donderdag 27 augustus 2020 23:16:46 - Commandline		: StartWebsite "MNet"
+donderdag 27 augustus 2020 23:16:46 - Commandline		: StartWebsite "MWebBvb"
+donderdag 27 augustus 2020 23:16:46 - Commandline		: StartAppPool "DefaultAppPool"
+donderdag 27 augustus 2020 23:16:46 - Commandline		: StartAppPool "ED"
+donderdag 27 augustus 2020 23:16:46 - Commandline		: StartAppPool "EmployeeBenefits"
+donderdag 27 augustus 2020 23:16:46 - Commandline		: StartAppPool "EtlLogViewer"
+donderdag 27 augustus 2020 23:16:46 - Commandline		: StartAppPool "LevenAansluitingsverklaring"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "LevenWijzigingsFormulier"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "MercatorNet.RMMain"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "MercatorNet.WSDeploy_3_0"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "MercatorNet.WSMain"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "MercatorNet.WSServices"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "MercatorNet.WSTariff"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "MercatorNetBroker.WSDeploy_3_0"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "MercatorNetBroker.WSMain"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "MercatorWebSite"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "MyBaloiseBroker"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "MyBaloiseInternal"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "MWebBvb"
+donderdag 27 augustus 2020 23:16:47 - Commandline		: StartAppPool "ScvWebService"
+donderdag 27 augustus 2020 23:16:47 - ================================SVW-BE-WEBFP004.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:48 - ================================svw-be-bizp001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:48 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:48 - Commandline		: StartService "Mercator Managed File Transfer"
+donderdag 27 augustus 2020 23:16:48 - Commandline		: StartService "Mercator Esb Process Initializer"
+donderdag 27 augustus 2020 23:16:49 - ================================svw-be-bizp001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:49 - ================================svw-be-bizp002.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:49 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:49 - Commandline		: StartService "Mercator Managed File Transfer"
+donderdag 27 augustus 2020 23:16:50 - Commandline		: StartService "Mercator Esb Process Initializer"
+donderdag 27 augustus 2020 23:16:50 - ================================svw-be-bizp002.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:50 - ================================svw-be-bizp003.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:50 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:50 - Commandline		: StartService "Mercator Managed File Transfer"
+donderdag 27 augustus 2020 23:16:51 - Commandline		: StartService "Mercator Esb Process Initializer"
+donderdag 27 augustus 2020 23:16:51 - ================================svw-be-bizp003.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:51 - ================================svw-be-bizp004.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:51 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:52 - Commandline		: StartService "Mercator Managed File Transfer"
+donderdag 27 augustus 2020 23:16:52 - Commandline		: StartService "Mercator Esb Process Initializer"
+donderdag 27 augustus 2020 23:16:52 - ================================svw-be-bizp004.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:53 - ================================svw-be-portp01.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:53 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:53 - Commandline		: startWebsite "Default Web Site"
+donderdag 27 augustus 2020 23:16:54 - Commandline		: startWebsite "WCI"
+donderdag 27 augustus 2020 23:16:54 - Commandline		: startAppPool "AL2AppPool64v2"
+donderdag 27 augustus 2020 23:16:54 - Commandline		: startAppPool "ALAppPool64v2"
+donderdag 27 augustus 2020 23:16:54 - ================================svw-be-portp01.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:55 - ================================svw-be-portp03.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:55 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:55 - Commandline		: StartService "Mercator.Portal.Scheduler"
+donderdag 27 augustus 2020 23:16:55 - Commandline		: startWebsite "MercatorPortalWebService"
+donderdag 27 augustus 2020 23:16:56 - Commandline		: startWebsite "Default Web Site"
+donderdag 27 augustus 2020 23:16:56 - Commandline		: startWebsite "WCI"
+donderdag 27 augustus 2020 23:16:56 - Commandline		: startAppPool "Pool2"
+donderdag 27 augustus 2020 23:16:56 - Commandline		: startAppPool "Mercator.Portal.Portlets"
+donderdag 27 augustus 2020 23:16:56 - Commandline		: startAppPool "Mercator.Portal.WebService"
+donderdag 27 augustus 2020 23:16:56 - Commandline		: startAppPool "PortalASP"
+donderdag 27 augustus 2020 23:16:56 - Commandline		: startAppPool "ALAppPool64v2"
+donderdag 27 augustus 2020 23:16:56 - ================================svw-be-portp03.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:57 - ================================svw-be-babsp001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:57 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:16:57 - ================================svw-be-babsp001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:16:57 - ================================svw-be-babsp002.balgroupit.com======================================
+donderdag 27 augustus 2020 23:17:00 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:17:00 - ================================svw-be-babsp002.balgroupit.com======================================
+donderdag 27 augustus 2020 23:17:00 - ================================svw-be-babbp001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:17:02 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:17:02 - Commandline		: StartService "Baloise BaloiseBackendBatch"
+donderdag 27 augustus 2020 23:17:02 - ================================svw-be-babbp001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:17:03 - ================================svw-be-babbp002.balgroupit.com======================================
+donderdag 27 augustus 2020 23:17:04 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:17:05 - Commandline		: StartService "Baloise BaloiseBackendBatch"
+donderdag 27 augustus 2020 23:17:05 - ================================svw-be-babbp002.balgroupit.com======================================
+donderdag 27 augustus 2020 23:17:05 - ================================svw-be-mftp001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:17:09 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:17:09 - Commandline		: StartService "Mercator Managed File Transfer"
+donderdag 27 augustus 2020 23:17:09 - ================================svw-be-mftp001.balgroupit.com======================================
+donderdag 27 augustus 2020 23:17:11 - ================================svw-be-mftp002.balgroupit.com======================================
+donderdag 27 augustus 2020 23:17:12 - Commandline		: DisableWSUSReboot ""
+donderdag 27 augustus 2020 23:17:12 - Commandline		: StartService "Mercator Managed File Transfer"
+donderdag 27 augustus 2020 23:17:13 - ================================svw-be-mftp002.balgroupit.com======================================

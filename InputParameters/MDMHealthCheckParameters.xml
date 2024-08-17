@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+		<URL Address="https://${MDM}/ebx-ui/ui" Response="200"/>
+	</URLs>
+</Tests>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+    <URL Address="http://${FirecoServer}:80/Admin/HealthCheck" Response="200"/>
+	</URLs>
+</Tests>	

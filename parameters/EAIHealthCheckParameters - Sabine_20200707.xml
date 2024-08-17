@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<Services >
+		<Service server="${ESB}" Name ="BTSSvc$Eai_Processing" Status="Running"/>
+		<Service server="${ESB}" Name ="BTSSvc$Eai_Processing_32" Status="Running"/>
+		<Service server="${ESB}" Name ="BTSSvc$Eai_Receiving" Status="Running"/>
+		<Service server="${ESB}" Name ="BTSSvc$Eai_Sending" Status="Running"/>
+		<Service server="${ESB}" Name ="Mercator.EAI.Services.BizTalk.Recovery" Status="Running"/>
+		<Service server="${ESB}" Name ="Mercator.EAI.Services.Portima.FTPScheduledService" Status="Running"/>
+		<Service server="${ESB}" Name ="Mercator.EAI.Services.Portima.SQLTriggerService" Status="Running"/>
+	</Services>	
+</Tests>

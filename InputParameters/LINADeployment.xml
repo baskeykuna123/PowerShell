@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+
+<Deployment>
+	<Environment Name="DCORP">
+
+		<!-- Folder LinaFramwork -->
+		<Library Name="LinaFrameworkLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaFramework" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaFramework" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Dcorp\Lina\LinaFramework" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\DCORP-Current-RZ3\Lina\LinaFramework" />
+		</Library>
+
+
+		<!-- Folder LinaInterface -->
+		<Library Name="AbacusInterfaceLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Dcorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\DCORP-Current-RZ3\Lina\LinaInterface" />
+		</Library>
+
+		<Library Name="FinancialInterfaceLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Dcorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\DCORP-Current-RZ3\Lina\LinaInterface" />
+		</Library>
+
+		<Library Name="IndividualContractInterfaceLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Dcorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\DCORP-Current-RZ3\Lina\LinaInterface" />
+		</Library>
+
+
+		<!-- Folder SmartComponentLibrary -->
+		<Library Name="SmartComponentLibrary.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\SmartComponentLibrary" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Dcorp\Lina\SmartComponentLibrary" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\DCORP-Current-RZ3\Lina\SmartComponentLibrary" />
+		</Library>
+
+
+		<!-- Folder CalculationAppComponent -->
+		<Library Name="AbacusBackendLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina\CalculationAppComponent" />
+		</Library>
+
+
+		<!-- Folder IndividualContractAppComponent and also in other folders for Dcorp, is this correct ?  -->
+		<Library Name="IndividualContractBackendLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\IndividualContractAppComponent" />
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Dcorp\Lina\IndividualContractAppComponent" />
+			
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\DCORP-Current-RZ3\Lina\IndividualContractAppComponent" />
+		</Library>
+
+	</Environment>
+
+
+	<Environment Name="ICORP">
+
+		<!-- Folder LinaFramwork -->
+		<Library Name="LinaFrameworkLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaFramework" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaFramework" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Icorp\Lina\LinaFramework" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ICORP-Current-RZ3\Lina\LinaFramework" />
+		</Library>
+
+
+		<!-- Folder LinaInterface -->
+		<Library Name="AbacusInterfaceLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Icorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ICORP-Current-RZ3\Lina\LinaInterface" />
+		</Library>
+
+		<Library Name="FinancialInterfaceLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Icorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ICORP-Current-RZ3\Lina\LinaInterface" />
+		</Library>
+
+		<Library Name="IndividualContractInterfaceLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Icorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ICORP-Current-RZ3\Lina\LinaInterface" />
+		</Library>
+
+
+		<!-- Folder SmartComponentLibrary -->
+		<Library Name="SmartComponentLibrary.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\SmartComponentLibrary" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Icorp\Lina\SmartComponentLibrary" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ICORP-Current-RZ3\Lina\SmartComponentLibrary" />
+		</Library>
+
+
+		<!-- Folder CalculationAppComponent -->
+		<Library Name="AbacusBackendLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina\CalculationAppComponent" />
+		</Library>
+
+		<!-- Folder IndividualContractAppComponent -->
+		<Library Name="IndividualContractBackendLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina\IndividualContractAppComponent" />
+		</Library>
+
+	</Environment>
+
+
+	<Environment Name="ACORP">
+
+		<!-- Folder LinaFramwork -->
+		<Library Name="LinaFrameworkLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaFramework" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaFramework" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Acorp\Lina\LinaFramework" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ACORP-Current-RZ3\Lina\LinaFramework" />
+		</Library>
+
+
+		<!-- Folder LinaInterface -->
+		<Library Name="AbacusInterfaceLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Acorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ACORP-Current-RZ3\Lina\LinaInterface" />
+		</Library>
+
+		<Library Name="FinancialInterfaceLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Acorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ACORP-Current-RZ3\Lina\LinaInterface" />
+		</Library>
+
+		<Library Name="IndividualContractInterfaceLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Acorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ACORP-Current-RZ3\Lina\LinaInterface" />
+		</Library>
+
+
+		<!-- Folder SmartComponentLibrary -->
+		<Library Name="SmartComponentLibrary.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\SmartComponentLibrary" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Acorp\Lina\SmartComponentLibrary" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ACORP-Current-RZ3\Lina\SmartComponentLibrary" />
+		</Library>
+
+
+		<!-- Folder CalculationAppComponent -->
+		<Library Name="AbacusBackendLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina\CalculationAppComponent" />
+		</Library>
+
+
+		<!-- Folder IndividualContractAppComponent -->
+		<Library Name="IndividualContractBackendLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina\IndividualContractAppComponent" />
+		</Library>
+
+	</Environment>
+
+
+	<Environment Name="PCORP">
+
+		<!-- Folder LinaFramwork -->
+		<Library Name="LinaFrameworkLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaFramework" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaFramework" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Pcorp\Lina\LinaFramework" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\PCORP-Current\Lina\LinaFramework" />
+		</Library>
+
+
+		<!-- Folder LinaInterface -->
+		<Library Name="AbacusInterfaceLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Pcorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\PCORP-Current\Lina\LinaInterface" />
+		</Library>
+
+		<Library Name="FinancialInterfaceLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Pcorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\PCORP-Current\Lina\LinaInterface" />
+		</Library>
+
+		<Library Name="IndividualContractInterfaceLib.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBACK"    destination="F:\Lina\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Pcorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\PCORP-Current\Lina\LinaInterface" />
+		</Library>
+
+
+		<!-- Folder SmartComponentLibrary -->
+		<Library Name="SmartComponentLibrary.pl">
+			<Server Name="TALKFRONT"   destination="F:\Lina\SmartComponentLibrary" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Pcorp\Lina\SmartComponentLibrary" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\PCORP-Current\Lina\SmartComponentLibrary" />
+		</Library>
+
+
+		<!-- Folder CalculationAppComponent -->
+		<Library Name="AbacusBackendLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina\CalculationAppComponent" />
+		</Library>
+
+
+		<!-- Folder IndividualContractAppComponent -->
+		<Library Name="IndividualContractBackendLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina\IndividualContractAppComponent" />
+		</Library>
+
+	</Environment>
+
+
+	<Environment Name="ECORP">
+
+		<!-- Folder LinaFramwork -->
+		<Library Name="LinaFrameworkLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina_Eme\LinaFramework" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Ecorp\Lina\LinaFramework" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ECORP-Current-RZ3\Lina\LinaFramework" />
+		</Library>
+
+
+		<!-- Folder LinaInterface -->
+		<Library Name="AbacusInterfaceLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina_Eme\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Ecorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ECORP-Current-RZ3\Lina\LinaInterface" />
+		</Library>
+
+		<Library Name="FinancialInterfaceLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina_Eme\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Ecorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ECORP-Current-RZ3\Lina\LinaInterface" />
+		</Library>
+
+		<Library Name="IndividualContractInterfaceLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina_Eme\LinaInterface" />
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Ecorp\Lina\LinaInterface" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ECORP-Current-RZ3\Lina\LinaInterface" />
+		</Library>
+
+
+		<!-- Folder SmartComponentLibrary -->
+		<Library Name="SmartComponentLibrary.pl">
+			<Server Name="TALKBATCH"   destination="E:\Talk3\Ecorp\Lina\SmartComponentLibrary" />
+			<Server Name="TALKCITRIX"  destination="\\balgroupit.com\appl_data\BBE\Transfer\TALK\Citrix_OneClient\TALK3\ACORP-Current-RZ3\Lina\SmartComponentLibrary" />
+		</Library>
+
+
+		<!-- Folder CalculationAppComponent -->
+		<Library Name="AbacusBackendLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina_Eme\CalculationAppComponent" />
+		</Library>
+
+
+		<!-- Folder IndividualContractAppComponent -->
+		<Library Name="IndividualContractBackendLib.pl">
+			<Server Name="TALKBACK"    destination="F:\Lina_Eme\IndividualContractAppComponent" />
+		</Library>
+
+	</Environment>
+
+
+</Deployment>

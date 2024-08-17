@@ -1,0 +1,29 @@
+-numsep 46 
+-numdec 44 
+-lng "2" 
+-s 10000 
+-TB 32 
+-TM 31 
+-Bt 5120 
+-inp 32000 
+-l 1500 
+-d dmy
+-D 10000
+-debugalert 
+-tok 4000 
+-rereadnolock 
+-reusableObjects 10000
+-mmax 65534 
+-Mm 1024
+-cpinternal ISO8859-1 
+-cpstream ISO8859-1
+-cpcoll BASIC
+#
+-h 5
+#
+-T C:\TMP
+#
+-db SmartDb	-H svw-be-tlkcd001.balgroupit.com -S 9500
+#
+-db Db_LocName  -H Localhost -1 
+

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Roles>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="stopAppPool" Description="ALAppPool2"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="stopAppPool" Description="ALAppPool1"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="stopAppPool" Description="ImageServer"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="stopAppPool" Description="CommunityNavigator"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="stopAppPool" Description="Mercator.Portal.Portlets"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="stopAppPool" Description="Mercator.Portal.Portlets.Intranet"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="stopAppPool" Description="Mercator.Portal.Portlets.Producten"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="stopAppPool" Description="Mercator.Portal.WebService"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="stopAppPool" Description="PortalASP"/>
+
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopWebsite" Description="ALI"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopWebsite" Description="Default Web Site"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopWebsite" Description="MercatorPortalWebService"/>
+
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="Mercator.Portal.Scheduler"/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="ptautomationserver"/>
+	<!-- displayname="BEA ALI Studio" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="ptstudio">
+		<ExtraAction>Force</ExtraAction>
+	</Role>
+	<!-- displayname="BEA ALI Publisher" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="publishservice"/>
+	<!-- displayname="BEA ALI Remote Portlet Service"  not used -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="rssreader"/>
+	<!-- displayname="BEA ALI Content Upload Service" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="FileUpload"/>
+	<!-- displayname="BEA ALI Document Repository Service" dependency="FileUpload" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="BEA ALI Document Repository Service">
+		<Parameters>
+			<ForceStop>True</ForceStop>
+		</Parameters>
+	</Role>
+	<!-- displayname="BEA AL Notification Service" not used -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="cns"/>
+	<!-- displayname="BEA ALI LDAP Directory" not used -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="Ldap Server"/>
+	<!-- displayname="BEA ALI Search %COMPUTERNAME%01" servicename="%COMPUTERNAME%01" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="svw-me-dport0101"/>
+	<!-- displayname="SearchClusterUI" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="SearchClusterUI"/>
+	<!-- displayname="BEA ALI API Service" -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="wsserver"/>
+	<!-- displayname="BEA ALI Logger" automatic -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="Plumtree Logger"/>
+	<!-- displayname="BEA AL Configuration Manager (12345)" automatic -->
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="StopService" Description="ConfigurationManager12345"/>
+
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="EnableWSUSReboot" Description=""/>
+</Roles>

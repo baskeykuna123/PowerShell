@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+		<URL Address="http://${NINAFront}:6102/" Response="200"/>
+		<URL Address="http://${NINAAPI}/swagger" Response="200"/>
+		<URL Address="http://${NINAAPI}/healthchecks/ping" Response="200"/>
+		<URL Address="http://${NINAAPI}:6103/PartyService.svc" Response="200"/>
+		<URL Address="http://${NINAAPI}:6103/PolicyProcessService.svc" Response="200"/>
+		<URL Address="http://${NINAFront_DCORPBIS}:6104/" Response="200"/>
+		<URL Address="http://${NINAAPI_DCORPBIS}:6105/swagger" Response="200"/>
+		<URL Address="http://${NINAAPI_DCORPBIS}:6105/healthchecks/ping" Response="200"/> 
+	</URLs>
+	<ORACLE>
+	<Query DB="" Result="">
+	</Query>
+	</ORACLE>
+	<SQL>
+	<Query DB="" Result="">
+	</Query>
+	</SQL>
+</Tests>

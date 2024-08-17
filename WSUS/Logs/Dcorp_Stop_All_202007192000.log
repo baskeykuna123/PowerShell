@@ -1,0 +1,23 @@
+zondag 19 juli 2020 20:00:30 - READING XML File :  \\balgroupit.com\appl_data\BBE\Transfer\Packages\Scripts\WSUS\Dcorp\Dcorp_Stop_All.xml
+zondag 19 juli 2020 20:00:30 - 
+zondag 19 juli 2020 20:00:31 - ================================svw-be-webd03.balgroupit.com======================================
+zondag 19 juli 2020 20:00:34 - READING XML File :  \\balgroupit.com\appl_data\BBE\Transfer\Packages\Scripts\WSUS\Dcorp\Dcorp_Stop_All.xml
+zondag 19 juli 2020 20:00:34 - 
+zondag 19 juli 2020 20:00:35 - ================================svw-be-webd03.balgroupit.com======================================
+zondag 19 juli 2020 20:00:38 - Commandline		: StopWebsite "DmsDataRepository"
+zondag 19 juli 2020 20:00:38 - Commandline		: StopWebsite "DmsDataRepository"
+zondag 19 juli 2020 20:00:39 - Commandline		: StopWebsite "MNet"
+zondag 19 juli 2020 20:00:39 - Commandline		: StopAppPool "DefaultAppPool"
+zondag 19 juli 2020 20:00:39 - Commandline		: StopAppPool "DefaultAppPool"
+zondag 19 juli 2020 20:00:39 - Commandline		: StopAppPool "WSDMS"
+zondag 19 juli 2020 20:00:39 - Commandline		: StopAppPool "WSDMS"
+zondag 19 juli 2020 20:00:39 - Commandline		: StopAppPool "WSDmsDataRepository"
+zondag 19 juli 2020 20:00:40 - Commandline		: StopAppPool "MNet"
+zondag 19 juli 2020 20:00:40 - Commandline		: StopAppPool "BaloiseBackend"
+zondag 19 juli 2020 20:00:47 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.boservices"
+zondag 19 juli 2020 20:00:47 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercator.eai.framework.webservices"
+zondag 19 juli 2020 20:00:47 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.boservices"
+zondag 19 juli 2020 20:00:47 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercator.eai.tools.wsc"
+zondag 19 juli 2020 20:01:44 - Commandline		: StopService "Baloise BaloiseBackendBatch"
+zondag 19 juli 2020 20:01:44 - Commandline		: EnableWSUSReboot ""
+zondag 19 juli 2020 20:01:44 - ================================svw-be-babbd001.balgroupit.com======================================

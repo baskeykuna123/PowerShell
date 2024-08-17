@@ -1,0 +1,2 @@
+Rename-Item -path \\balgroupit.com\appl_data\bbe\App01\DCORP\MercatorNet\MaintenanceModeFiles\Internal\IN_MaintenanceMode_Internal.xml -newname NOT_IN_MaintenanceMode_Internal.xml
+Rename-Item -path \\balgroupit.com\appl_data\bbe\App01\DCORP\MercatorNet\MaintenanceModeFiles\Broker\IN_MaintenanceMode_Broker.xml -newname NOT_IN_MaintenanceMode_Broker.xml

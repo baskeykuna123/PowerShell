@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+		<URL Address="http://${MDM}:8080/ebx-ui/ui" Response="200"/>
+		<URL Address="http://${MDM_NLB}/ebx-ui/ui" Response="200"/>
+	</URLs>
+</Tests>

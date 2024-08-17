@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Release Release="R32" source="\\balgroupit.com\appl_data\BBE\Transfer\B&amp;I\ReleasedDeliverables\">
+  <Application Name="MNET">
+    <PatchRequest Number="385038" State="Acorp Validated" />
+  </Application>
+  <Application Name="MWebBroker">
+  </Application>
+  <Application Name="ESB">
+    <PatchRequest Number="377973" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Contract.Life.Bpi.Proposal.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.Service.Contract.Life.Bpi.Proposal.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkSending_Sync_Talk" />
+      <HostInstance Name="BizTalkReceiving_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="378642" State="Closed">
+      <Assembly Name="" AddtoGAC="true" AddtoBiztalkResouces="" ver="" />
+      <HostInstance Name="BizTalkSending_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="378749" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.BP.Ctr.Internal.B2B.Publish.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+    </PatchRequest>
+    <PatchRequest Number="378661" State="Closed">
+      <Assembly Name=".dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="" />
+    </PatchRequest>
+    <PatchRequest Number="378633" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Contract.NonLife.Tariff.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.1" />
+    </PatchRequest>
+    <PatchRequest Number="379512" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.BO.Ccm.Generic.Sync.Pipeline.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.BO.Ccm.Generic.Sync.PipelineComponent.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkSending_Sync" />
+      <HostInstance Name="BizTalkSending_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="379575" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Party.Batch.Synchronize.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkProcessing_Batch" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkProcessing_Batch" />
+    </PatchRequest>
+    <PatchRequest Number="379435" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Claim.NonLife.Vehicle.Rdr.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.BO.Dms.Document.DocumentSet.List.Schema.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.List.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Claim.NonLife.Vehicle.Rdr.Publish.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.BO.BaBe.Claim.Rdr.Schema.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkReceiving_Async" />
+      <HostInstance Name="BizTalkSending_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="379939" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.FinancialProfile.Update.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Mercator.Esb.Service.Contract.Life.Bpi.Proposal.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+    </PatchRequest>
+    <PatchRequest Number="380795" State="Closed">
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Carattest.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Carattest.Pipeline.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Carattest.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Archive.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Archive.Pipeline.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Archive.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Compensation.Transfer.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Incoming.Publish.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Incoming.Publish.Pipeline.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Incoming.Publish.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Outgoing.Nateus.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Outgoing.Nateus.Pipeline.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Outgoing.Nateus.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Outgoing.Publish.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Outgoing.Publish.Pipeline.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Outgoing.Publish.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.SharedArtifacts.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.SharedArtifacts.Pipeline.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Carattest.PipelineComponent.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.SharedArtifacts.PipelineComponent.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Carattest.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.SharedArtifacts.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.SharedArtifacts.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkSending_Async" />
+      <HostInstance Name="BizTalkSending_Sync_Sgw" />
+      <HostInstance Name="BizTalkReceiving_Single" />
+      <HostInstance Name="BizTalkReceiving_Async" />
+    </PatchRequest>
+    <PatchRequest Number="381614" State="Closed">
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Incoming.Publish.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+    </PatchRequest>
+    <PatchRequest Number="381999" State="Closed">
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Incoming.Publish.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.B2B.Datassur.Claim.NonLife.Vehicle.Rdr.Outgoing.Publish.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+    </PatchRequest>
+    <PatchRequest Number="382050" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Contract.NonLife.Batch.Alert.Claim.Create.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" ImportBinding="Mercator.Esb.Service.Contract.NonLife" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+    </PatchRequest>
+    <PatchRequest Number="380361" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Claim.NonLife.Vehicle.Rdr.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Claim.NonLife.Vehicle.Rdr.Publish.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Claim.NonLife.Vehicle.Rdr.Publish.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Claim.NonLife.Vehicle.Rdr.Publish.Messaging.Class.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.BO.Dms.Document.DocumentSet.List.Schema.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.List.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Sync" />
+      <HostInstance Name="BizTalkReceiving_Sync" />
+      <HostInstance Name="BizTalkSending_Sync" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkReceiving_Async" />
+      <HostInstance Name="BizTalkSending_Async" />
+    </PatchRequest>
+    <PatchRequest Number="383232" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.List.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Cl.NL.Batch.Inbound.Vehic.Rdr.B2B.Datassur.Transfer.Support.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Cl.NL.Batch.Inbound.Vehic.Rdr.B2B.Datassur.Transfer.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Cl.NL.Batch.Internal.Vehic.Rdr.BO.BaBe.Transfer.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Cl.NL.Batch.Outbound.Vehic.Rdr.B2B.Datassur.Transfer.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Sync" />
+      <HostInstance Name=" BizTalkSending_Sync" />
+      <HostInstance Name=" BizTalkReceiving_Sync" />
+      <HostInstance Name="BizTalkProcessing_Batch" />
+    </PatchRequest>
+    <PatchRequest Number="382611" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.FinancialProfile.Update.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+    </PatchRequest>
+    <PatchRequest Number="383007" State="Closed">
+      <Assembly Name="Mercator.Esb.SharedArtifacts.MNet.Contract.Schema.Class.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <Assembly Name="Mercator.Esb.Service.Contract.Life.ProcessSupport.Proposal.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <Assembly Name="Mercator.Esb.Service.Contract.Life.Processing.Proposal.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.Internal.Publish.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.Internal.Publish.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.Proposal.Bpi.Finalize.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.Proposal.Bpi.Finalize.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.Internal.Publish.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.Internal.Publish.Messaging.Class.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.Proposal.Bpi.Finalize.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.Proposal.Bpi.Finalize.Messaging.Class.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkProcessing_Sync" />
+      <HostInstance Name="BizTalkReceiving_Async" />
+      <HostInstance Name="BizTalkReceiving_Sync" />
+      <HostInstance Name="BizTalkSending_Async" />
+      <HostInstance Name="BizTalkSending_Sync" />
+      <HostInstance Name="BizTalkSending_Sync_Legacy" />
+      <HostInstance Name="BizTalkSending_Sync_SGW" />
+      <HostInstance Name="BizTalkSending_Sync_Talk" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkProcessing_Sync" />
+      <HostInstance Name="BizTalkReceiving_Async" />
+      <HostInstance Name="BizTalkReceiving_Sync" />
+      <HostInstance Name="BizTalkSending_Async" />
+      <HostInstance Name="BizTalkSending_Sync" />
+      <HostInstance Name="BizTalkSending_Sync_Legacy" />
+      <HostInstance Name="BizTalkSending_Sync_SGW" />
+      <HostInstance Name="BizTalkSending_Sync_Talk" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkProcessing_Sync" />
+      <HostInstance Name="BizTalkReceiving_Async" />
+      <HostInstance Name="BizTalkReceiving_Sync" />
+      <HostInstance Name="BizTalkSending_Async" />
+      <HostInstance Name="BizTalkSending_Sync" />
+      <HostInstance Name="BizTalkSending_Sync_Legacy" />
+      <HostInstance Name="BizTalkSending_Sync_SGW" />
+      <HostInstance Name="BizTalkSending_Sync_Talk" />
+    </PatchRequest>
+    <PatchRequest Number="383372" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Task.Register.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Sync" />
+      <HostInstance Name="BizTalkReceiving_Sync" />
+      <HostInstance Name="BizTalkSending_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="383517" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Contract.Life.ProcessSupport.Proposal.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.Proposal.Bpi.Finalize.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async&#xA;BizTalkProcessing_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="383624" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Contract.Life.ProcessSupport.Proposal.dll" AddtoGAC="true" AddtoBiztalkResouces="False" ver="" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+    </PatchRequest>
+    <PatchRequest Number="383709" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Claim.NonLife.Vehicle.Rdr.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="True" ver="2.0" />
+      <HostInstance Name="BizTalkSending_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="383825" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Cl.NL.Batch.Inbound.Vehic.Rdr.B2B.Datassur.Transfer.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Batch" />
+    </PatchRequest>
+    <PatchRequest Number="383939" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Contract.Life.ProcessSupport.Proposal.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+    </PatchRequest>
+    <PatchRequest Number="384018" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.FinancialProfile.Update.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+    </PatchRequest>
+    <PatchRequest Number="384126" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.Proposal.Bpi.Finalize.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+    </PatchRequest>
+    <PatchRequest Number="384336" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Claim.NonLife.Vehicle.Rdr.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="ClaimNonLifeVehicleRdrGet.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkReceiving_Sync" />
+      <HostInstance Name="BizTalkSending_Sync " />
+    </PatchRequest>
+    <PatchRequest Number="384564" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Claim.NonLife.Vehicle.Rdr.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="ClaimNonLifeVehicleRdrGet.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkSending_Sync" />
+      <HostInstance Name="BizTalkReceiving_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="390544" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.FinancialProfile.Update.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+    </PatchRequest>
+    <PatchRequest Number="392388" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.BO.Cleva.Contract.NonLife.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async&#xA;BizTalkProcessing_Sync&#xA;BizTalkSending_Sync_Cleva&#xA;BizTalkSending_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="392531" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.BO.Cleva.Contract.NonLife.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async&#xA;BizTalkProcessing_Sync&#xA;BizTalkSending_Sync_Cleva&#xA;BizTalkSending_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="392951" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Document.Batch.Submit.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Batch" />
+    </PatchRequest>
+    <PatchRequest Number="393533" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.BO.Cleva.Contract.NonLife.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkSending_Sync_Cleva" />
+    </PatchRequest>
+    <PatchRequest Number="393777" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Claim.NonLife.Vehicle.Rdr.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <HostInstance Name="BizTalkSending_Sync&#xA;BizTalkReceiving_Sync&#xA;BizTalkProcessing_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="394243" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.BO.Cleva.Contract.NonLife.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkSending_Sync_Cleva&#xA;BizTalkProcessing_Async&#xA;BizTalkSending_Sync_Sgw" />
+    </PatchRequest>
+    <PatchRequest Number="392837" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.FA.Batch.Tax.Certificate.Succession.Transfer.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <Assembly Name="Baloise.Esb.Service.FA.Batch.Tax.Certificate.Succession.Transfer.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Baloise.Esb.Service.FA.Batch.Tax.Certificate.Succession.Transfer.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+    </PatchRequest>
+    <PatchRequest Number="397417" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.QuickQuote.Create.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <HostInstance Name="BizTalkReceiving_Sync&#xA;BizTalkSending_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="398722" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.Contract.Life.QuickQuote.Create.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <HostInstance Name="BizTalkReceiving_Sync&#xA;BizTalkSending_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="397840" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.BO.Dms.Document.DocumentSet.List.Schema.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Internal.Get.Messaging.Class.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Internal.Get.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Internal.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Internal.Get.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async&#xA;BizTalkSending_Sync" />
+      <HostInstance Name="BizTalkProcessing_Async&#xA;BizTalkSending_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="399497" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.BO.Dms.Document.DocumentSet.List.Schema.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Get.Messaging.Class.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Get.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Internal.Get.Messaging.Class.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Internal.Get.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Internal.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Get.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.Service.Document.DocumentSet.Internal.Get.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async&#xA;BizTalkSending_Sync &#xA;BizTalkReceiving_Async" />
+    </PatchRequest>
+    <PatchRequest Number="410621" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.BO.BaBe.Batch.Schema.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Baloise.Esb.Service.BO.BaBe.Batch.Schema.Class.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name=" BizTalkReceiving_Sync" />
+      <HostInstance Name=" BizTalkReceiving_Async" />
+    </PatchRequest>
+    <PatchRequest Number="410700" State="Closed">
+      <Assembly Name="Baloise.Esb.Service.BO.BaBe.Batch.Internal.Outbound.Transfer.processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Esb.Ctr.Life.Batch.B2B.Riziv.Transfer.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <HostInstance Name="BizTalkReceiving_Async&#xA;BizTalkProcessing_Async&#xA;BizTalkProcessing_Batch" />
+    </PatchRequest>
+    <PatchRequest Number="411073" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.BP.Telebib2.Mig.Generic.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <HostInstance Name="BizTalkProcessing_Batch" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkProcessing_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="411286" State="Closed">
+      <Assembly Name="Mercator.Esb.Service.Test.BrokerPackage.Get.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <Assembly Name="Mercator.Esb.Service.Test.Contract.NonLife.Get.Messaging.Class.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <Assembly Name="Mercator.Esb.Service.Test.Contract.NonLife.Get.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="1.0" />
+      <Assembly Name="Mercator.Esb.Service.Test.BrokerPackage.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.Service.Test.BrokerPackage.Get.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.Service.Test.Contract.NonLife.Get.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <Assembly Name="Mercator.Esb.Service.Test.Contract.NonLife.Get.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="1.0" />
+      <HostInstance Name="BizTalkReceiving_Sync" />
+      <HostInstance Name="BizTalkSending_Sync" />
+      <HostInstance Name="BizTalkSending_Sync_Sgw" />
+      <HostInstance Name="BizTalkSending_Sync_Cleva" />
+      <HostInstance Name="BizTalkProcessing_Sync" />
+    </PatchRequest>
+    <PatchRequest Number="411571" State="Closed">
+      <Assembly Name="Baloise.Esb.B2B.Athora.FinancialAccounting.NonLife.Batch.Synchronize.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Baloise.Esb.B2B.Athora.FinancialAccounting.NonLife.Batch.Synchronize.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Batch" />
+    </PatchRequest>
+    <PatchRequest Number="411572" State="Closed">
+      <Assembly Name="Baloise.Esb.B2B.Athora.FinancialAccounting.NonLife.Batch.Synchronize.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkProcessing_Batch" />
+    </PatchRequest>
+    <PatchRequest Number="412923" State="Closed">
+      <Assembly Name="Baloise.Esb.B2B.Athora.FinancialAccounting.NonLife.Batch.Synchronize.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkProcessing_Batch" />
+    </PatchRequest>
+    <PatchRequest Number="413566" State="Closed">
+      <Assembly Name="Baloise.Esb.B2B.Athora.FinancialAccounting.NonLife.Batch.Synchronize.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Batch" />
+    </PatchRequest>
+    <PatchRequest Number="414264" State="Closed">
+      <Assembly Name="Baloise.Esb.B2B.Athora.FinancialAccounting.NonLife.Batch.Synchronize.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Async" />
+      <HostInstance Name="BizTalkProcessing_Batch" />
+    </PatchRequest>
+    <PatchRequest Number="414079" State="Pcorp Deployed">
+      <Assembly Name="Mercator.Esb.B2B.Bvb.Contract.Life.Batch.Commission.Transfer.ProcessSupport.dll" AddtoGAC="true" AddtoBiztalkResouces="" ver="2.0" />
+      <Assembly Name="Mercator.Esb.B2B.Bvb.Contract.Life.Batch.Commission.Transfer.Messaging.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Mercator.Esb.B2B.Bvb.Contract.Life.Batch.Commission.Transfer.Pipeline.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <Assembly Name="Mercator.Esb.B2B.Bvb.Contract.Life.Batch.Commission.Transfer.Processing.dll" AddtoGAC="true" AddtoBiztalkResouces="true" ver="2.0" />
+      <HostInstance Name="BizTalkProcessing_Batch" />
+      <HostInstance Name="BizTalkSending_Async" />
+      <HostInstance Name="BizTalkReceiving_Async" />
+      <HostInstance Name="BT32_Sending" />
+    </PatchRequest>
+  </Application>
+  <Application Name="EAI">
+  </Application>
+  <Application Name="B2B">
+  </Application>
+  <Application Name="DMS">
+    <PatchRequest Number="385038" State="Acorp Validated">
+      <Assembly />
+      <Assembly Name="Mercator.Framework.Document.Management.dll " />
+    </PatchRequest>
+  </Application>
+</Release>

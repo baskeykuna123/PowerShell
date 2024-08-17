@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Actions>
+<SQLDeploys>
+  <Cleva>
+    <Table Name="BE_TP_DT_0002_VEHICLE" Schema="tods_cleva" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0002_VEHICLE_H" Schema="tods_cleva" Action="EXISTS" />  
+    <Table Name="BE_TP_DT_0002_AGREEMENT" Schema="tods_cleva" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0002_AGREEMENT_H" Schema="tods_cleva" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0002_EXPOSURE" Schema="tods_cleva" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0002_EXPOSURE_H" Schema="tods_cleva" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0002_POLICY" Schema="tods_cleva" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0002_POLICY_H" Schema="tods_cleva" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0002_PROP_DET" Schema="tods_cleva" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0002_PROP_DET_H" Schema="tods_cleva" Action="EXISTS" /> 
+    <Table Name="BE_TP_DT_0002_PROPERTY" Schema="tods_cleva" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0002_PROPERTY_H" Schema="tods_cleva" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0002_LOCATION" Schema="tods_cleva" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0002_LOCATION_H" Schema="tods_cleva" Action="EXISTS" />
+    <View Name="BE_TP_DV_0002_AGREEMENT_F" Schema="tods_cleva" Action="EXISTS" />
+    <View Name="BE_TP_DV_0002_EXPOSURE_F" Schema="tods_cleva" Action="EXISTS" />
+    <View Name="BE_TP_DV_0002_PROPERTY_F" Schema="tods_cleva" Action="EXISTS" />
+    <View Name="BE_TP_DV_0002_PROP_DET_F" Schema="tods_cleva" Action="EXISTS" />
+    <View Name="BE_TP_DV_0002_LOCATION_F" Schema="tods_cleva" Action="EXISTS" />
+    <View Name="BE_TP_DV_0002_VEHICLE_F" Schema="tods_cleva" Action="EXISTS" />
+    <View Name="BE_TP_DV_0002_POLICY_F" Schema="tods_cleva" Action="EXISTS" />
+  </Cleva>
+  <Mainframe>
+    <Table Name="BE_TP_DT_0023_EXPOSURE" Schema="tods_bp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_EXPOSURE_LV10I_H" Schema="tods_lv10_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0023_EXPOSURE_H" Schema="tods_bp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0023_PROPERTY" Schema="tods_bp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0023_PROPERTY_H" Schema="tods_bp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_RESERVE_LV10I" Schema="tods_lv10_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0023_LOCATION" Schema="tods_bp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_ACCOUNT_LV11I" Schema="tods_lv11_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0023_LOCATION_H" Schema="tods_bp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_ACCOUNT_LV11I_H" Schema="tods_lv11_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_FUND_LV11I" Schema="tods_lv11_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_CATASTROPHE" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0023_PROP_DET" Schema="tods_bp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_FUND_LV11I_H" Schema="tods_lv11_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_RESERVE_LV11I" Schema="tods_lv11_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_CATASTROPHE_H" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0023_PROP_DET_H" Schema="tods_bp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_CLAIM" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_CLAIM_H" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_RESERVE_LV10I_BU20210318" Schema="tods_lv10_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_INCIDENT" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0024_AGREEMENT" Schema="tods_mp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_INCIDENT_H" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0024_AGREEMENT_H" Schema="tods_mp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0024_EXPOSURE" Schema="tods_mp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0024_EXPOSURE_H" Schema="tods_mp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_PREMIUM_LV10I" Schema="tods_lv10_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_PREMIUM_LV10I_H" Schema="tods_lv10_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_PARTY" Schema="tods_mainframe" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_PARTY_H" Schema="tods_mainframe" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0023_POLICY" Schema="tods_bp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0023_POLICY_H" Schema="tods_bp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0024_POLICY" Schema="tods_mp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0024_POLICY_H" Schema="tods_mp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0030_PARTY" Schema="tods_hn10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0030_PARTY_COR" Schema="tods_hn10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0030_PARTY_COR_H" Schema="tods_hn10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0030_PARTY_H" Schema="tods_hn10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0030_PARTY_INSP" Schema="tods_hn10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0030_PARTY_INSP_H" Schema="tods_hn10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_POLICY_LV10I" Schema="tods_lv10_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0030_PARTY_REL" Schema="tods_hn10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0030_PARTY_REL_H" Schema="tods_hn10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_POLICY_LV10I_H" Schema="tods_lv10_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0030_PRODUCER" Schema="tods_hn10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0030_PRODUCER_H" Schema="tods_hn10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0024_VEHICLE" Schema="tods_mp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0024_VEHICLE_H" Schema="tods_mp10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_CLAIM_UNIT" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_INSURED_LV10I" Schema="tods_lv10_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_CLAIM_UNIT_H" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_INSURED_LV10I_H" Schema="tods_lv10_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_PROP_LOSS_DET" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_PROP_LOSS_DET_H" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_RESERVE_LV10I_bu20210308" Schema="tods_lv10_ind" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_AUTO_LOSS_DET" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_AUTO_LOSS_DET_H" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_INCIDENT_L" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_INCIDENT_L_H" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_LIFE_CLAIM" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0027_LIFE_CLAIM_H" Schema="tods_sh10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0029_TRANS_DET_L" Schema="tods_kw10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0029_TRANSACTION_L" Schema="tods_kw10" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0001_EXPOSURE_LV10I" Schema="tods_lv10_ind" Action="EXISTS" />
+    <View Name="BE_TP_DV_0029_TRANSACTION_L_F" Schema="tods_kw10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0027_INCIDENT_L_F" Schema="tods_sh10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0027_LIFE_CLAIM_F" Schema="tods_sh10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0027_AUTO_LOSS_DET_F" Schema="tods_sh10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0027_PROP_LOSS_DET_F" Schema="tods_sh10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0027_CLAIM_UNIT_F" Schema="tods_sh10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0001_INSURED_LV10I_F" Schema="tods_lv10_ind" Action="EXISTS" />
+    <View Name="BE_TP_DV_0030_PRODUCER_F" Schema="tods_hn10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0030_PARTY_F" Schema="tods_hn10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0030_PARTY_INSP_F" Schema="tods_hn10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0030_PARTY_COR_F" Schema="tods_hn10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0024_VEHICLE_F" Schema="tods_mp10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0030_PARTY_REL_F" Schema="tods_hn10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0024_POLICY_F" Schema="tods_mp10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0001_PREMIUM_LV10I_F" Schema="tods_lv10_ind" Action="EXISTS" />
+    <View Name="BE_TP_DV_0024_EXPOSURE_F" Schema="tods_mp10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0023_POLICY_F" Schema="tods_bp10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0001_POLICY_LV10I_F" Schema="tods_lv10_ind" Action="EXISTS" />
+    <View Name="BE_TP_DV_0001_PARTY_F" Schema="tods_mainframe" Action="EXISTS" />
+    <View Name="BE_TP_DV_0024_AGREEMENT_F" Schema="tods_mp10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0027_CLAIM_F" Schema="tods_sh10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0027_INCIDENT_F" Schema="tods_sh10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0001_FUND_LV11I_F" Schema="tods_lv11_ind" Action="EXISTS" />
+    <View Name="BE_TP_DV_0001_ACCOUNT_LV11I_F" Schema="tods_lv11_ind" Action="EXISTS" />
+    <View Name="BE_TP_DV_0001_RESERVE_LV11I_F" Schema="tods_lv11_ind" Action="EXISTS" />
+    <View Name="BE_TP_DV_0023_PROP_DET_F" Schema="tods_bp10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0027_CATASTROPHE_F" Schema="tods_sh10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0023_LOCATION_F" Schema="tods_bp10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0001_RESERVE_LV10I_F" Schema="tods_lv10_ind" Action="EXISTS" />
+    <View Name="BE_TP_DV_0023_EXPOSURE_F" Schema="tods_bp10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0001_EXPOSURE_LV10I_F" Schema="tods_lv10_ind" Action="EXISTS" />
+    <View Name="BE_TP_DV_0023_PROPERTY_F" Schema="tods_bp10" Action="EXISTS" />
+    <View Name="BE_TP_DV_0029_TRANS_DET_L_F" Schema="tods_kw10" Action="EXISTS" />
+  </Mainframe>
+  <Talk>
+    <Table Name="BE_TP_DT_0004_RESERVE_20210222" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_PREMIUM" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_PREMIUM_H" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_ACCOUNT" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_ACCOUNT_H" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_FUND" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_FUND_H" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_RESERVE" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_POLICY" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_POLICY_H" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_PARTY_ROLE" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_EXPOSURE" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_PARTY_ROLE_H" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_EXPOSURE_H" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_INSURED" Schema="tods_talk" Action="EXISTS" />
+    <Table Name="BE_TP_DT_0004_INSURED_H" Schema="tods_talk" Action="EXISTS" />
+    <View Name="BE_TP_DV_0004_INSURED_F" Schema="tods_talk" Action="EXISTS" />
+    <View Name="BE_TP_DV_0004_POLICY_F" Schema="tods_talk" Action="EXISTS" />
+    <View Name="BE_TP_DV_0004_PARTY_ROLE_F" Schema="tods_talk" Action="EXISTS" />
+    <View Name="BE_TP_DV_0004_EXPOSURE_F" Schema="tods_talk" Action="EXISTS" />
+    <View Name="BE_TP_DV_0004_PREMIUM_F" Schema="tods_talk" Action="EXISTS" />
+    <View Name="BE_TP_DV_0004_FUND_F" Schema="tods_talk" Action="EXISTS" />
+    <View Name="BE_TP_DV_0004_RESERVE_F" Schema="tods_talk" Action="EXISTS" />
+    <View Name="BE_TP_DV_0004_ACCOUNT_F" Schema="tods_talk" Action="EXISTS" />
+  </Talk>
+  <Reference>
+    <Table Name="TODS_PARTY_PARTY_REF_ORG" Schema="tods_hra" Action="EXISTS" />
+    <Table Name="TODS_PARTY_PARTY_REF_ORG_HIST" Schema="tods_hra" Action="EXISTS" />
+    <Table Name="TODS_PARTY_RELATION_REF_ORG" Schema="tods_hra" Action="EXISTS" />
+    <Table Name="TODS_PARTY_RELATION_REF_ORG_HIST" Schema="tods_hra" Action="EXISTS" />
+    <Table Name="TODS_PARTY_ROLE_REF_ORG" Schema="tods_hra" Action="EXISTS" />
+    <Table Name="TODS_PARTY_ROLE_REF_ORG_HIST" Schema="tods_hra" Action="EXISTS" />
+    <Table Name="TODS_REFERENCE_COUNTRY" Schema="tods_reference" Action="EXISTS" />
+    <View Name="BE_TP_DV_0022_PARTY_REL_F" Schema="tods_hra" Action="EXISTS" />
+    <View Name="BE_TP_DV_0022_PARTY_ROLE_F" Schema="tods_hra" Action="EXISTS" />
+    <View Name="BE_TP_DV_0022_PARTY_F" Schema="tods_hra" Action="EXISTS" />
+  </Reference>
+</SQLDeploys>
+<SSISDeploys></SSISDeploys>
+<SSISTests>
+  <Talk></Talk>
+  <Cleva>
+	  <StoredProcedure Name="RunAll" Schema="TS_0002_INSURED_OBJECT" Action="RUNJUNIT" />
+  </Cleva>
+  <Mainframe>
+    <StoredProcedure Name="RunAll" Schema="TS_0001_POLICY" Action="RUNJUNIT" />
+	<StoredProcedure Name="RunAll" Schema="TS_0001_EXPOSURE" Action="RUNJUNIT" />
+	<StoredProcedure Name="RunAll" Schema="TS_0001_PARTY" Action="RUNJUNIT" />
+	<StoredProcedure Name="RunAll" Schema="TS_0001_INSURED" Action="RUNJUNIT" />
+	<StoredProcedure Name="RunAll" Schema="TS_0001_PREMIUM" Action="RUNJUNIT" />
+	<StoredProcedure Name="RunAll" Schema="TS_0001_RESERVE_LV11I" Action="RUNJUNIT" />
+	<StoredProcedure Name="RunAll" Schema="TS_0024_MP10_INSURED_OBJECT" Action="RUNJUNIT" />
+	<StoredProcedure Name="RunAll" Schema="TS_0029_KW10_LIFE" Action="RUNJUNIT" />
+	  <StoredProcedure Name="RunAll" Schema="TS_0023_BP10_INSURED_OBJECT" Action="RUNJUNIT" />
+  </Mainframe>
+  <Reference></Reference>
+</SSISTests>
+<SQLTests>
+  <Test>
+    <StoredProcedure Name="RunAll" Schema="MetadataCurrVsHistTests" Action="RUNJUNIT" />
+    <StoredProcedure Name="RunAll" Schema="MetadataStgVsTdsTests" Action="RUNJUNIT" />
+  </Test>
+</SQLTests>
+</Actions>

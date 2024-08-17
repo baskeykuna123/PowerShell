@@ -1,0 +1,120 @@
+maandag 16 augustus 2021 4:32:33 - READING XML File :  \\balgroupit.com\appl_data\BBE\Transfer\Packages\Scripts\WSUS\Icorp\Icorp_Start_All.xml
+maandag 16 augustus 2021 4:32:33 - 
+maandag 16 augustus 2021 4:32:33 - ================================svw-be-dmsi01.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:34 - Commandline		: StartService "Execute360 Route Engine"
+maandag 16 augustus 2021 4:32:34 - Commandline		: StartService "Execute360 Index Manager"
+maandag 16 augustus 2021 4:32:34 - Commandline		: StartService "Execute360 Transfer Manager"
+maandag 16 augustus 2021 4:32:34 - Commandline		: StartService "Execute360 Rendezvous Manager"
+maandag 16 augustus 2021 4:32:34 - Commandline		: StartService "Execute360 Location Manager"
+maandag 16 augustus 2021 4:32:34 - Commandline		: StartService "Execute360 Object Manager"
+maandag 16 augustus 2021 4:32:34 - Commandline		: StartService "Execute360 Security Manager"
+maandag 16 augustus 2021 4:32:34 - ================================svw-be-dmsi01.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:35 - ================================svw-be-webfi001.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:35 - Commandline		: DisableWSUSReboot ""
+maandag 16 augustus 2021 4:32:35 - Commandline		: StartService "World Wide Web Publishing Service"
+maandag 16 augustus 2021 4:32:35 - Commandline		: StartWebsite "OnlineDocuments"
+maandag 16 augustus 2021 4:32:35 - Commandline		: StartWebsite "MNet"
+maandag 16 augustus 2021 4:32:36 - Commandline		: StartWebsite "MWebBvb"
+maandag 16 augustus 2021 4:32:36 - Commandline		: StartAppPool "DefaultAppPool"
+maandag 16 augustus 2021 4:32:36 - Commandline		: StartAppPool "ED"
+maandag 16 augustus 2021 4:32:36 - Commandline		: StartAppPool "EmployeeBenefits"
+maandag 16 augustus 2021 4:32:36 - Commandline		: StartAppPool "EtlLogViewer"
+maandag 16 augustus 2021 4:32:36 - Commandline		: StartAppPool "LevenAansluitingsverklaring"
+maandag 16 augustus 2021 4:32:36 - Commandline		: StartAppPool "LevenWijzigingsFormulier"
+maandag 16 augustus 2021 4:32:36 - Commandline		: StartAppPool "MercatorNet.RMMain"
+maandag 16 augustus 2021 4:32:36 - Commandline		: StartAppPool "MercatorNet.WSDeploy_3_0"
+maandag 16 augustus 2021 4:32:36 - Commandline		: StartAppPool "MercatorNet.WSMain"
+maandag 16 augustus 2021 4:32:36 - Commandline		: StartAppPool "MercatorNet.WSServices"
+maandag 16 augustus 2021 4:32:36 - Commandline		: StartAppPool "MercatorNet.WSTariff"
+maandag 16 augustus 2021 4:32:37 - Commandline		: StartAppPool "MercatorNetBroker.WSDeploy_3_0"
+maandag 16 augustus 2021 4:32:37 - Commandline		: StartAppPool "MercatorNetBroker.WSMain"
+maandag 16 augustus 2021 4:32:37 - Commandline		: StartAppPool "MercatorWebSite"
+maandag 16 augustus 2021 4:32:37 - Commandline		: StartAppPool "MyBaloiseBroker"
+maandag 16 augustus 2021 4:32:37 - Commandline		: StartAppPool "MWebBvb"
+maandag 16 augustus 2021 4:32:37 - Commandline		: StartAppPool "ScvWebService"
+maandag 16 augustus 2021 4:32:37 - ================================svw-be-webfi001.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:37 - ================================svw-be-webi02.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:38 - Commandline		: DisableWSUSReboot ""
+maandag 16 augustus 2021 4:32:38 - Commandline		: StartService "World Wide Web Publishing Service"
+maandag 16 augustus 2021 4:32:38 - Commandline		: StartAppPool "DefaultAppPool"
+maandag 16 augustus 2021 4:32:38 - Commandline		: StartAppPool "MNet"
+maandag 16 augustus 2021 4:32:38 - Commandline		: StartAppPool "BaloiseBackend"
+maandag 16 augustus 2021 4:32:39 - Commandline		: StartAppPool "CDS"
+maandag 16 augustus 2021 4:32:39 - Commandline		: StartAppPool "Mercator.EAI.Framework.WebServices"
+maandag 16 augustus 2021 4:32:39 - Commandline		: StartAppPool "Mercator.Eai.Tools.Wsc"
+maandag 16 augustus 2021 4:32:39 - Commandline		: StartAppPool "Mercator.Portima"
+maandag 16 augustus 2021 4:32:39 - Commandline		: StartAppPool "Mercator.Portima.Monitoring"
+maandag 16 augustus 2021 4:32:39 - Commandline		: StartAppPool "MercatorNet.BoServices"
+maandag 16 augustus 2021 4:32:39 - Commandline		: StartAppPool "WSDms"
+maandag 16 augustus 2021 4:32:39 - Commandline		: StartAppPool "WSDmsDataRepository"
+maandag 16 augustus 2021 4:32:39 - Commandline		: StartAppPool "MercatorNet.BoServices"
+maandag 16 augustus 2021 4:32:39 - Commandline		: StartWebsite "DmsDataRepository"
+maandag 16 augustus 2021 4:32:39 - Commandline		: StartWebsite "MNet"
+maandag 16 augustus 2021 4:32:39 - Commandline		: StartService "Steria's Dispatcher Service"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Mercator Document Delivery"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Mercator Document Generation"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Mercator Organization Data"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Mercator DMS Pdf Conversion Call"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Mercator Document Management System Service"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Mercator Document Management System Async Service"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Mercator Document Management System Batch Avero Service"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "BaloiseDmsBatchService"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Mercator Document Store"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Mercator Xpim Document Store"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Mercator DMS Import Portima Attachments"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Mercator DMS Bulk Insert"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Baloise Central Data Store"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Baloise SyncTaskToDMS"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "Baloise Backend"
+maandag 16 augustus 2021 4:32:40 - Commandline		: StartService "MercatorNET SCV Batch Service"
+maandag 16 augustus 2021 4:32:41 - Commandline		: StartService "Mercator.Integration.EAI.3.9.Listener"
+maandag 16 augustus 2021 4:32:41 - Commandline		: StartService "Mercator DMS MailImport Service"
+maandag 16 augustus 2021 4:32:41 - ================================svw-be-webi02.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:41 - ================================svw-be-eaii01.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:42 - Commandline		: DisableWSUSReboot ""
+maandag 16 augustus 2021 4:32:42 - Commandline		: StartService "mercator.eai.docservice"
+maandag 16 augustus 2021 4:32:42 - ================================svw-be-eaii01.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:43 - ================================svw-be-bizi001.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:44 - Commandline		: DisableWSUSReboot ""
+maandag 16 augustus 2021 4:32:44 - Commandline		: StartService "Mercator Managed File Transfer"
+maandag 16 augustus 2021 4:32:44 - Commandline		: StartService "Mercator Esb Process Initializer"
+maandag 16 augustus 2021 4:32:44 - ================================svw-be-bizi001.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:45 - ================================svw-be-bizi002.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:46 - Commandline		: DisableWSUSReboot ""
+maandag 16 augustus 2021 4:32:46 - Commandline		: StartService "Mercator Managed File Transfer"
+maandag 16 augustus 2021 4:32:46 - Commandline		: StartService "Mercator Esb Process Initializer"
+maandag 16 augustus 2021 4:32:46 - ================================svw-be-bizi002.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:46 - ================================svw-be-babsi001.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:46 -  svw-be-babsi001.balgroupit.com remote session could not be created.
+maandag 16 augustus 2021 4:32:46 - ================================svw-be-babsi001.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:47 - ================================svw-be-babbi001.balgroupit.com======================================
+maandag 16 augustus 2021 4:32:48 - Commandline		: DisableWSUSReboot ""
+maandag 16 augustus 2021 4:32:48 - Commandline		: StartService "Baloise BaloiseBackendBatch"
+maandag 16 augustus 2021 4:32:48 - ================================svw-be-babbi001.balgroupit.com======================================
+maandag 16 augustus 2021 4:33:09 - ================================svw-be-tstfi01.balgroupit.com======================================
+maandag 16 augustus 2021 4:33:09 -  svw-be-tstfi01.balgroupit.com remote session could not be created.
+maandag 16 augustus 2021 4:33:09 - ================================svw-be-tstfi01.balgroupit.com======================================
+maandag 16 augustus 2021 4:33:31 - ================================svw-be-tstfi02.balgroupit.com======================================
+maandag 16 augustus 2021 4:33:31 -  svw-be-tstfi02.balgroupit.com remote session could not be created.
+maandag 16 augustus 2021 4:33:31 - ================================svw-be-tstfi02.balgroupit.com======================================
+maandag 16 augustus 2021 4:33:52 - ================================svw-be-tstfi03.balgroupit.com======================================
+maandag 16 augustus 2021 4:33:52 -  svw-be-tstfi03.balgroupit.com remote session could not be created.
+maandag 16 augustus 2021 4:33:52 - ================================svw-be-tstfi03.balgroupit.com======================================
+maandag 16 augustus 2021 4:34:13 - ================================svw-be-tstfi04.balgroupit.com======================================
+maandag 16 augustus 2021 4:34:13 -  svw-be-tstfi04.balgroupit.com remote session could not be created.
+maandag 16 augustus 2021 4:34:13 - ================================svw-be-tstfi04.balgroupit.com======================================
+maandag 16 augustus 2021 4:34:34 - ================================svw-be-tstfi005.balgroupit.com======================================
+maandag 16 augustus 2021 4:34:34 -  svw-be-tstfi005.balgroupit.com remote session could not be created.
+maandag 16 augustus 2021 4:34:34 - ================================svw-be-tstfi005.balgroupit.com======================================
+maandag 16 augustus 2021 4:34:55 - ================================svw-be-tstfi006.balgroupit.com======================================
+maandag 16 augustus 2021 4:34:55 -  svw-be-tstfi006.balgroupit.com remote session could not be created.
+maandag 16 augustus 2021 4:34:55 - ================================svw-be-tstfi006.balgroupit.com======================================
+maandag 16 augustus 2021 4:35:16 - ================================svw-be-tstfi007.balgroupit.com======================================
+maandag 16 augustus 2021 4:35:16 -  svw-be-tstfi007.balgroupit.com remote session could not be created.
+maandag 16 augustus 2021 4:35:16 - ================================svw-be-tstfi007.balgroupit.com======================================
+maandag 16 augustus 2021 4:35:16 - ================================svw-be-testp001.balgroupit.com======================================
+maandag 16 augustus 2021 4:35:16 -  svw-be-testp001.balgroupit.com remote session could not be created.
+maandag 16 augustus 2021 4:35:16 - ================================svw-be-testp001.balgroupit.com======================================
+maandag 16 augustus 2021 4:35:16 - ================================svw-be-testp002.balgroupit.com======================================
+maandag 16 augustus 2021 4:35:16 -  svw-be-testp002.balgroupit.com remote session could not be created.
+maandag 16 augustus 2021 4:35:16 - ================================svw-be-testp002.balgroupit.com======================================

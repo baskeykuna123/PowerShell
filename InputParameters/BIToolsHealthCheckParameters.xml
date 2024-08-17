@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+		<URL Address="https://${NEXUSHOST}" Response="200" />
+		<URL Address="http://${JENKINSHOST}:8080" Response="200" />
+		<URL Address="https://${SONARQUBEHOST}" Response="200" />
+        	<URL Address="http://${TFSHOST}:9091/tfs" Response="200" />
+	</URLs>
+	<TFSBuildServer>
+		<Details Server="SVW-BE-TFSP001.balgroupit.com" Username="L001146" agentService="" TFSagentInUse="False" Status="" />
+		<Details Server="SVW-BE-TFSP002.balgroupit.com" agentService="" TFSagentInUse="False" Status="" />
+		<Details Server="SVW-BE-BLDP001.balgroupit.com" Username="Balgroupit\L001146" agentService="vstsagent.tfs-be.DOTNET01" TFSagentInUse="True" Status="" />
+		<Details Server="SVW-BE-BLDP002.balgroupit.com" Username="Balgroupit\L001146" agentService="vstsagent.tfs-be.DOTNET02" TFSagentInUse="True" Status="Running" />
+		<Details Server="SVW-BE-JNKBP001.balgroupit.com" agentService="" TFSagentInUse="True" Status="" />
+		<Details Server="SVW-ME-PCLEVA01.balgroupit.com" agentService="" TFSagentInUse="False" Status="" />
+		<Details Server="SHW-ME-PCLEVA01.balgroupit.com" agentService="" TFSagentInUse="False" Status="" />
+	</TFSBuildServer>
+	<PackageShare>
+		<Details location="\\balgroupit.com\appl_data\BBE\Packages" Status="" />
+	</PackageShare>
+</Tests>

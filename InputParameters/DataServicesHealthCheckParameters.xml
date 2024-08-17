@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+
+    <URL Address="http://${BdaServiceServer}:80/Application/v1/Ping" Response="200"/>
+
+
+  </URLs>
+
+</Tests>

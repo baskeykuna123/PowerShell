@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+		<URL Address="http://${WEBFRONT}/MercatorNet.WSMain/LogOnService.asmx" Response="200"/>
+		<URL Address="http://${NEWFRONTVM}/MercatorNet.WSMain/LogOnService.asmx" Response="200"/>
+		<URL Address="http://${ACORPWEBFRONT}/MercatorNet.WSMain/LogOnService.asmx" Response="200"/>
+	</URLs>
+	<Services>
+	<Service server="${WEBBACK}" Name="BaloiseDmsBatchService" Status="Running"/>
+	<Service server="${WEBBACK}" Name="MercatorDMSBulkInsert" Status="Running"/>
+	<Service server="${WEBBACK}" Name="MercatorDMSImportPortimaAttachments" Status="Running"/>
+	<Service server="${WEBBACK}" Name="MercatorDMSMailImportService" Status="Running"/>
+	<Service server="${WEBBACK}" Name="Mercator Document Delivery" Status="Running"/>
+	<Service server="${WEBBACK}" Name="Mercator Document Generation" Status="Running"/>
+	<Service server="${WEBBACK}" Name="MercatorDMSServiceAsync" Status="Running"/>
+	<Service server="${WEBBACK}" Name="MercatorDMSServiceBatchAvero" Status="Running"/>
+	<Service server="${WEBBACK}" Name="MercatorDMSService" Status="Running"/>
+	<Service server="${WEBBACK}" Name="Mercator Organization Data" Status="Running"/>
+	<Service server="${WEBBACK}" Name="Mercator.EAI.3.9.Listener" Status="Running"/>
+	<Service server="${WEBBACK}" Name="MercatorNET SCV Batch Service" Status="Running"/>
+	<Service server="${WEBBACK}" Name="Baloise SyncTaskToDMS" Status="Running"/>
+	</Services>
+</Tests>

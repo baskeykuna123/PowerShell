@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Roles>
+
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb05.balgroupit.com" FunctionName="DisableWSUSReboot" returnvalue="true" Description=""/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb03.balgroupit.com" FunctionName="DisableWSUSReboot" returnvalue="true" Description=""/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai01.balgroupit.com" FunctionName="DisableWSUSReboot" returnvalue="true" Description=""/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai02.balgroupit.com" FunctionName="DisableWSUSReboot" returnvalue="true" Description=""/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb03.balgroupit.com" FunctionName="DisableWSUSReboot" returnvalue="true" Description=""/>
+	<Role Application="Esb" Corp="D" ServerName="svw-be-bizd01.balgroupit.com" FunctionName="DisableWSUSReboot" returnvalue="true" Description=""/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="DisableWsusReboot" returnvalue="true" Description=""/>
+
+</Roles>

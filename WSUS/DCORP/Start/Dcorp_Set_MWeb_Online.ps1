@@ -1,0 +1,1 @@
+Rename-Item -path \\Dwebfm01.balgroupit.com\E$\Mercator\MercatorWeb\MercatorWebBroker\App_Offline.htm -newname NOT_App_Offline.htm

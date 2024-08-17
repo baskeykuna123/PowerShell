@@ -1,0 +1,8 @@
+woensdag 25 augustus 2021 0:53:08 - READING XML File :  E:\BuildTeam\Pankaj\Test_WSUS\Dcorp_Start_All.xml
+woensdag 25 augustus 2021 0:53:08 - 
+woensdag 25 augustus 2021 0:53:08 - ================================svw-be-bizd002.balgroupit.com======================================
+woensdag 25 augustus 2021 0:53:14 - Commandline		: StartWebsite "Test"
+woensdag 25 augustus 2021 0:53:14 - Commandline		: StartAppPool "EsbPortal"
+woensdag 25 augustus 2021 0:53:15 - Commandline		: StartAppPool "Test"
+woensdag 25 augustus 2021 0:53:15 - Commandline		: StartService "Mercator Managed File Transfer"
+woensdag 25 augustus 2021 0:53:18 - ================================svw-be-bizd002.balgroupit.com======================================

@@ -1,0 +1,146 @@
+param($WebsiteName)
+
+clear;
+$WebsiteName="Test"
+
+# Chek website status
+$CheckWebSiteStatus=Get-WebsiteState -Name $WebsiteName
+if($($CheckWebSiteStatus.Value) -ieq "Started"){
+	Write-Host "INFO: Website - $WebsiteName is up and runing"
+}
+Else{
+	Write-Host "WARNING: Website is either stopped or not up and running. Please check."
+}
+
+==================================================================================================
+
+param($WebsiteName)
+
+clear;
+$WebsiteName="TestWebApp"
+
+# Check web application pool status
+$CheckApplicationStatus=Get-WebAppPoolState -Name $WebsiteName
+if($($CheckApplicationStatus.Value) -ieq "Started"){
+	Write-Host "INFO: Website - $WebsiteName is up and runing"
+}
+Else{
+	Write-Host "WARNING: Website is either stopped or not up and running. Please check."
+}
+
+
+
+==================================================================================================
+
+param($WebsiteName,$Action)
+
+clear;
+$WebsiteName="Test"
+$Action=""
+# Stop/Start website based on input provided
+$CheckWebSiteStatus=Get-WebsiteState -Name $WebsiteName
+Switch($Action){
+	"StartWebsite" 
+	{	if($($CheckWebSiteStatus.Value) -ieq "Stopped")
+		{
+			Write-Host "WARNING: Website - $WebsiteName is stopped"
+			Write-Host "Starting website ..."
+			Start-Website -Name $WebsiteName
+			if($($(Get-WebsiteState -Name $WebsiteName).Value) -ieq "Started" ){
+				Write-Host "INFO: Website - $WebsiteNameis started successfully"
+			}
+		}
+		Else{
+			Write-Host "INFO: Web site - $WebsiteName is already up and running."
+		}
+	}
+	"StopWebsite"
+		{	if($($CheckWebSiteStatus.Value) -ieq "Started")
+		{
+			Write-Host "WARNING: Website - $WebsiteName is up and running"
+			Write-Host "Stopping website ..."
+			Stop-Website -Name $WebsiteName
+			if($($(Get-WebsiteState -Name $WebsiteName).Value) -ieq "Stopped" ){
+				Write-Host "INFO: Website - $WebsiteNameis stopped successfully"
+			}
+		}
+		Else{
+			Write-Host "INFO: Web site - $WebsiteName is already stopped."
+		}
+	}
+}
+
+
+=======================================================================================================
+
+param($WebApplicationName,$Action)
+
+clear;
+
+#Stop/Start application
+$WebApplicationName="TestWebApp"
+$Action=""
+$GetApplicationPoolName=$(Get-WebApplication -Name $WebApplicationName).applicationpool
+$CheckWebApplicationPoolStatus=$(Get-WebAppPoolState -Name $GetApplicationPoolName).Value
+Switch($Action){
+	"StartAppPool"
+	{	if($($CheckWebApplicationPoolStatus) -ieq "Stopped")
+		{
+			Write-Host "WARNING: Web application - $WebApplicationName is stopped"
+			Write-Host "Starting application pool ..."
+			Start-WebAppPool -Name $WebsiteName
+			if(($($(Get-WebAppPoolState -Name $GetApplicationPoolName).Value) -ieq "Started") ){
+				Write-Host "INFO: Web application - $WebApplicationName is started successfully"
+			}
+		}
+		Else{
+			Write-Host "INFO: Web application - $WebApplicationName is already up and running."
+		}
+	}
+	"StopAppPool"
+	{	if($($CheckWebApplicationPoolStatus) -ieq "Started")
+		{
+			Write-Host "WARNING: Web application - $WebApplicationName is started"
+			Write-Host "Stopping application pool ..."
+			Stop-WebAppPool -Name $WebsiteName
+			if(($($(Get-WebAppPoolState -Name $GetApplicationPoolName).Value) -ieq "Stopped") ){
+				Write-Host "INFO: Web application - $WebApplicationName stopped successfully"
+			}
+		}
+		Else{
+			Write-Host "INFO: Web application - $WebApplicationName is already stopped."
+		}
+	}
+}
+
+================================================================================================================
+
+Function GetVirtualDirectoryPath($ApplicationName,$ApplicationType){
+	clear;
+	Switch($ApplicationType){
+		"WebSite" {
+			$ApplicationPhysicalpath=$(Get-Website -Name $ApplicationName).PhysicalPath
+		}
+		"WebApplication" {
+			$ApplicationPhysicalpath=$(Get-WebApplication -Name $ApplicationName).PhysicalPath
+		}
+	}
+}
+
+#Copy artifacts to virtual directory location
+param($ApplicationName,$ApplicationType)
+$VirtualDirectoryLocation=GetVirtualDirectoryPath $ApplicationName $ApplicationType
+Write-Host "Copying artifacts source to virtual directory location.."
+Copy-Item -Source "$ArtifactSouce" -Destination $VirtualDirectoryLocation -Recurse -Force -Verbose
+
+#Clean up temp directory location
+param($ApplicationName,$ApplicationType)
+$VirtualDirectoryLocation=GetVirtualDirectoryPath $ApplicationName $ApplicationType
+Write-Host "Removing artifacts source to virtual directory location.."
+if(Test-Path $VirtualDirectoryLocation){
+	gci $VirtualDirectoryLocation -Recurse | %{Remove-Item ($_.FullName) -force}
+}
+Else{
+	Write-Host "Virtual directory location does not exist"
+}
+=================================================================================================================

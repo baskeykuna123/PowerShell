@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+		<URL Address="http://${CDSBack}/CDS/servicerepository.cshtml" Response="200"/>
+		<URL Address="http://${CDSBack_NLB}/CDS/servicerepository.cshtml" Response="200"/>
+		<URL Address="http://${CDSFront}/CDS" Response="200"/>
+		<URL Address="http://${CDSFront_NLB}/CDS" Response="200"/>
+	</URLs>
+	<Services>
+		<Service server="${CDSBack}" Name="CentralDataStore" Status="Running"/>
+	</Services>
+</Tests>

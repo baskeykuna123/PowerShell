@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Roles>
+<!--TestServer  --> 
+	<Role Application="Test" Corp="A" ServerName="shw-be-atrace51.balgroupit.com" FunctionName="EnableWSUSReboot" Description=""/>
+</Roles>

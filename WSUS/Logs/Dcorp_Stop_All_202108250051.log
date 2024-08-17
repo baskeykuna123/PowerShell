@@ -1,0 +1,8 @@
+woensdag 25 augustus 2021 0:51:25 - READING XML File :  E:\BuildTeam\Pankaj\Test_WSUS\Dcorp_Stop_All.xml
+woensdag 25 augustus 2021 0:51:25 - 
+woensdag 25 augustus 2021 0:51:26 - ================================svw-be-bizd002.balgroupit.com======================================
+woensdag 25 augustus 2021 0:51:33 - Commandline		: StopWebsite "Test"
+woensdag 25 augustus 2021 0:51:33 - Commandline		: StopAppPool "EsbPortal"
+woensdag 25 augustus 2021 0:51:34 - Commandline		: StopAppPool "Test"
+woensdag 25 augustus 2021 0:51:34 - Commandline		: StopService "Mercator Managed File Transfer"
+woensdag 25 augustus 2021 0:51:35 - ================================svw-be-bizd002.balgroupit.com======================================

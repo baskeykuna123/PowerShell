@@ -1,0 +1,133 @@
+zondag 17 oktober 2021 20:03:49 - READING XML File :  \\balgroupit.com\appl_data\BBE\Transfer\Packages\Scripts\WSUS\Icorp\Icorp_Stop_All.xml
+zondag 17 oktober 2021 20:03:49 - 
+zondag 17 oktober 2021 20:03:52 - ================================svw-be-webi02.balgroupit.com======================================
+zondag 17 oktober 2021 20:04:00 - Commandline		: StopWebsite "DmsDataRepository"
+zondag 17 oktober 2021 20:04:01 - Commandline		: StopWebsite "MNet"
+zondag 17 oktober 2021 20:04:01 - Commandline		: StopAppPool "MNet"
+zondag 17 oktober 2021 20:04:02 - Commandline		: StopAppPool "DefaultAppPool"
+zondag 17 oktober 2021 20:04:02 - Commandline		: StopAppPool "WSDMS"
+zondag 17 oktober 2021 20:04:02 - Commandline		: StopAppPool "WSDmsDataRepository"
+zondag 17 oktober 2021 20:04:02 - Commandline		: StopAppPool "BaloiseBackend"
+zondag 17 oktober 2021 20:04:03 - Commandline		: StopAppPool "CDS"
+zondag 17 oktober 2021 20:04:03 - Commandline		: StopAppPool "MercatorNet.BoServices"
+zondag 17 oktober 2021 20:04:03 - Commandline		: StopAppPool "Mercator.Portima.Monitoring"
+zondag 17 oktober 2021 20:04:03 - Commandline		: StopAppPool "Mercator.Portima"
+zondag 17 oktober 2021 20:04:04 - Commandline		: StopAppPool "Mercator.Eai.Tools.Wsc"
+zondag 17 oktober 2021 20:04:04 - Commandline		: StopAppPool "Mercator.EAI.Framework.WebServices"
+zondag 17 oktober 2021 20:04:04 - Commandline		: StopService "World Wide Web Publishing Service"
+zondag 17 oktober 2021 20:04:05 - Commandline		: StopService "Baloise Backend"
+zondag 17 oktober 2021 20:04:05 - Commandline		: StopService "Baloise Central Data Store"
+zondag 17 oktober 2021 20:04:05 - Commandline		: StopService "Baloise SyncTaskToDMS"
+zondag 17 oktober 2021 20:04:06 - Commandline		: StopService "Mercator DMS Bulk Insert"
+zondag 17 oktober 2021 20:04:06 - Commandline		: StopService "Mercator DMS Import Portima Attachments"
+zondag 17 oktober 2021 20:04:07 - Commandline		: StopService "Mercator DMS MailImport Service"
+zondag 17 oktober 2021 20:04:08 - Commandline		: StopService "Mercator Xpim Document Store"
+zondag 17 oktober 2021 20:04:08 - Commandline		: StopService "Mercator Document Store"
+zondag 17 oktober 2021 20:04:08 - Commandline		: StopService "BaloiseDmsBatchService"
+zondag 17 oktober 2021 20:04:09 - Commandline		: StopService "Mercator Document Management System Service"
+zondag 17 oktober 2021 20:04:09 - Commandline		: StopService "Mercator Document Management System Async Service"
+zondag 17 oktober 2021 20:04:10 - Commandline		: StopService "Mercator Document Management System Batch Avero Service"
+zondag 17 oktober 2021 20:04:10 - Commandline		: StopService "Mercator DMS Pdf Conversion Call"
+zondag 17 oktober 2021 20:04:16 - Commandline		: StopService "MercatorNET SCV Batch Service"
+zondag 17 oktober 2021 20:04:17 - Commandline		: StopService "Mercator Organization Data"
+zondag 17 oktober 2021 20:04:18 - Commandline		: StopService "Mercator Document Generation"
+zondag 17 oktober 2021 20:04:18 - Commandline		: StopService "Mercator Document Delivery"
+zondag 17 oktober 2021 20:04:19 - Commandline		: StopService "Steria's Dispatcher Service"
+zondag 17 oktober 2021 20:04:19 - Commandline		: StopService "Mercator.Integration.EAI.3.9.Listener"
+zondag 17 oktober 2021 20:04:19 - Commandline		: StopComPlus "Mercator.Framework.ActiveDirectory"
+zondag 17 oktober 2021 20:04:20 - Commandline		: StopComPlus "Mercator.EAI.3.9.Components"
+zondag 17 oktober 2021 20:04:23 - Commandline		: StopComPlus "Mercator.Framework.Document.Management.Global360"
+zondag 17 oktober 2021 20:04:26 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\cds"
+zondag 17 oktober 2021 20:04:27 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.boservices"
+zondag 17 oktober 2021 20:04:27 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercator.eai.framework.webservices"
+zondag 17 oktober 2021 20:04:27 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercator.eai.tools.wsc"
+zondag 17 oktober 2021 20:04:27 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\Mercator.Portima.Monitoring"
+zondag 17 oktober 2021 20:04:27 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\Mercator.Portima"
+zondag 17 oktober 2021 20:04:27 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\WSDMS"
+zondag 17 oktober 2021 20:04:27 - Commandline		: RemoveDirectory "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\wsdmsdatarepository"
+zondag 17 oktober 2021 20:04:27 - Commandline		: EnableWSUSReboot ""
+zondag 17 oktober 2021 20:04:27 - ================================svw-be-webi02.balgroupit.com======================================
+zondag 17 oktober 2021 20:04:29 - ================================svw-be-eaii01.balgroupit.com======================================
+zondag 17 oktober 2021 20:04:30 - Commandline		: StopService "mercator.eai.docservice"
+zondag 17 oktober 2021 20:04:31 - Commandline		: StopProcess "dllhost.exe"
+zondag 17 oktober 2021 20:04:31 - Commandline		: StopProcess "winword.exe"
+zondag 17 oktober 2021 20:04:31 - Commandline		: EnableWSUSReboot ""
+zondag 17 oktober 2021 20:04:31 - ================================svw-be-eaii01.balgroupit.com======================================
+zondag 17 oktober 2021 20:04:32 - ================================svw-be-webfi001.balgroupit.com======================================
+zondag 17 oktober 2021 20:04:42 - Commandline		: StopService "World Wide Web Publishing Service"
+zondag 17 oktober 2021 20:04:43 - Commandline		: StopWebsite "OnlineDocuments"
+zondag 17 oktober 2021 20:04:43 - Commandline		: StopWebsite "MNet"
+zondag 17 oktober 2021 20:04:43 - Commandline		: StopWebsite "MWebBvb"
+zondag 17 oktober 2021 20:04:43 - Commandline		: StopAppPool "DefaultAppPool"
+zondag 17 oktober 2021 20:04:43 - Commandline		: StopAppPool "ED"
+zondag 17 oktober 2021 20:04:43 - Commandline		: StopAppPool "EmployeeBenefits"
+zondag 17 oktober 2021 20:04:44 - Commandline		: StopAppPool "EtlLogViewer"
+zondag 17 oktober 2021 20:04:44 - Commandline		: StopAppPool "LevenAansluitingsverklaring"
+zondag 17 oktober 2021 20:04:44 - Commandline		: StopAppPool "LevenWijzigingsFormulier"
+zondag 17 oktober 2021 20:04:44 - Commandline		: StopAppPool "MercatorNet.RMMain"
+zondag 17 oktober 2021 20:04:45 - Commandline		: StopAppPool "MercatorNet.WSDeploy_3_0"
+zondag 17 oktober 2021 20:04:45 - Commandline		: StopAppPool "MercatorNet.WSMain"
+zondag 17 oktober 2021 20:04:45 - Commandline		: StopAppPool "MercatorNet.WSServices"
+zondag 17 oktober 2021 20:04:45 - Commandline		: StopAppPool "MercatorNet.WSTariff"
+zondag 17 oktober 2021 20:04:46 - Commandline		: StopAppPool "MercatorNetBroker.WSDeploy_3_0"
+zondag 17 oktober 2021 20:04:46 - Commandline		: StopAppPool "MercatorNetBroker.WSMain"
+zondag 17 oktober 2021 20:04:46 - Commandline		: StopAppPool "MercatorWebSite"
+zondag 17 oktober 2021 20:04:46 - Commandline		: StopAppPool "MyBaloiseBroker"
+zondag 17 oktober 2021 20:04:47 - Commandline		: StopAppPool "MWebBvb"
+zondag 17 oktober 2021 20:04:47 - Commandline		: StopAppPool "ScvWebService"
+zondag 17 oktober 2021 20:04:47 - Commandline		: EnableWSUSReboot ""
+zondag 17 oktober 2021 20:04:47 - ================================svw-be-webfi001.balgroupit.com======================================
+zondag 17 oktober 2021 20:04:49 - ================================svw-be-dmsi01.balgroupit.com======================================
+zondag 17 oktober 2021 20:04:57 - Commandline		: EnableWSUSReboot ""
+zondag 17 oktober 2021 20:04:57 - Commandline		: StopService "Execute360 Route Engine"
+zondag 17 oktober 2021 20:05:03 - Commandline		: StopService "Execute360 Index Manager"
+zondag 17 oktober 2021 20:05:04 - Commandline		: StopService "Execute360 Transfer Manager"
+zondag 17 oktober 2021 20:05:04 - Commandline		: StopService "Execute360 Rendezvous Manager"
+zondag 17 oktober 2021 20:05:05 - Commandline		: StopService "Execute360 Location Manager"
+zondag 17 oktober 2021 20:05:06 - Commandline		: StopService "Execute360 Object Manager"
+zondag 17 oktober 2021 20:05:11 - Commandline		: StopService "Execute360 Security Manager"
+zondag 17 oktober 2021 20:05:12 - ================================svw-be-dmsi01.balgroupit.com======================================
+zondag 17 oktober 2021 20:05:13 - ================================svw-be-bizi001.balgroupit.com======================================
+zondag 17 oktober 2021 20:05:22 - Commandline		: StopService "Mercator Managed File Transfer"
+zondag 17 oktober 2021 20:05:22 - Commandline		: StopService "Mercator Esb Process Initializer"
+zondag 17 oktober 2021 20:05:23 - Commandline		: EnableWSUSReboot ""
+zondag 17 oktober 2021 20:05:23 - ================================svw-be-bizi001.balgroupit.com======================================
+zondag 17 oktober 2021 20:05:24 - ================================svw-be-bizi002.balgroupit.com======================================
+zondag 17 oktober 2021 20:05:32 - Commandline		: StopService "Mercator Managed File Transfer"
+zondag 17 oktober 2021 20:05:33 - Commandline		: StopService "Mercator Esb Process Initializer"
+zondag 17 oktober 2021 20:05:34 - Commandline		: EnableWSUSReboot ""
+zondag 17 oktober 2021 20:05:34 - ================================svw-be-bizi002.balgroupit.com======================================
+zondag 17 oktober 2021 20:05:34 - ================================svw-be-babsi001.balgroupit.com======================================
+zondag 17 oktober 2021 20:05:42 - Commandline		: EnableWSUSReboot ""
+zondag 17 oktober 2021 20:05:42 - ================================svw-be-babsi001.balgroupit.com======================================
+zondag 17 oktober 2021 20:05:42 - ================================svw-be-babbi001.balgroupit.com======================================
+zondag 17 oktober 2021 20:05:43 - Commandline		: StopService "Baloise BaloiseBackendBatch"
+zondag 17 oktober 2021 20:05:44 - Commandline		: EnableWSUSReboot ""
+zondag 17 oktober 2021 20:05:44 - ================================svw-be-babbi001.balgroupit.com======================================
+zondag 17 oktober 2021 20:06:05 - ================================svw-be-tstfi01.balgroupit.com======================================
+zondag 17 oktober 2021 20:06:05 -  svw-be-tstfi01.balgroupit.com remote session could not be created.
+zondag 17 oktober 2021 20:06:05 - ================================svw-be-tstfi01.balgroupit.com======================================
+zondag 17 oktober 2021 20:06:26 - ================================svw-be-tstfi02.balgroupit.com======================================
+zondag 17 oktober 2021 20:06:26 -  svw-be-tstfi02.balgroupit.com remote session could not be created.
+zondag 17 oktober 2021 20:06:26 - ================================svw-be-tstfi02.balgroupit.com======================================
+zondag 17 oktober 2021 20:06:47 - ================================svw-be-tstfi03.balgroupit.com======================================
+zondag 17 oktober 2021 20:06:47 -  svw-be-tstfi03.balgroupit.com remote session could not be created.
+zondag 17 oktober 2021 20:06:47 - ================================svw-be-tstfi03.balgroupit.com======================================
+zondag 17 oktober 2021 20:07:08 - ================================svw-be-tstfi04.balgroupit.com======================================
+zondag 17 oktober 2021 20:07:08 -  svw-be-tstfi04.balgroupit.com remote session could not be created.
+zondag 17 oktober 2021 20:07:08 - ================================svw-be-tstfi04.balgroupit.com======================================
+zondag 17 oktober 2021 20:07:29 - ================================svw-be-tstfi005.balgroupit.com======================================
+zondag 17 oktober 2021 20:07:29 -  svw-be-tstfi005.balgroupit.com remote session could not be created.
+zondag 17 oktober 2021 20:07:29 - ================================svw-be-tstfi005.balgroupit.com======================================
+zondag 17 oktober 2021 20:07:50 - ================================svw-be-tstfi006.balgroupit.com======================================
+zondag 17 oktober 2021 20:07:50 -  svw-be-tstfi006.balgroupit.com remote session could not be created.
+zondag 17 oktober 2021 20:07:50 - ================================svw-be-tstfi006.balgroupit.com======================================
+zondag 17 oktober 2021 20:08:11 - ================================svw-be-tstfi007.balgroupit.com======================================
+zondag 17 oktober 2021 20:08:11 -  svw-be-tstfi007.balgroupit.com remote session could not be created.
+zondag 17 oktober 2021 20:08:11 - ================================svw-be-tstfi007.balgroupit.com======================================
+zondag 17 oktober 2021 20:08:11 - ================================svw-be-testp001.balgroupit.com======================================
+zondag 17 oktober 2021 20:08:11 -  svw-be-testp001.balgroupit.com remote session could not be created.
+zondag 17 oktober 2021 20:08:11 - ================================svw-be-testp001.balgroupit.com======================================
+zondag 17 oktober 2021 20:08:12 - ================================svw-be-testp002.balgroupit.com======================================
+zondag 17 oktober 2021 20:08:12 -  svw-be-testp002.balgroupit.com remote session could not be created.
+zondag 17 oktober 2021 20:08:12 - ================================svw-be-testp002.balgroupit.com======================================

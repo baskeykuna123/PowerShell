@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Parameters>
+	
+	<!-- Global parameters can be nested in the value of global parameters and in the value of Environment parameters-->  
+	<GlobalParameters>
+    
+
+	</GlobalParameters>
+	<EnvironmentParameters>
+    
+	</EnvironmentParameters>
+
+</Parameters>

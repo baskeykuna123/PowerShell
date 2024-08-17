@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tests>
+	<URLs>
+    <URL Address="http://${BaBeBusinessServiceServer}:80/servicerepository.cshtml" Response="200"/>
+    <URL Address="http://${BaBeManagementServiceServer}:6300/RestApi/Net/Ping/v1/Ping" Response="200"/>
+    <URL Address="http://${BaBeBusinessServiceServer}:9000" Response="200"/>
+    <URL Address="http://${BaBeBusinessServiceServer}:9000/scim/v2/serviceproviderconfig" Response="200"/>
+    <URL Address="http://${BaBeBusinessServiceServer}:9000/scim/v2/resourcetypes" Response="200"/>
+    <URL Address="http://${BaBeBusinessServiceServer}:9000/scim/v2/schemas" Response="200"/>
+    <URL Address="http://${BaBeBusinessServiceServer}:9000/scim/v2/users/unknown" Response="404"/>
+
+		</URLs>
+	<Services>
+	<Service server="${BABEBACK}" Name="BaloiseBackendBatch" Status="Running"/>
+	</Services>
+</Tests>	

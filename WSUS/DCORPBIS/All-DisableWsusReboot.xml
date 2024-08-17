@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Roles>
+
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb06.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb04.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai01.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai02.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="Esb" Corp="D" ServerName="svw-be-bizd01.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="MercatorPortal" Corp="D" ServerName="svw-me-dport01.balgroupit.com" FunctionName="DisableWsusReboot" Description=""/>
+<!-- DcorpBis  -->	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb05.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-me-dweb03.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai03.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="Eai" Corp="D" ServerName="svw-me-deai04.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+	<Role Application="Esb" Corp="D" ServerName="svw-be-bizd02.balgroupit.com" FunctionName="DisableWSUSReboot" Description=""/>
+
+</Roles>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Roles>
+<!-- BO-2012 server  -->
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopWebsite" Description="DmsDataRepository"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopWebsite" Description="MNet"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopAppPool" Description="DefaultAppPool"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopAppPool" Description="WSDMS"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopAppPool" Description="WSDmsDataRepository"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopAppPool" Description="CDS"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopAppPool" Description="MercatorNet.BoServices"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopAppPool" Description="Mercator.Portima.Monitoring"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopAppPool" Description="Mercator.Portima"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopAppPool" Description="Mercator.Eai.Tools.Wsc"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopAppPool" Description="Mercator.EAI.Framework.WebServices"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="World Wide Web Publishing Service"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Baloise Central Data Store"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Mercator DMS Bulk Insert"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Mercator DMS Import Portima Attachments"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Mercator DMS MailImport Service"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Mercator Xpim Document Store"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Mercator Document Store"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Mercator Document Management System Service"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Mercator Document Management System Async Service"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Mercator DMS Pdf Conversion Call"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="MercatorNET SCV Batch Service"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Mercator Organization Data"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Mercator Document Generation"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Mercator Document Delivery"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Steria's Dispatcher Service"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopService" Description="Mercator.Integration.EAI.3.9.Listener"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopComPlus" Description="Mercator.Framework.ActiveDirectory"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopComPlus" Description="Mercator.EAI.3.9.Components"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="StopComPlus" Description="Mercator.Framework.Document.Management.Global360"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="RemoveDirectory" Description="C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\cds"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="RemoveDirectory" Description="C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercatornet.boservices"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="RemoveDirectory" Description="C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercator.eai.framework.webservices"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="RemoveDirectory" Description="C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\mercator.eai.tools.wsc"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="RemoveDirectory" Description="C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\Mercator.Portima.Monitoring"/>
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="RemoveDirectory" Description="C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\Mercator.Portima"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="RemoveDirectory" Description="C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\WSDMS"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="RemoveDirectory" Description="C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\wsdmsdatarepository"/>	
+	<Role Application="MercatorNet" Corp="D" ServerName="svw-be-webd03.balgroupit.com" FunctionName="EnableWSUSReboot" Description=""/>
+
+	
+</Roles>
